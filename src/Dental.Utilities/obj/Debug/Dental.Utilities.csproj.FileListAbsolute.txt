@@ -1,0 +1,11 @@
+D:\Project\Dental_2014\src\Dental.Utilities\bin\Debug\Dental.Utilities.dll
+D:\Project\Dental_2014\src\Dental.Utilities\bin\Debug\Dental.Utilities.pdb
+D:\Project\Dental_2014\src\Dental.Utilities\bin\Debug\en\Dental.Utilities.resources.dll
+D:\Project\Dental_2014\src\Dental.Utilities\bin\Debug\log4net.dll
+D:\Project\Dental_2014\src\Dental.Utilities\obj\Debug\Dental.Utilities.ResourceUtil.resources
+D:\Project\Dental_2014\src\Dental.Utilities\obj\Debug\Dental.Utilities.ResourceUtil.en.resources
+D:\Project\Dental_2014\src\Dental.Utilities\obj\Debug\Dental.Utilities.csproj.GenerateResource.Cache
+D:\Project\Dental_2014\src\Dental.Utilities\obj\Debug\en\Dental.Utilities.resources.dll
+D:\Project\Dental_2014\src\Dental.Utilities\obj\Debug\Dental.Utilities.dll
+D:\Project\Dental_2014\src\Dental.Utilities\obj\Debug\Dental.Utilities.pdb
+D:\Project\Dental_2014\src\Dental.Utilities\obj\Debug\Dental.Utilities.csprojResolveAssemblyReference.cache

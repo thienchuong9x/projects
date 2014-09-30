@@ -1,0 +1,25 @@
+#standardMenu{ height:47px;
+    width: 668px;
+}
+#standardMenu .rootMenu{ position:relative; *z-index:903;}
+#standardMenu .rootMenu li{float:left; margin:0; list-style-type:none; position:relative;}
+
+#standardMenu .rootMenu li a{ display:block; color:#FFFFFF; font-size:12px; font-weight:bold; line-height:47px; background:none;  }
+#standardMenu .rootMenu li.selected a, #standardMenu .rootMenu li.rmhover a, #standardMenu .rootMenu li.breadcrumb a, #standardMenu .rootMenu li a:hover{ color:#E2E2E2; font-weight:bold; text-decoration:none;  }
+#standardMenu .rootMenu li a div{ display:block; margin:0; padding:0px 15px 0px 14px; white-space:nowrap; background: url(../images/DarkBlue_r2_c7.jpg) no-repeat top right; }
+#standardMenu .rootMenu li.last > a div { background: url(../images/DarkBlue_r2_c5.jpg) no-repeat top right; }
+
+#standardMenu .subMenu{display:none; position:absolute; width:auto; margin:0; padding:0; z-index:1210; border:solid 1px #E2E2E2; *width:200px;  /*IE7*/ }
+#standardMenu .rootMenu li.hover .subMenu { display:block; white-space:nowrap;}
+#standardMenu .subMenu ul{ margin:0; padding:0; position:relative; z-index:1200; }
+#standardMenu .subMenu li{ float:none; clear:both; width:100%;}
+#standardMenu .subMenu li.haschild { *margin-bottom:-3px; }
+#standardMenu .subMenu li.item a{ border-top: solid 1px #E2E2E2; background: #fff; filter:Alpha(Opacity=93); opacity:0.93; *width:200px; /*IE7*/}
+#standardMenu .subMenu li.first > a{ border-top: none; }
+#standardMenu .subMenu li.item a div{ display:block; background:none; font-size:12px; color:#444; font-weight:normal; white-space:nowrap; height:30px; line-height:30px; padding:0 35px 0 15px; }
+#standardMenu .subMenu li.selected > a div, #standardMenu .subMenu li.breadcrumb > a div, #standardMenu .subMenu li.item a:hover div { background:#46539F; color:#ffffff; cursor:pointer; }
+#standardMenu .subMenu li.haschild > a { background:url(../images/menu-arrow01.gif) no-repeat right center #ffffff;}
+#standardMenu .subMenu li.selected.haschild > a div,#standardMenu .subMenu li.breadcrumb.haschild > a div, #standardMenu .subMenu li.item.haschild > a:hover div { background:url(../images/menu-arrow02.gif) no-repeat right center #46539F; }
+
+#standardMenu .subMenuRight{ display:none; position:absolute; left:100%; top:0px; width:auto; margin:0; border:solid 1px #E2E2E2; }
+#standardMenu .subMenu li.hover > .subMenuRight{ display:block; }

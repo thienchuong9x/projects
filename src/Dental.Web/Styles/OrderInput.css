@@ -1,0 +1,61 @@
+﻿#Body
+{
+    font-size:14px;
+}
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+div.divOrderInput
+{
+    width:890px;
+}
+
+#tabs-1 #left {
+    width: 300px;
+    height:453px;
+    float:left;
+}
+#tabs-1 #right 
+{
+     width:520px;
+     height:460px;
+     float:right;
+}
+#tabs-1 #left #imageJam
+{
+     width:300px;
+     height:450px;
+}
+.treeViewTooth 
+{
+    table-layout:fixed;
+    overflow:auto;
+}
+.panelTreeViewTooth
+{
+    table-layout:fixed;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+table.ProstheticInput
+{
+    width: 521px;
+    table-layout:fixed;
+}
+table.ProstheticInput td:first-child
+{
+      width:130px;
+      text-align:left;
+      font-size:14px;
+      word-wrap: break-word;         
+      white-space: pre-wrap;
+      white-space: -moz-pre-wrap; 
+      white-space: -pre-wrap;
+      white-space: -o-pre-wrap;
+}
+.OrderInputTextEntry
+{
+    width:110px;
+}

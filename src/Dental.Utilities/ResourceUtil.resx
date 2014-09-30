@@ -1,0 +1,2961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountOwnerEmpty.Text" xml:space="preserve">
+    <value>口座名義は必須項目です</value>
+  </data>
+  <data name="Action.Text" xml:space="preserve">
+    <value>処理内容</value>
+  </data>
+  <data name="ActionCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="ActionEdit.Text" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="ActionUpdate.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>コンテンツを追加</value>
+  </data>
+  <data name="Amount_Amount.Text" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="Amount_Amt.Text" xml:space="preserve">
+    <value>金額</value>
+  </data>
+  <data name="Area.Text" xml:space="preserve">
+    <value>種類</value>
+  </data>
+  <data name="Balance.Text" xml:space="preserve">
+    <value>残額</value>
+  </data>
+  <data name="BankAccountEmpty.Text" xml:space="preserve">
+    <value>銀行口座は必須項目です</value>
+  </data>
+  <data name="BankCodeEmpty.Text" xml:space="preserve">
+    <value>銀行コードは必須項目です</value>
+  </data>
+  <data name="BillClosingDate.Text" xml:space="preserve">
+    <value>0から31までの番号の範囲を入力してください!</value>
+  </data>
+  <data name="BillClosingDayEmpty.Text" xml:space="preserve">
+    <value>締日は必須項目です！</value>
+  </data>
+  <data name="BillCodeEmpty.Text" xml:space="preserve">
+    <value>請求先コードは必須項目です</value>
+  </data>
+  <data name="BillNameEmpty.Text" xml:space="preserve">
+    <value>請求先名は必須項目です</value>
+  </data>
+  <data name="BillStatement.Text" xml:space="preserve">
+    <value>請求書</value>
+  </data>
+  <data name="btBack.Text" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="btCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="btClear.Text" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="btDelete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="btEdit.Text" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="btHideSearch.Text" xml:space="preserve">
+    <value>検索条件を隠す</value>
+  </data>
+  <data name="btlCad.Text" xml:space="preserve">
+    <value>CADオーダーファイル</value>
+  </data>
+  <data name="btMaterial.Text" xml:space="preserve">
+    <value>技工料</value>
+  </data>
+  <data name="btnAddNoTooth.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="btnBack.Text" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="btnDel" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="btnDel.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="btnDetailCancel.Text" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="btnDetailSave.Text" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="btnDown.Text" xml:space="preserve">
+    <value>下へ</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="btNewOrder.Text" xml:space="preserve">
+    <value>新規受注</value>
+  </data>
+  <data name="btnGoOrder.Text" xml:space="preserve">
+    <value>受注登録へ</value>
+  </data>
+  <data name="btnGoProcess.Text" xml:space="preserve">
+    <value>工程登録へ</value>
+  </data>
+  <data name="btnGoTechPrice.Text" xml:space="preserve">
+    <value>技工料登録へ</value>
+  </data>
+  <data name="btnPrint.Text" xml:space="preserve">
+    <value>発行</value>
+  </data>
+  <data name="btnReg.Text" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="btnRegister.Text" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="btnUp.Text" xml:space="preserve">
+    <value>上へ</value>
+  </data>
+  <data name="btnViewTechPice.Text" xml:space="preserve">
+    <value>技工料を表示</value>
+  </data>
+  <data name="btOk.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="btPrint.Text" xml:space="preserve">
+    <value>発行</value>
+  </data>
+  <data name="btProcess.Text" xml:space="preserve">
+    <value>工程</value>
+  </data>
+  <data name="btRegister.Text" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="btResetUser.Text" xml:space="preserve">
+    <value>ユーザ変更</value>
+  </data>
+  <data name="btSave.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="btSearch.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="btShowSearch.Text" xml:space="preserve">
+    <value>検索条件を表示</value>
+  </data>
+  <data name="buttonAddRow.Text" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="ButtonDelete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="buttonDeleteRow.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="buttonDownRow.Text" xml:space="preserve">
+    <value>下へ</value>
+  </data>
+  <data name="ButtonSave.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ButtonSaveBridge.Text" xml:space="preserve">
+    <value>ブリッジ作成/解除</value>
+  </data>
+  <data name="buttonUpRow.Text" xml:space="preserve">
+    <value>上へ</value>
+  </data>
+  <data name="cb.Text" xml:space="preserve">
+    <value>終了した材料を表示</value>
+  </data>
+  <data name="cbAvailableTech.Text" xml:space="preserve">
+    <value>終了した技工料を表示</value>
+  </data>
+  <data name="cbIncludeIsDeleted.Text" xml:space="preserve">
+    <value>削除を含める</value>
+  </data>
+  <data name="cbInsured.Text" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="cbIsDeleted.Text" xml:space="preserve">
+    <value>削除された項目を表示</value>
+  </data>
+  <data name="cbLogin.Text" xml:space="preserve">
+    <value>ログイン可</value>
+  </data>
+  <data name="cbSearch.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="cbShowAllUnit.Text" xml:space="preserve">
+    <value>終了した単位を表示</value>
+  </data>
+  <data name="cbUnInsured.Text" xml:space="preserve">
+    <value>自費</value>
+  </data>
+  <data name="cbxCompletedBill.Text" xml:space="preserve">
+    <value>請求書発行済みを含む</value>
+  </data>
+  <data name="cbxCompletedDelivery.Text" xml:space="preserve">
+    <value>納品書発行済みを含む</value>
+  </data>
+  <data name="cbxOnlyRemanufacture.Text" xml:space="preserve">
+    <value>再製のみを表示</value>
+  </data>
+  <data name="cbxOnlyTrialOrder.Text" xml:space="preserve">
+    <value>試適受注のみを表示</value>
+  </data>
+  <data name="CheckBorrowerSearch.Text" xml:space="preserve">
+    <value>預けを除いて表示</value>
+  </data>
+  <data name="checkBorrower_Lender_Search.Text" xml:space="preserve">
+    <value>自社在庫を除いて表示</value>
+  </data>
+  <data name="checkCAD.Text" xml:space="preserve">
+    <value>出力する</value>
+  </data>
+  <data name="checkChildTooth.Text" xml:space="preserve">
+    <value>乳歯</value>
+  </data>
+  <data name="CheckDateFormat.Text" xml:space="preserve">
+    <value>日付のみを入力してください</value>
+  </data>
+  <data name="checkDateInput.Text" xml:space="preserve">
+    <value>日付を入力してください</value>
+  </data>
+  <data name="checkDenture.Text" xml:space="preserve">
+    <value>デンチャー</value>
+  </data>
+  <data name="CHECKED_STRING.Text" xml:space="preserve">
+    <value>√</value>
+  </data>
+  <data name="checkGap.Text" xml:space="preserve">
+    <value>隙</value>
+  </data>
+  <data name="CheckOwnStock_Another_Code.Text" xml:space="preserve">
+    <value>別のCDを選択してください！</value>
+  </data>
+  <data name="CheckOwnStock_Own_Stock.Text" xml:space="preserve">
+    <value>自社在庫</value>
+  </data>
+  <data name="checkPriorityUnit.Text" xml:space="preserve">
+    <value>材料に最小単位が設定されていません</value>
+  </data>
+  <data name="CheckProcesstemplete.Text" xml:space="preserve">
+    <value>この工程テンプレートはすでに存在しています</value>
+  </data>
+  <data name="CheckSupplierSearch.Text" xml:space="preserve">
+    <value>預かりを除いて表示</value>
+  </data>
+  <data name="CheckTechPricetemplete.Text" xml:space="preserve">
+    <value>この技工費テンプレートはすでに存在しています</value>
+  </data>
+  <data name="checkTrialOrder.Text" xml:space="preserve">
+    <value>試適受注</value>
+  </data>
+  <data name="checkUnit.Text" xml:space="preserve">
+    <value>材料に単位が設定されていません</value>
+  </data>
+  <data name="CheckUnitAvailable.Text" xml:space="preserve">
+    <value>本機は使用できません</value>
+  </data>
+  <data name="check_borrower_available.Text" xml:space="preserve">
+    <value>この預け先には材料を預けていません</value>
+  </data>
+  <data name="Check_Date_Tech.Text" xml:space="preserve">
+    <value>開始日&gt;終了日</value>
+  </data>
+  <data name="check_delete_material.Text" xml:space="preserve">
+    <value>材料を貸し出しています</value>
+  </data>
+  <data name="check_delete_material_stock.Text" xml:space="preserve">
+    <value>削除する前に預け材料を返却してください</value>
+  </data>
+  <data name="check_Duplicate_key_Code.Text" xml:space="preserve">
+    <value>アイテムカテゴリーとアイテムなしすでに存在しません!</value>
+  </data>
+  <data name="check_Duplicate_key_item.Text" xml:space="preserve">
+    <value>この材料の価格はすでに存在しています</value>
+  </data>
+  <data name="check_Duplicate_key_Material_Price .Text" xml:space="preserve">
+    <value>コードが重複しています。別のコードを入力してください</value>
+  </data>
+  <data name="check_Input_Number.Text" xml:space="preserve">
+    <value>外注先コードは数値を入力してください</value>
+  </data>
+  <data name="Check_Insert_Tech.Text" xml:space="preserve">
+    <value>コードが重複しています。別のコードを入力してください</value>
+  </data>
+  <data name="check_ItemCd.Text" xml:space="preserve">
+    <value>品目カテゴリを入力してください！</value>
+  </data>
+  <data name="check_ItemNo.Text" xml:space="preserve">
+    <value>いいえ項目を入力してくださいませ！</value>
+  </data>
+  <data name="check_ItemNo_input.Text" xml:space="preserve">
+    <value>項目は番号なしてはならない</value>
+  </data>
+  <data name="check_ItemViewOrder.Text" xml:space="preserve">
+    <value>アイテムの表示順序は、数値でなければなりません</value>
+  </data>
+  <data name="check_lender_available.Text" xml:space="preserve">
+    <value>この預かり先からは材料を預かっていません</value>
+  </data>
+  <data name="check_MaCd.Text" xml:space="preserve">
+    <value>コードが重複しています。別のコードを入力してください</value>
+  </data>
+  <data name="check_OSCd.Text" xml:space="preserve">
+    <value>外注先コードを入力してください</value>
+  </data>
+  <data name="check_OsNm.Text" xml:space="preserve">
+    <value>外注先名を入力してください</value>
+  </data>
+  <data name="check_PriceCd.Text" xml:space="preserve">
+    <value>数字を入力してください</value>
+  </data>
+  <data name="check_StartDate.Text" xml:space="preserve">
+    <value>日付形式のみを入力してください！</value>
+  </data>
+  <data name="check_Startdate_EndDate.Text" xml:space="preserve">
+    <value>終了日&lt;開始日</value>
+  </data>
+  <data name="check_stock_available.Text" xml:space="preserve">
+    <value>在庫に材料がありません</value>
+  </data>
+  <data name="check_SupCd.Text" xml:space="preserve">
+    <value>コードが重複しています。別のコードを入力してください</value>
+  </data>
+  <data name="chkAvailableTechPrice.Text" xml:space="preserve">
+    <value>終了ハイテク価格を表示</value>
+  </data>
+  <data name="chkCompleted.Text" xml:space="preserve">
+    <value>支払完了を含む</value>
+  </data>
+  <data name="ClosingDay20th.Text" xml:space="preserve">
+    <value>20日</value>
+  </data>
+  <data name="ClosingDay25th.Text" xml:space="preserve">
+    <value>25日</value>
+  </data>
+  <data name="ClosingDayLastDay.Text" xml:space="preserve">
+    <value>末日</value>
+  </data>
+  <data name="CodeEmpty.Text" xml:space="preserve">
+    <value>技工物コードを入力してください</value>
+  </data>
+  <data name="colBorrowedQty.Text" xml:space="preserve">
+    <value>預かり数量</value>
+  </data>
+  <data name="colBorrower.Text" xml:space="preserve">
+    <value>預け先</value>
+  </data>
+  <data name="colDeleted.Text" xml:space="preserve">
+    <value>削除された</value>
+  </data>
+  <data name="colEditable.Text" xml:space="preserve">
+    <value>編集可</value>
+  </data>
+  <data name="colEndDate.Text" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="colLendedQty.Text" xml:space="preserve">
+    <value>預け数量</value>
+  </data>
+  <data name="colLender.Text" xml:space="preserve">
+    <value>預かり</value>
+  </data>
+  <data name="colMaker.Text" xml:space="preserve">
+    <value>メーカー</value>
+  </data>
+  <data name="colMaterialCd.Text" xml:space="preserve">
+    <value>材料コード</value>
+  </data>
+  <data name="colMateriaNml.Text" xml:space="preserve">
+    <value>材料名</value>
+  </data>
+  <data name="colQty.Text" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="colStandardTechPrice.Text" xml:space="preserve">
+    <value>標準技工料</value>
+  </data>
+  <data name="colStartDate.Text" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="colTechCd.Text" xml:space="preserve">
+    <value>技工コード</value>
+  </data>
+  <data name="colTechGroup.Text" xml:space="preserve">
+    <value>技工グループ</value>
+  </data>
+  <data name="colTechNm.Text" xml:space="preserve">
+    <value>技工名</value>
+  </data>
+  <data name="colUnit.Text" xml:space="preserve">
+    <value>単位</value>
+  </data>
+  <data name="CompareIssueDate.Text" xml:space="preserve">
+    <value>発行日は、同じ日付か後の日付にしてください</value>
+  </data>
+  <data name="compDate.Text" xml:space="preserve">
+    <value>日付を入力してください</value>
+  </data>
+  <data name="CreditLimit.Text" xml:space="preserve">
+    <value>数字のみを入力してください</value>
+  </data>
+  <data name="CurrentPaymentAmount.Text" xml:space="preserve">
+    <value>今回支払金額</value>
+  </data>
+  <data name="CurrentPaymentDate.Text" xml:space="preserve">
+    <value>今回支払日</value>
+  </data>
+  <data name="currentstock.Text" xml:space="preserve">
+    <value>現在の在庫</value>
+  </data>
+  <data name="Current_amount_and_Balance.Text" xml:space="preserve">
+    <value>入力した支払金額は、大きすぎます。</value>
+  </data>
+  <data name="Date.Text" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="DateEmpty.Text" xml:space="preserve">
+    <value>発行日コードは必須項目です</value>
+  </data>
+  <data name="DateOnly.Text" xml:space="preserve">
+    <value>日付を入力してください</value>
+  </data>
+  <data name="DefaultContent.Text" xml:space="preserve">
+    <value>Here is some sample content</value>
+  </data>
+  <data name="DeliveryDate.Text" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="DeliveryStatement.Text" xml:space="preserve">
+    <value>納品書</value>
+  </data>
+  <data name="DeliveryStatementCopy.Text" xml:space="preserve">
+    <value>納品書（控）</value>
+  </data>
+  <data name="DeliveryStatementNo.Text" xml:space="preserve">
+    <value>納品書No</value>
+  </data>
+  <data name="DentalOfficeCdEmpty.Text" xml:space="preserve">
+    <value>歯科医院コードを入力してください</value>
+  </data>
+  <data name="DentalOfficeName.Text" xml:space="preserve">
+    <value>歯科医院名</value>
+  </data>
+  <data name="DoubleOnly.Text" xml:space="preserve">
+    <value>数字のみを入力してください</value>
+  </data>
+  <data name="EmptyUser.Text" xml:space="preserve">
+    <value>ユーザ名が空欄の場合は権限情報を登録できません。</value>
+  </data>
+  <data name="ErrorMessage.Text" xml:space="preserve">
+    <value>値が見つかりません</value>
+  </data>
+  <data name="False.Text" xml:space="preserve">
+    <value>自</value>
+  </data>
+  <data name="Finish.Text" xml:space="preserve">
+    <value>仕上</value>
+  </data>
+  <data name="FlgSeparate.Text" xml:space="preserve">
+    <value>個別発行</value>
+  </data>
+  <data name="FlgTogether.Text" xml:space="preserve">
+    <value>一括発行</value>
+  </data>
+  <data name="HEADER_BridgeID.Text" xml:space="preserve">
+    <value>ブリッジ</value>
+  </data>
+  <data name="HEADER_BridgeID.Text1" xml:space="preserve">
+    <value>ブリッジ</value>
+  </data>
+  <data name="HEADER_CHILD.Text" xml:space="preserve">
+    <value>乳歯</value>
+  </data>
+  <data name="HEADER_CHILD.Text1" xml:space="preserve">
+    <value>乳歯</value>
+  </data>
+  <data name="HEADER_DentalOffice_CODE_DentalOffice.Text" xml:space="preserve">
+    <value>歯科医院</value>
+  </data>
+  <data name="HEADER_DentalOffice_CODE_DentalOfficeCd.Text" xml:space="preserve">
+    <value>歯科医院コード</value>
+  </data>
+  <data name="HEADER_DentalOffice_Nm_DantalOfficeNm.Text" xml:space="preserve">
+    <value>歯科医院名</value>
+  </data>
+  <data name="HEADER_DentalOffice_Nm_DenatlOffice.Text" xml:space="preserve">
+    <value>歯科医院</value>
+  </data>
+  <data name="HEADER_DETAIL_MaterialName_Material.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="HEADER_DETAIL_NAME.Text" xml:space="preserve">
+    <value>詳細名</value>
+  </data>
+  <data name="HEADER_DETAIL_ProstheticName.Text" xml:space="preserve">
+    <value>補綴物</value>
+  </data>
+  <data name="HEADER_DETAIL_Shade.Text" xml:space="preserve">
+    <value>シェード</value>
+  </data>
+  <data name="HEADER_DETAIL_Shape.Text" xml:space="preserve">
+    <value>形状</value>
+  </data>
+  <data name="HEADER_DETAIL_TOOTH.Text" xml:space="preserve">
+    <value>歯式</value>
+  </data>
+  <data name="HEADER_EDITTABLE.Text" xml:space="preserve">
+    <value>表を編集</value>
+  </data>
+  <data name="HEADER_GAP.Text" xml:space="preserve">
+    <value>隙</value>
+  </data>
+  <data name="HEADER_Insured.Text" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="HEADER_MaterialPrice.Text" xml:space="preserve">
+    <value>材料価格</value>
+  </data>
+  <data name="HEADER_OFFICE_Bill_Name.Text" xml:space="preserve">
+    <value>事業所</value>
+  </data>
+  <data name="HEADER_OFFICE_Bill_Recipient.Text" xml:space="preserve">
+    <value>請求先</value>
+  </data>
+  <data name="HEADER_OFFICE_CreateAccount.Text" xml:space="preserve">
+    <value>作成者</value>
+  </data>
+  <data name="HEADER_OFFICE_CreateDate.Text" xml:space="preserve">
+    <value>作成日時</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeAbbNm.Text" xml:space="preserve">
+    <value>歯科医院略称</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeAddress1.Text" xml:space="preserve">
+    <value>住所1</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeAddress2.Text" xml:space="preserve">
+    <value>住所2</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeCd.Text" xml:space="preserve">
+    <value>事業所コード</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeFAX.Text" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeNm.Text" xml:space="preserve">
+    <value>歯科医院名</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeNm.Text1" xml:space="preserve">
+    <value>事業所名</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficePostalCd.Text" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeStaff.Text" xml:space="preserve">
+    <value>担当営業</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeTEL.Text" xml:space="preserve">
+    <value>TEL</value>
+  </data>
+  <data name="HEADER_OFFICE_ModifiedAccount.Text" xml:space="preserve">
+    <value>更新者</value>
+  </data>
+  <data name="HEADER_OFFICE_ModifiedDate.Text" xml:space="preserve">
+    <value>更新日</value>
+  </data>
+  <data name="HEADER_OFFICE_TransferDays.Text" xml:space="preserve">
+    <value>輸送日数</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_BridgeID.Text" xml:space="preserve">
+    <value>ブリッジ</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_CompletionDate.Text" xml:space="preserve">
+    <value>完成日</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_DeliveryStateNo.Text" xml:space="preserve">
+    <value>納品書No</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_DetailNm.Text" xml:space="preserve">
+    <value>詳細名</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_EstimatedCompletionDate.Text" xml:space="preserve">
+    <value>完成予定日</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_MaterialName.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_MaterialPrice.Text" xml:space="preserve">
+    <value>材料費</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_MaterialQuantity.Text" xml:space="preserve">
+    <value>材料数量</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_MaterialUnit.Text" xml:space="preserve">
+    <value>単位</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_ProcessPrice.Text" xml:space="preserve">
+    <value>技工費</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_ProstheticName.Text" xml:space="preserve">
+    <value>補綴物</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_ProstheticQuantity.Text" xml:space="preserve">
+    <value>補綴物数量</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_Tooth.Text" xml:space="preserve">
+    <value>歯式</value>
+  </data>
+  <data name="HEADER_PROCESS_CODE.Text" xml:space="preserve">
+    <value>工程コード</value>
+  </data>
+  <data name="HEADER_PROCESS_DISPLAYORDER.Text" xml:space="preserve">
+    <value>表示順</value>
+  </data>
+  <data name="HEADER_PROCESS_IS_DELETE.Text" xml:space="preserve">
+    <value>削除済</value>
+  </data>
+  <data name="HEADER_PROCESS_NAME.Text" xml:space="preserve">
+    <value>工程名</value>
+  </data>
+  <data name="HEADER_PROCESS_ProcessNm.Text" xml:space="preserve">
+    <value>工程名</value>
+  </data>
+  <data name="HEADER_PROCESS_SalesMan.Text" xml:space="preserve">
+    <value>担当者</value>
+  </data>
+  <data name="HEADER_PROCESS_WorkTime.Text" xml:space="preserve">
+    <value>作業時間</value>
+  </data>
+  <data name="HEADER_TechPrice_TechCd.Text" xml:space="preserve">
+    <value>技工コード</value>
+  </data>
+  <data name="HEADER_TechPrice_TechNm.Text" xml:space="preserve">
+    <value>技工名</value>
+  </data>
+  <data name="HEADER_TechPrice_TechPrice.Text" xml:space="preserve">
+    <value>価格</value>
+  </data>
+  <data name="HEADER_TECH_CODE.Text" xml:space="preserve">
+    <value>技工コード</value>
+  </data>
+  <data name="HEADER_TECH_END_DATE.Text" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="HEADER_TECH_GROUP.Text" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="HEADER_TECH_NAME.Text" xml:space="preserve">
+    <value>技術名</value>
+  </data>
+  <data name="HEADER_TECH_PRICE_StandardTechPrice.Text" xml:space="preserve">
+    <value>プライス</value>
+  </data>
+  <data name="HEADER_TECH_PRICE_TechPrice.Text" xml:space="preserve">
+    <value>プライス</value>
+  </data>
+  <data name="HEADER_TECH_START_DATE.Text" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="hiddenCadCamPopupTitle.Value" xml:space="preserve">
+    <value>ダウンロードするには、すべてのファイルを表示する</value>
+  </data>
+  <data name="hiddenNext.Value" xml:space="preserve">
+    <value>次の</value>
+  </data>
+  <data name="hiddenPrev.Value" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="Index.Text" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Insurance.Text" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="LabelAnatomyKit.Text" xml:space="preserve">
+    <value>アナトミーキット</value>
+  </data>
+  <data name="LabelBorrowPart.Text" xml:space="preserve">
+    <value>預かり品</value>
+  </data>
+  <data name="LabelCAD.Text" xml:space="preserve">
+    <value>CAD出力</value>
+  </data>
+  <data name="LabelCastManager.Text" xml:space="preserve">
+    <value>鋳造担当者</value>
+  </data>
+  <data name="LabelComments.Text" xml:space="preserve">
+    <value>備考</value>
+  </data>
+  <data name="LabelDeadLine.Text" xml:space="preserve">
+    <value>出荷期限</value>
+  </data>
+  <data name="LabelDentist.Text" xml:space="preserve">
+    <value>歯科医師</value>
+  </data>
+  <data name="LabelDetailNm.Text" xml:space="preserve">
+    <value>詳細名</value>
+  </data>
+  <data name="LabelDueDate.Text" xml:space="preserve">
+    <value>納期</value>
+  </data>
+  <data name="LabelEndDate.Text" xml:space="preserve">
+    <value>完成日</value>
+  </data>
+  <data name="LabelEstimateDate.Text" xml:space="preserve">
+    <value>完成予定日</value>
+  </data>
+  <data name="LabelInspection.Text" xml:space="preserve">
+    <value>検品日</value>
+  </data>
+  <data name="LabelInsurance.Text" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="LabelMaterial.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="LabelModelManager.Text" xml:space="preserve">
+    <value>模型担当者</value>
+  </data>
+  <data name="LabelOfficeCd.Text" xml:space="preserve">
+    <value>歯科医院</value>
+  </data>
+  <data name="LabelOrderDate.Text" xml:space="preserve">
+    <value>受注日</value>
+  </data>
+  <data name="LabelOrderInputTitle.Text" xml:space="preserve">
+    <value>受注入力</value>
+  </data>
+  <data name="LabelOrderNo.Text" xml:space="preserve">
+    <value>受注番号</value>
+  </data>
+  <data name="LabelPatient.Text" xml:space="preserve">
+    <value>患者名</value>
+  </data>
+  <data name="LabelPolishManager.Text" xml:space="preserve">
+    <value>研磨担当者</value>
+  </data>
+  <data name="LabelProcess.Text" xml:space="preserve">
+    <value>工程名</value>
+  </data>
+  <data name="LabelProsthesis.Text" xml:space="preserve">
+    <value>補綴物</value>
+  </data>
+  <data name="LabelRefOrderNo.Text" xml:space="preserve">
+    <value>参考受注番号</value>
+  </data>
+  <data name="LabelRemanufacture.Text" xml:space="preserve">
+    <value>再製</value>
+  </data>
+  <data name="LabelSalesman.Text" xml:space="preserve">
+    <value>担当者</value>
+  </data>
+  <data name="LabelSetDate.Text" xml:space="preserve">
+    <value>セット日</value>
+  </data>
+  <data name="LabelSexAge.Text" xml:space="preserve">
+    <value>性別</value>
+  </data>
+  <data name="LabelShade.Text" xml:space="preserve">
+    <value>シェード</value>
+  </data>
+  <data name="LabelShape.Text" xml:space="preserve">
+    <value>形状</value>
+  </data>
+  <data name="LabelStaff.Text" xml:space="preserve">
+    <value>担当者名</value>
+  </data>
+  <data name="LabelTabProcess.Text" xml:space="preserve">
+    <value>作業工程</value>
+  </data>
+  <data name="LabelTabProsthetic.Text" xml:space="preserve">
+    <value>技工物</value>
+  </data>
+  <data name="LabelTechCd.Text" xml:space="preserve">
+    <value>技工コード</value>
+  </data>
+  <data name="LabelTechName.Text" xml:space="preserve">
+    <value>技工名</value>
+  </data>
+  <data name="LabelToothType.Text" xml:space="preserve">
+    <value>歯式種類</value>
+  </data>
+  <data name="LabelTrialOrder.Text" xml:space="preserve">
+    <value>受注種類</value>
+  </data>
+  <data name="LabelWaxManager.Text" xml:space="preserve">
+    <value>ワックス担当者</value>
+  </data>
+  <data name="LabelWorkTime.Text" xml:space="preserve">
+    <value>作業時間</value>
+  </data>
+  <data name="LabelYear.Text" xml:space="preserve">
+    <value>歳</value>
+  </data>
+  <data name="lbAdjustedFee.Text" xml:space="preserve">
+    <value>調整額</value>
+  </data>
+  <data name="lbAmount.Text" xml:space="preserve">
+    <value>金額</value>
+  </data>
+  <data name="lbAuthority.Text" xml:space="preserve">
+    <value>権限</value>
+  </data>
+  <data name="lbBalance.Text" xml:space="preserve">
+    <value>残額</value>
+  </data>
+  <data name="lbBankDetails.Text" xml:space="preserve">
+    <value>銀行</value>
+  </data>
+  <data name="lbBillClosingDay.Text" xml:space="preserve">
+    <value>締日</value>
+  </data>
+  <data name="lbBillContactPerson.Text" xml:space="preserve">
+    <value>連絡先担当者</value>
+  </data>
+  <data name="lbBillingAmount.Text" xml:space="preserve">
+    <value>合計金額</value>
+  </data>
+  <data name="lbBuyDate.Text" xml:space="preserve">
+    <value>仕入日</value>
+  </data>
+  <data name="lbChief.Text" xml:space="preserve">
+    <value>管理権限</value>
+  </data>
+  <data name="lbChkCompleted.Text" xml:space="preserve">
+    <value>入金完了を含む</value>
+  </data>
+  <data name="lbClinicName.Text" xml:space="preserve">
+    <value>歯科医院</value>
+  </data>
+  <data name="lbComment.Text" xml:space="preserve">
+    <value>備考</value>
+  </data>
+  <data name="lbContractor.Text" xml:space="preserve">
+    <value>外注先</value>
+  </data>
+  <data name="lbDate.Text" xml:space="preserve">
+    <value>発行日</value>
+  </data>
+  <data name="lbDeliveredDate.Text" xml:space="preserve">
+    <value>納品書発行日</value>
+  </data>
+  <data name="lbDeliveryDate_deliveredDate.Text" xml:space="preserve">
+    <value>納品日</value>
+  </data>
+  <data name="lbDeliveryDate_deliveryDate.Text" xml:space="preserve">
+    <value>納期</value>
+  </data>
+  <data name="lbDeliveryType_DeliveryTypr.Text" xml:space="preserve">
+    <value>納品タイプ</value>
+  </data>
+  <data name="lbDeliveryType_Insurance.Text" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="lbDentalAccountOwner.Text" xml:space="preserve">
+    <value>口座名義</value>
+  </data>
+  <data name="lbDentalBankAccount.Text" xml:space="preserve">
+    <value>銀行口座</value>
+  </data>
+  <data name="lbDentalBankCd.Text" xml:space="preserve">
+    <value>コード</value>
+  </data>
+  <data name="lbDentalBillAddress1.Text" xml:space="preserve">
+    <value>住所1</value>
+  </data>
+  <data name="lbDentalBillAddress2.Text" xml:space="preserve">
+    <value>住所2</value>
+  </data>
+  <data name="lbDentalBillCd.Text" xml:space="preserve">
+    <value>請求先コード</value>
+  </data>
+  <data name="lbDentalBillFax.Text" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="lbDentalBillFlg.Text" xml:space="preserve">
+    <value>保険・自費</value>
+  </data>
+  <data name="lbDentalBillNm.Text" xml:space="preserve">
+    <value>請求先名</value>
+  </data>
+  <data name="lbDentalBillPostalCd.Text" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+  <data name="lbDentalBillStatementNm.Text" xml:space="preserve">
+    <value>請求書印字名</value>
+  </data>
+  <data name="lbDentalBillTel.Text" xml:space="preserve">
+    <value>TEL</value>
+  </data>
+  <data name="lbDentalCreditLimit.Text" xml:space="preserve">
+    <value>請求上限</value>
+  </data>
+  <data name="lbDentalForpayFlg.Text" xml:space="preserve">
+    <value>支払用</value>
+  </data>
+  <data name="lbDentalForReceiveFlg.Text" xml:space="preserve">
+    <value>入金用</value>
+  </data>
+  <data name="lbDentistNm.Text" xml:space="preserve">
+    <value>歯科医師</value>
+  </data>
+  <data name="lbDepositAccount.Text" xml:space="preserve">
+    <value>振込先</value>
+  </data>
+  <data name="lbDetailNm.Text" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="lbDivision.Text" xml:space="preserve">
+    <value>部門</value>
+  </data>
+  <data name="lbDueDate.Text" xml:space="preserve">
+    <value>納期</value>
+  </data>
+  <data name="lbFemale.Text" xml:space="preserve">
+    <value>女性</value>
+  </data>
+  <data name="lbInsurance.Text" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="lbInvoiceIssueDate.Text" xml:space="preserve">
+    <value>発行日</value>
+  </data>
+  <data name="lbInvoiceNo.Text" xml:space="preserve">
+    <value>請求書番号</value>
+  </data>
+  <data name="lbInvoiceNumber.Text" xml:space="preserve">
+    <value>請求書番号</value>
+  </data>
+  <data name="lbInvoiceRecipient.Text" xml:space="preserve">
+    <value>請求先</value>
+  </data>
+  <data name="lbIsDeleted.Text" xml:space="preserve">
+    <value>削除済</value>
+  </data>
+  <data name="lbIssueDate.Text" xml:space="preserve">
+    <value>発行日</value>
+  </data>
+  <data name="lblAction.Text" xml:space="preserve">
+    <value>処理</value>
+  </data>
+  <data name="lblAmount.Text" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="lblAmountByMinimumUnit.Text" xml:space="preserve">
+    <value>最小単位での数量</value>
+  </data>
+  <data name="lblApplyDate.Text" xml:space="preserve">
+    <value>適用日</value>
+  </data>
+  <data name="lblBorrower.Text" xml:space="preserve">
+    <value>預け先</value>
+  </data>
+  <data name="lblBorrowPart.Text" xml:space="preserve">
+    <value>預かり品</value>
+  </data>
+  <data name="lblClinicName.Text" xml:space="preserve">
+    <value>歯科医院</value>
+  </data>
+  <data name="lblCode_Code.Text" xml:space="preserve">
+    <value>コード</value>
+  </data>
+  <data name="lblCode_ItemNo.Text" xml:space="preserve">
+    <value>商品番号</value>
+  </data>
+  <data name="lblComment.Text" xml:space="preserve">
+    <value>備考</value>
+  </data>
+  <data name="lblCompleteDate.Text" xml:space="preserve">
+    <value>完成日</value>
+  </data>
+  <data name="lblContractor.Text" xml:space="preserve">
+    <value>外注先</value>
+  </data>
+  <data name="lblCurrentStock.Text" xml:space="preserve">
+    <value>現在の在庫</value>
+  </data>
+  <data name="lblDelivery.Text" xml:space="preserve">
+    <value>補綴物ごとに納品書を分ける</value>
+  </data>
+  <data name="lblDentalOfficeNm.Text" xml:space="preserve">
+    <value>歯科医院</value>
+  </data>
+  <data name="lblDentalOffice_DentalOffice.Text" xml:space="preserve">
+    <value>歯科医院</value>
+  </data>
+  <data name="lblDentalOffice_Office.Text" xml:space="preserve">
+    <value>事業所名</value>
+  </data>
+  <data name="lblDueDate.Text" xml:space="preserve">
+    <value>納期</value>
+  </data>
+  <data name="lblEndDate.Text" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="lblFee.Text" xml:space="preserve">
+    <value>手数料</value>
+  </data>
+  <data name="lblFullCost.Text" xml:space="preserve">
+    <value>合計金額</value>
+  </data>
+  <data name="lblFullWorkTime.Text" xml:space="preserve">
+    <value>総合計作業時間</value>
+  </data>
+  <data name="lblGridProcess.Text" xml:space="preserve">
+    <value>工程一覧</value>
+  </data>
+  <data name="lblGridViewTechPrice.Text" xml:space="preserve">
+    <value>技工料</value>
+  </data>
+  <data name="lblGroupDental.Text" xml:space="preserve">
+    <value>同じ歯科医院はまとめる</value>
+  </data>
+  <data name="lblIn.Text" xml:space="preserve">
+    <value>入庫</value>
+  </data>
+  <data name="lblIncludeCompleteOrder.Text" xml:space="preserve">
+    <value>発行済みの受注を含む</value>
+  </data>
+  <data name="lblInspectionStaff.Text" xml:space="preserve">
+    <value>検品担当者</value>
+  </data>
+  <data name="lblInsured.Text" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="lblItemCa.Text" xml:space="preserve">
+    <value>アイテムカテゴリ</value>
+  </data>
+  <data name="lblItemNm.Text" xml:space="preserve">
+    <value>項目名</value>
+  </data>
+  <data name="lblItemNo.Text" xml:space="preserve">
+    <value>商品番号</value>
+  </data>
+  <data name="lblItemVa.Text" xml:space="preserve">
+    <value>項目値</value>
+  </data>
+  <data name="lblLender.Text" xml:space="preserve">
+    <value>預かり先</value>
+  </data>
+  <data name="lblLentPrice.Text" xml:space="preserve">
+    <value>預け単価</value>
+  </data>
+  <data name="lblMaNm.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="lblManufactureStaff.Text" xml:space="preserve">
+    <value>製作担当者</value>
+  </data>
+  <data name="lblMasterSystem.Text" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="lblMaterial.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="lblMaterialCADNm.Text" xml:space="preserve">
+    <value>材料CAD名</value>
+  </data>
+  <data name="lblMaterialCd.Text" xml:space="preserve">
+    <value>材料コード</value>
+  </data>
+  <data name="lblMaterialNm.Text" xml:space="preserve">
+    <value>材料名</value>
+  </data>
+  <data name="lblMaterialPrice.Text" xml:space="preserve">
+    <value>材料価格</value>
+  </data>
+  <data name="lblMaterialType.Text" xml:space="preserve">
+    <value>材料コード</value>
+  </data>
+  <data name="lblMinimumProcess.Text" xml:space="preserve">
+    <value>最小製作日数</value>
+  </data>
+  <data name="lblMinimumUnit.Text" xml:space="preserve">
+    <value>最小単位での数量</value>
+  </data>
+  <data name="lblModuleTitle_Bank.Text" xml:space="preserve">
+    <value>銀行</value>
+  </data>
+  <data name="lblModuleTitle_Bill.Text" xml:space="preserve">
+    <value>請求先</value>
+  </data>
+  <data name="lblModuleTitle_MoneyReceipt.Text" xml:space="preserve">
+    <value>入金登録画面</value>
+  </data>
+  <data name="lblModuleTitle_Payment.Text" xml:space="preserve">
+    <value>支払入力</value>
+  </data>
+  <data name="lblModuleTitle_Process.Text" xml:space="preserve">
+    <value>工程</value>
+  </data>
+  <data name="lblModuleTitle_TechPrice.Text" xml:space="preserve">
+    <value>テック価格</value>
+  </data>
+  <data name="lblName_ItemName.Text" xml:space="preserve">
+    <value>歯科医院名</value>
+  </data>
+  <data name="lblName_Name.Text" xml:space="preserve">
+    <value>項目名</value>
+  </data>
+  <data name="lblNoRecord.Text" xml:space="preserve">
+    <value>レコードが見つかりませんでした！</value>
+  </data>
+  <data name="lbLogin.Text" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="lblOrderDate.Text" xml:space="preserve">
+    <value>受注日</value>
+  </data>
+  <data name="lblOrderNo.Text" xml:space="preserve">
+    <value>受注番号</value>
+  </data>
+  <data name="lblOsAddress1.Text" xml:space="preserve">
+    <value>住所1</value>
+  </data>
+  <data name="lblOsAddress2.Text" xml:space="preserve">
+    <value>住所2</value>
+  </data>
+  <data name="lblOsCd.Text" xml:space="preserve">
+    <value>コード</value>
+  </data>
+  <data name="lblOsContactPerson.Text" xml:space="preserve">
+    <value>連絡先担当者</value>
+  </data>
+  <data name="lblOsFAX.Text" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="lblOsNm.Text" xml:space="preserve">
+    <value>外注先名</value>
+  </data>
+  <data name="lblOsPostalCd.Text" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+  <data name="lblOsTEL.Text" xml:space="preserve">
+    <value>TEL</value>
+  </data>
+  <data name="lblOtherUnit.Text" xml:space="preserve">
+    <value>単位</value>
+  </data>
+  <data name="lblOut.Text" xml:space="preserve">
+    <value>出庫</value>
+  </data>
+  <data name="lblOutsourceDate.Text" xml:space="preserve">
+    <value>外注日</value>
+  </data>
+  <data name="lblOutsourceLab.Text" xml:space="preserve">
+    <value>外注先</value>
+  </data>
+  <data name="lblOutSourceMaterialPrice.Text" xml:space="preserve">
+    <value>材料価格</value>
+  </data>
+  <data name="lblParameter.Text" xml:space="preserve">
+    <value>パラメータ</value>
+  </data>
+  <data name="lblPatient.Text" xml:space="preserve">
+    <value>患者名</value>
+  </data>
+  <data name="lblPrice.Text" xml:space="preserve">
+    <value>価格</value>
+  </data>
+  <data name="lblPrice.Text2" xml:space="preserve">
+    <value>購入価格</value>
+  </data>
+  <data name="lblPriceCd.Text" xml:space="preserve">
+    <value>価格コード</value>
+  </data>
+  <data name="lblPriceNm.Text" xml:space="preserve">
+    <value>価格名</value>
+  </data>
+  <data name="lblPriority.Text" xml:space="preserve">
+    <value>最小単位</value>
+  </data>
+  <data name="lblProductCd.Text" xml:space="preserve">
+    <value>モデルコード</value>
+  </data>
+  <data name="lblProductMaker.Text" xml:space="preserve">
+    <value>メーカー</value>
+  </data>
+  <data name="lblProductNm.Text" xml:space="preserve">
+    <value>製品名</value>
+  </data>
+  <data name="lblProsthesis.Text" xml:space="preserve">
+    <value>補綴物</value>
+  </data>
+  <data name="lblProsthesisAbbNm.Text" xml:space="preserve">
+    <value>補綴物略称</value>
+  </data>
+  <data name="lblProsthesisCd.Text" xml:space="preserve">
+    <value>補綴コード</value>
+  </data>
+  <data name="lblProsthesisNm.Text" xml:space="preserve">
+    <value>補綴名</value>
+  </data>
+  <data name="lblProsthesisReg.Text" xml:space="preserve">
+    <value>補綴物登録</value>
+  </data>
+  <data name="lblProsthesisType.Text" xml:space="preserve">
+    <value>補綴タイプ</value>
+  </data>
+  <data name="lblQty.Text" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="lblReceiveDate.Text" xml:space="preserve">
+    <value>受領日</value>
+  </data>
+  <data name="lblReceiveEstimateDate.Text" xml:space="preserve">
+    <value>完成予定日</value>
+  </data>
+  <data name="lblRegDate.Text" xml:space="preserve">
+    <value>登録日</value>
+  </data>
+  <data name="lblRowsPage.Text" xml:space="preserve">
+    <value>行/ページ</value>
+  </data>
+  <data name="lblShadeFlg.Text" xml:space="preserve">
+    <value>シェード</value>
+  </data>
+  <data name="lblStaff.Text" xml:space="preserve">
+    <value>担当者</value>
+  </data>
+  <data name="lblStartDate.Text" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="lblStock.Text" xml:space="preserve">
+    <value>在庫</value>
+  </data>
+  <data name="lblStump.Text" xml:space="preserve">
+    <value>支台歯</value>
+  </data>
+  <data name="lblSupNm.Text" xml:space="preserve">
+    <value>預かり先</value>
+  </data>
+  <data name="lblSupplier.Text" xml:space="preserve">
+    <value>仕入・預り先</value>
+  </data>
+  <data name="lblSupplier.Text1" xml:space="preserve">
+    <value>仕入先</value>
+  </data>
+  <data name="lblSupplierAbbNm.Text" xml:space="preserve">
+    <value>仕入・預り先略称</value>
+  </data>
+  <data name="lblSupplierAddress1.Text" xml:space="preserve">
+    <value>仕入・預り先住所1</value>
+  </data>
+  <data name="lblSupplierAddress2.Text" xml:space="preserve">
+    <value>仕入・預り先住所2</value>
+  </data>
+  <data name="lblSupplierCd.Text" xml:space="preserve">
+    <value>コード</value>
+  </data>
+  <data name="lblSupplierFAX.Text" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="lblSupplierNm.Text" xml:space="preserve">
+    <value>仕入・預り先名</value>
+  </data>
+  <data name="lblSupplierPostalCd.Text" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+  <data name="lblSupplierStaff.Text" xml:space="preserve">
+    <value>連絡先担当者</value>
+  </data>
+  <data name="lblSupplierTEL.Text" xml:space="preserve">
+    <value>TEL</value>
+  </data>
+  <data name="lblTechCd.Text" xml:space="preserve">
+    <value>技術的コード</value>
+  </data>
+  <data name="lblTechPriceCd.Text" xml:space="preserve">
+    <value>技工コード</value>
+  </data>
+  <data name="lblTechPrice_TechPrice.Text" xml:space="preserve">
+    <value>技工料</value>
+  </data>
+  <data name="lblTechPrice_TechTemplate.Text" xml:space="preserve">
+    <value>技工費テンプレート</value>
+  </data>
+  <data name="lblTerminateDate.Text" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="lblTotalCost.Text" xml:space="preserve">
+    <value>価格合計</value>
+  </data>
+  <data name="lblTotalStock.Text" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="lblTotalWorkTime.Text" xml:space="preserve">
+    <value>合計作業時間</value>
+  </data>
+  <data name="lblUnInsured.Text" xml:space="preserve">
+    <value>自費</value>
+  </data>
+  <data name="lblUnit.Text" xml:space="preserve">
+    <value>単位</value>
+  </data>
+  <data name="lblUnitCd.Text" xml:space="preserve">
+    <value>単位コード</value>
+  </data>
+  <data name="lblUnitNm.Text" xml:space="preserve">
+    <value>単位名</value>
+  </data>
+  <data name="lblUnitNote.Text" xml:space="preserve">
+    <value>備考</value>
+  </data>
+  <data name="lblUnitPrice.Text" xml:space="preserve">
+    <value>円</value>
+  </data>
+  <data name="lblValue.Text" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="lblVo.Text" xml:space="preserve">
+    <value>順序を表示</value>
+  </data>
+  <data name="lbMale.Text" xml:space="preserve">
+    <value>男性</value>
+  </data>
+  <data name="lbMaterial.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="lbMaterialNm.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="lbNote.Text" xml:space="preserve">
+    <value>備考</value>
+  </data>
+  <data name="lbOfficeCd.Text" xml:space="preserve">
+    <value>事業所</value>
+  </data>
+  <data name="lbOrderDate.Text" xml:space="preserve">
+    <value>受注日</value>
+  </data>
+  <data name="lbOrderNo.Text" xml:space="preserve">
+    <value>受注No</value>
+  </data>
+  <data name="lbOrderNo.Text2" xml:space="preserve">
+    <value>受注番号</value>
+  </data>
+  <data name="lbOrderSeq.Text" xml:space="preserve">
+    <value>Order Seq</value>
+  </data>
+  <data name="lbOutsourceCd.Text" xml:space="preserve">
+    <value>コードを外部委託</value>
+  </data>
+  <data name="lbOutsourceLab.Text" xml:space="preserve">
+    <value>外注先</value>
+  </data>
+  <data name="lbOutsourceNm.Text" xml:space="preserve">
+    <value>名前を外部委託</value>
+  </data>
+  <data name="lbPatient.Text" xml:space="preserve">
+    <value>患者名</value>
+  </data>
+  <data name="lbPatientAge.Text" xml:space="preserve">
+    <value>年齢</value>
+  </data>
+  <data name="lbPatientFirstNm.Text" xml:space="preserve">
+    <value>患者(名)</value>
+  </data>
+  <data name="lbPatientLastNm.Text" xml:space="preserve">
+    <value>患者(姓)</value>
+  </data>
+  <data name="lbPatientNm.Text" xml:space="preserve">
+    <value>患者名</value>
+  </data>
+  <data name="lbPatientSex.Text" xml:space="preserve">
+    <value>性別</value>
+  </data>
+  <data name="lbPayerCd.Text" xml:space="preserve">
+    <value>請求先</value>
+  </data>
+  <data name="lbPaymentAmount.Text" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="lbPayMentDate.Text" xml:space="preserve">
+    <value>入金日</value>
+  </data>
+  <data name="lbPrice.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="lbPrintPerOrder.Text" xml:space="preserve">
+    <value>受注ごとに印刷</value>
+  </data>
+  <data name="lbProcess.Text" xml:space="preserve">
+    <value>技工料</value>
+  </data>
+  <data name="lbProsthesisNm.Text" xml:space="preserve">
+    <value>補綴物</value>
+  </data>
+  <data name="lbProstheticType.Text" xml:space="preserve">
+    <value>補綴物種類</value>
+  </data>
+  <data name="lbResult.Text" xml:space="preserve">
+    <value>検索結果:</value>
+  </data>
+  <data name="lbRowPerPage.Text" xml:space="preserve">
+    <value> 行/ページ</value>
+  </data>
+  <data name="lbRowsPage.Text" xml:space="preserve">
+    <value>行/ページ</value>
+  </data>
+  <data name="lbSalesman.Text" xml:space="preserve">
+    <value>営業担当</value>
+  </data>
+  <data name="lbSectionCd.Text" xml:space="preserve">
+    <value>部門</value>
+  </data>
+  <data name="lbSeller.Text" xml:space="preserve">
+    <value>サプライヤー</value>
+  </data>
+  <data name="lbSellerCd.Text" xml:space="preserve">
+    <value>取引先コード</value>
+  </data>
+  <data name="lbServiceCharge.Text" xml:space="preserve">
+    <value>合計手数料</value>
+  </data>
+  <data name="lbSetDate.Text" xml:space="preserve">
+    <value>完成予定日</value>
+  </data>
+  <data name="lbShowTerminate.Text" xml:space="preserve">
+    <value>終了した材料を表示</value>
+  </data>
+  <data name="lbStaffCd.Text" xml:space="preserve">
+    <value>担当者コード</value>
+  </data>
+  <data name="lbStaffNm.Text" xml:space="preserve">
+    <value>担当者名</value>
+  </data>
+  <data name="lbStaffNmKana.Text" xml:space="preserve">
+    <value>担当者名カナ</value>
+  </data>
+  <data name="lbSum.Text" xml:space="preserve">
+    <value>総合計</value>
+  </data>
+  <data name="lbSupplierNm.Text" xml:space="preserve">
+    <value>材料預かり先</value>
+  </data>
+  <data name="lbTechnician.Text" xml:space="preserve">
+    <value>技術担当</value>
+  </data>
+  <data name="lbToothNumber.Text" xml:space="preserve">
+    <value>歯式</value>
+  </data>
+  <data name="lbTotal.Text" xml:space="preserve">
+    <value>合計請求額</value>
+  </data>
+  <data name="lbTotalAmount.Text" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="lbTotalPayment.Text" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="lbType.Text" xml:space="preserve">
+    <value>処理</value>
+  </data>
+  <data name="lbUnknow.Text" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="lbUserId.Text" xml:space="preserve">
+    <value>ユーザ名</value>
+  </data>
+  <data name="lbYearMonth.Text" xml:space="preserve">
+    <value>対象年月</value>
+  </data>
+  <data name="MaterialIsExisted.Text" xml:space="preserve">
+    <value>材料が既に存在しています</value>
+  </data>
+  <data name="MaterialPrice.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="mesBorrower.Text" xml:space="preserve">
+    <value>預け先を選択してください</value>
+  </data>
+  <data name="mesBorrowreturn.Text" xml:space="preserve">
+    <value>この預け先には材料を預けていません</value>
+  </data>
+  <data name="mesCheckBorrowreturn.Text" xml:space="preserve">
+    <value>預かった数量より多く返却しようとしています</value>
+  </data>
+  <data name="mesCheckLeave.Text" xml:space="preserve">
+    <value>出庫する在庫が不足しています</value>
+  </data>
+  <data name="mesCheckLend.Text" xml:space="preserve">
+    <value>預ける在庫が不足しています</value>
+  </data>
+  <data name="mesCheckLendreturn.Text" xml:space="preserve">
+    <value>預けた量よりも多く返却しようとしています</value>
+  </data>
+  <data name="mesLeave.Text" xml:space="preserve">
+    <value>出庫する在庫が不足しています</value>
+  </data>
+  <data name="mesLend.Text" xml:space="preserve">
+    <value>この材料は預けていません</value>
+  </data>
+  <data name="mesLender.Text" xml:space="preserve">
+    <value>預け先を選択してください</value>
+  </data>
+  <data name="mesLendreturn.Text" xml:space="preserve">
+    <value>この預け先に材料を預けていません</value>
+  </data>
+  <data name="mesNoRecord.Text" xml:space="preserve">
+    <value>データが見つかりませんでした</value>
+  </data>
+  <data name="mesPrice.Text" xml:space="preserve">
+    <value>価格を入力してください</value>
+  </data>
+  <data name="mesSuccess.Text" xml:space="preserve">
+    <value>登録に成功しました</value>
+  </data>
+  <data name="mesSupplier.Text" xml:space="preserve">
+    <value>仕入先を選択してください</value>
+  </data>
+  <data name="ModuleHelp.Text1" xml:space="preserve">
+    <value>&lt;P&gt;受注リスト</value>
+  </data>
+  <data name="ModuleHelp.Text5" xml:space="preserve">
+    <value>&lt;P&gt;受注一覧</value>
+  </data>
+  <data name="ModuleHelp.Text7" xml:space="preserve">
+    <value>&lt;P&gt;担当者マスタ</value>
+  </data>
+  <data name="ModuleHelp_MaterialPrice.Text" xml:space="preserve">
+    <value>&lt;P&gt;A MaterialPrice module&lt;/P&gt;</value>
+  </data>
+  <data name="ModuleHelp_MoneyReceive.Text" xml:space="preserve">
+    <value>&lt;P&gt;受注登録</value>
+  </data>
+  <data name="ModuleHelp_OrderList.Text" xml:space="preserve">
+    <value>&lt;P&gt;受注一覧</value>
+  </data>
+  <data name="ModuleHelp_OutSourceLab.Text" xml:space="preserve">
+    <value>&lt;P&gt;A OutsourceLab module&lt;/P&gt;</value>
+  </data>
+  <data name="ModuleHelp_StockList.Text" xml:space="preserve">
+    <value>&lt;P&gt;A Stocklist module</value>
+  </data>
+  <data name="ModuleHelp_TechMaster.Text" xml:space="preserve">
+    <value>&lt;P&gt;A MstTech module</value>
+  </data>
+  <data name="msDelete.Text" xml:space="preserve">
+    <value>削除してよろしいですか？</value>
+  </data>
+  <data name="MSG_AMOUNT_AND_PRIORITY_TRUE.Text" xml:space="preserve">
+    <value>最小単位が選択されている場合は数量を1としてください</value>
+  </data>
+  <data name="MSG_BRIDGE_TEETH_NOT_SAME_MATERIAL.Text" xml:space="preserve">
+    <value>ブリッジ{0}の材料が異なります</value>
+  </data>
+  <data name="MSG_CANNOT_DELETE_ONE_ITEM.Text" xml:space="preserve">
+    <value>ブリッジの一部を削除することはできません</value>
+  </data>
+  <data name="MSG_CANNOT_DELETE_STILL_ONE_ITEM.Text" xml:space="preserve">
+    <value>ブリッジされているので削除できません</value>
+  </data>
+  <data name="MSG_CANNOT_FIND_DETAIL.Text" xml:space="preserve">
+    <value>対象データがありません</value>
+  </data>
+  <data name="MSG_CANNOT_FIND_PROSTHESIS_ABBNM.Text" xml:space="preserve">
+    <value>略称が{0}の補綴物がありません</value>
+  </data>
+  <data name="MSG_CANNOT_REMOVE_TOOTH_IN_BRIDGED.Text" xml:space="preserve">
+    <value>ブリッジに含まれている歯式を削除することはできません。</value>
+  </data>
+  <data name="MSG_CANT_DELETE_BILLSTATEMENT.Text" xml:space="preserve">
+    <value>この請求書は既に入金処理されています。返金処理後に再度削除してください。</value>
+  </data>
+  <data name="MSG_CAN_NOT_FIND_DATA_FROM_BILL_STATEMENT.Text" xml:space="preserve">
+    <value>請求書番号 '{0}' の請求書が見つかりません</value>
+  </data>
+  <data name="MSG_CAN_NOT_FOUND_MST_BILL.Text" xml:space="preserve">
+    <value>請求先マスターに請求先コード {0} がありません。</value>
+  </data>
+  <data name="MSG_CHECK_AT_LEAST_ONE_ITEM.Text" xml:space="preserve">
+    <value>1つ以上選択してください</value>
+  </data>
+  <data name="MSG_CHECK_NODE_IN_SAME_GROUP.Text" xml:space="preserve">
+    <value>同じブリッジから選択してください</value>
+  </data>
+  <data name="MSG_CHILD_TOOTH_NOT_HAPPEN.Text" xml:space="preserve">
+    <value>16、17、18、26、27、28、36、37、38、46、47、48には、乳歯を設定できません。</value>
+  </data>
+  <data name="MSG_CHOOSE_ROW_IN_GRIDVIEW.Text" xml:space="preserve">
+    <value>行を選択してください</value>
+  </data>
+  <data name="MSG_CONFIRM_DELETE.Text" xml:space="preserve">
+    <value>よろしいですか？</value>
+  </data>
+  <data name="MSG_CONFIRM_GO_ORDER.Text" xml:space="preserve">
+    <value>受注登録に移動する前に、登録はしましたか？</value>
+  </data>
+  <data name="MSG_CONFIRM_GO_PROCESS.Text" xml:space="preserve">
+    <value>工程登録に移動する前に、登録はしましたか？</value>
+  </data>
+  <data name="MSG_CONFIRM_GO_TECH_PRICE.Text" xml:space="preserve">
+    <value>技工料登録に移動する前に、登録はしましたか？</value>
+  </data>
+  <data name="MSG_CONFIRM_ISSUE.Text" xml:space="preserve">
+    <value>複数の請求先が混在しています。発行してよろしいですか？</value>
+  </data>
+  <data name="MSG_DELETED_ITEM.Text" xml:space="preserve">
+    <value>この預り先から材料を預かっています。返却してから削除してください</value>
+  </data>
+  <data name="MSG_ENDDATE_AND_PRIORITY_TRUE.Text" xml:space="preserve">
+    <value>単位を削除する前に、材料管理で在庫を全て出庫してください。</value>
+  </data>
+  <data name="MSG_ERROR_INPUT_FORMAT_TechPrice.Text" xml:space="preserve">
+    <value>技工料の入力が正しくありません。</value>
+  </data>
+  <data name="MSG_ERROR_INPUT_TECH_CD.Text" xml:space="preserve">
+    <value>技工コードが見つかりませんでした。</value>
+  </data>
+  <data name="MSG_EXIST_DENTAL_OFFICE_CD.Text" xml:space="preserve">
+    <value>コードが重複しています。別のコードを入力してください</value>
+  </data>
+  <data name="MSG_EXIST_ORDER_NO.Text" xml:space="preserve">
+    <value>受注番号は既に存在しています。別の番号を入力してください。</value>
+  </data>
+  <data name="MSG_EXIST_PROCESS_CD.Text" xml:space="preserve">
+    <value>コードが重複しています。別のコードを入力してください</value>
+  </data>
+  <data name="MSG_ILLEGAL_CHARS.Text" xml:space="preserve">
+    <value>受注番号に | , \\ , / , : , * , ? , " , &lt; , &gt;は使用できません</value>
+  </data>
+  <data name="MSG_INPUT_PROCESS_CODE_NOT_VALID.Text" xml:space="preserve">
+    <value>入力した工程コードが無効です</value>
+  </data>
+  <data name="MSG_INPUT_PROCESS_REQUIRED.Text" xml:space="preserve">
+    <value>工程を入力してくださ</value>
+  </data>
+  <data name="MSG_ITEM_NO_GROUP.Text" xml:space="preserve">
+    <value>ブリッジされていません</value>
+  </data>
+  <data name="MSG_MORE_ONE_SELECTED_ITEM.Text" xml:space="preserve">
+    <value>1つのみ選択してください</value>
+  </data>
+  <data name="MSG_NONE_SELECTED_ITEM_NoItem.Text" xml:space="preserve">
+    <value>1つ選択してください</value>
+  </data>
+  <data name="MSG_NONE_SELECTED_ITEM_Report.Text" xml:space="preserve">
+    <value>項目が選択されていません</value>
+  </data>
+  <data name="MSG_NONE_SELECTED_TREE_VIEW_NODE.Text" xml:space="preserve">
+    <value>削除するノードが選択されていません。</value>
+  </data>
+  <data name="MSG_NOT_CASE_DELETE.Text" xml:space="preserve">
+    <value>削除できません</value>
+  </data>
+  <data name="MSG_NOT_CHOOSE_BRIDGE_GROUP.Text" xml:space="preserve">
+    <value>ブリッジグループが選択されていません。プロセスを保存できません。</value>
+  </data>
+  <data name="MSG_NOT_ENOUGH_STOCK.Text" xml:space="preserve">
+    <value>材料の在庫が足りません</value>
+  </data>
+  <data name="MSG_NO_STOCK_TO_USE.Text" xml:space="preserve">
+    <value>材料の在庫がありません</value>
+  </data>
+  <data name="MSG_ONLYONE_PRIORITY_TRUE.Text" xml:space="preserve">
+    <value>優先度を選択できる単位は、各材料で一つのみです</value>
+  </data>
+  <data name="MSG_PROCESS_CD_EMPTY.Text" xml:space="preserve">
+    <value>工程コードを入力してください</value>
+  </data>
+  <data name="MSG_REQUIRED_INPUT_DATE_FIELD.Text" xml:space="preserve">
+    <value>{0} を日付形式にしてください。</value>
+  </data>
+  <data name="MSG_REQUIRED_INPUT_FIELD.Text" xml:space="preserve">
+    <value>{0}は必須項目です</value>
+  </data>
+  <data name="MSG_REQUIRED_INPUT_NUMBER_FIELD.Text" xml:space="preserve">
+    <value>{0}は数値です</value>
+  </data>
+  <data name="MSG_REQUIRED_INPUT_PROSTHESIS.Text" xml:space="preserve">
+    <value>{0}の補綴物を入力してください</value>
+  </data>
+  <data name="MSG_STAFFCDEXIST.Text" xml:space="preserve">
+    <value>担当者コードが重複しています !</value>
+  </data>
+  <data name="MSG_UPDATE_SUCESS_Full.Text" xml:space="preserve">
+    <value>受注データを正常に登録しました</value>
+  </data>
+  <data name="MSG_UPDATE_SUCESS_Registration.Text" xml:space="preserve">
+    <value>請求書データを正常に登録しました</value>
+  </data>
+  <data name="MSG_WARNING_INPUT.Text" xml:space="preserve">
+    <value>CADデータ出力には歯科医師と患者姓名が必須です。このまま登録してよろしいですか？</value>
+  </data>
+  <data name="MSG_WARN_CHOOSE_MATERIAL.Text" xml:space="preserve">
+    <value>受注日が変更されています。 {0} の材料を再度選択してください。</value>
+  </data>
+  <data name="MSG_WARN_MULTI_BILL_CD.Text" xml:space="preserve">
+    <value>複数の請求先が混在しています。</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NODE_TOOTH_GROUP.Text" xml:space="preserve">
+    <value>ブリッジ </value>
+  </data>
+  <data name="NODE_TOOTH_NUMBER.Text" xml:space="preserve">
+    <value>歯式 {0}</value>
+  </data>
+  <data name="NoRecordFound.Text" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="NotData.Text" xml:space="preserve">
+    <value>見つかりませんでした</value>
+  </data>
+  <data name="Note.Text" xml:space="preserve">
+    <value>患者名</value>
+  </data>
+  <data name="NoteRe.Text" xml:space="preserve">
+    <value>摘要</value>
+  </data>
+  <data name="NumberOnly.Text" xml:space="preserve">
+    <value>数字のみを入力してください</value>
+  </data>
+  <data name="optInternal.Text" xml:space="preserve">
+    <value>内製</value>
+  </data>
+  <data name="optOutsource.Text" xml:space="preserve">
+    <value>外注</value>
+  </data>
+  <data name="OrderList.String" xml:space="preserve">
+    <value>受注一覧</value>
+  </data>
+  <data name="Parts.Text" xml:space="preserve">
+    <value>部位</value>
+  </data>
+  <data name="Patient.Text" xml:space="preserve">
+    <value>患者</value>
+  </data>
+  <data name="PostalCd.Text" xml:space="preserve">
+    <value>郵便番号の形式は日本では"nnn-nnnn"で入力してください</value>
+  </data>
+  <data name="PreviousPaymentDate.Text" xml:space="preserve">
+    <value>前回支払日</value>
+  </data>
+  <data name="Price.Text" xml:space="preserve">
+    <value>単価</value>
+  </data>
+  <data name="Process.Text" xml:space="preserve">
+    <value>工程</value>
+  </data>
+  <data name="ProcessforProsthesis.Text" xml:space="preserve">
+    <value>工程テンプレート</value>
+  </data>
+  <data name="ProcessPrice.Text" xml:space="preserve">
+    <value>技工料</value>
+  </data>
+  <data name="Prosthesis.Text" xml:space="preserve">
+    <value>補綴</value>
+  </data>
+  <data name="Prosthesis_Material.Text" xml:space="preserve">
+    <value>補綴物/材料</value>
+  </data>
+  <data name="PurchaseItem.Text" xml:space="preserve">
+    <value>購入品</value>
+  </data>
+  <data name="radioInsuranceFalse.Text" xml:space="preserve">
+    <value>自費</value>
+  </data>
+  <data name="radioInsuranceTrue.Text" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="rbDelete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="rbNewIssue.Text" xml:space="preserve">
+    <value>新規</value>
+  </data>
+  <data name="rbReissue.Text" xml:space="preserve">
+    <value>再発行</value>
+  </data>
+  <data name="rbReissueDelete.Text" xml:space="preserve">
+    <value>再発行 / 削除</value>
+  </data>
+  <data name="rbtnBorrow.Text" xml:space="preserve">
+    <value>預かる</value>
+  </data>
+  <data name="rbtnBorrowReturn.Text" xml:space="preserve">
+    <value>預かりを返却</value>
+  </data>
+  <data name="rbtnBuy.Text" xml:space="preserve">
+    <value>仕入</value>
+  </data>
+  <data name="rbtnLeave.Text" xml:space="preserve">
+    <value>出庫</value>
+  </data>
+  <data name="rbtnLend.Text" xml:space="preserve">
+    <value>預け</value>
+  </data>
+  <data name="rbtnLendReturn.Text" xml:space="preserve">
+    <value>預けの返却</value>
+  </data>
+  <data name="regValidationMaCd.Text" xml:space="preserve">
+    <value>材料コードは数値を入力してください</value>
+  </data>
+  <data name="regVaPrice.Text" xml:space="preserve">
+    <value>価格は数値を入力してください</value>
+  </data>
+  <data name="Remake.Text" xml:space="preserve">
+    <value>再製</value>
+  </data>
+  <data name="REPORT_AccountStatementTitle.Text" xml:space="preserve">
+    <value>請求書</value>
+  </data>
+  <data name="REPORT_AccountStatementTitleCopy.Text" xml:space="preserve">
+    <value>請求書（控）</value>
+  </data>
+  <data name="REPORT_AdditionReceiveMaterial.Text" xml:space="preserve">
+    <value>預かり材料</value>
+  </data>
+  <data name="REPORT_BankInfomation.Text" xml:space="preserve">
+    <value>以下の方法でお支払いください。</value>
+  </data>
+  <data name="REPORT_BillPage.Text" xml:space="preserve">
+    <value>ページ</value>
+  </data>
+  <data name="REPORT_CarryOver.Text" xml:space="preserve">
+    <value>繰越</value>
+  </data>
+  <data name="REPORT_CarryOverMaterial.Text" xml:space="preserve">
+    <value>繰越量</value>
+  </data>
+  <data name="REPORT_Discount.Text" xml:space="preserve">
+    <value>調整額</value>
+  </data>
+  <data name="REPORT_LastMonth.Text" xml:space="preserve">
+    <value>前月</value>
+  </data>
+  <data name="REPORT_Material.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="REPORT_MaterialPrice.Text" xml:space="preserve">
+    <value>材料価格</value>
+  </data>
+  <data name="REPORT_NmDelete.Text" xml:space="preserve">
+    <value>-削除</value>
+  </data>
+  <data name="REPORT_NmReissue.Text" xml:space="preserve">
+    <value>-再発行</value>
+  </data>
+  <data name="REPORT_Purchase.Text" xml:space="preserve">
+    <value>御買上額</value>
+  </data>
+  <data name="REPORT_RestOfReceivedMaterial.Text" xml:space="preserve">
+    <value>残量</value>
+  </data>
+  <data name="REPORT_StatusTitle_DELETE.Text" xml:space="preserve">
+    <value>【削除】</value>
+  </data>
+  <data name="REPORT_StatusTitle_REISSUE.Text" xml:space="preserve">
+    <value>【再発行】</value>
+  </data>
+  <data name="REPORT_SumPurchase.Text" xml:space="preserve">
+    <value>請求額</value>
+  </data>
+  <data name="REPORT_Tax.Text" xml:space="preserve">
+    <value>消費税額</value>
+  </data>
+  <data name="REPORT_TechPrice.Text" xml:space="preserve">
+    <value>技工料</value>
+  </data>
+  <data name="Report_True.Text" xml:space="preserve">
+    <value>保</value>
+  </data>
+  <data name="REPORT_UserAccount.Text" xml:space="preserve">
+    <value>使用量</value>
+  </data>
+  <data name="reqStartDate.Text" xml:space="preserve">
+    <value>開始日を選択してください</value>
+  </data>
+  <data name="reqTechCd.Text" xml:space="preserve">
+    <value>技工コードを入力してください</value>
+  </data>
+  <data name="reqTechNm.Text" xml:space="preserve">
+    <value>技工名を入力してください</value>
+  </data>
+  <data name="requireField.ErrorMessage" xml:space="preserve">
+    <value>入力してください</value>
+  </data>
+  <data name="requireField.ErrorMessage1" xml:space="preserve">
+    <value>ユーザ名は必須項目です</value>
+  </data>
+  <data name="req_UnitName.ErrorMessage" xml:space="preserve">
+    <value>単位名は必須項目です</value>
+  </data>
+  <data name="reVaMaterialCd.Text" xml:space="preserve">
+    <value>材料を選択してください</value>
+  </data>
+  <data name="reVaQty.Text" xml:space="preserve">
+    <value>数量に数値を入力してください</value>
+  </data>
+  <data name="rqPrice.ErrorMessage" xml:space="preserve">
+    <value>価格を入力してください</value>
+  </data>
+  <data name="rqPriority.ErrorMessage" xml:space="preserve">
+    <value>優先度を入力してください</value>
+  </data>
+  <data name="SellerNm.Text" xml:space="preserve">
+    <value>サプライヤー名</value>
+  </data>
+  <data name="ServiceCharge.Text" xml:space="preserve">
+    <value>手数料</value>
+  </data>
+  <data name="SEX_FEMALE.Text" xml:space="preserve">
+    <value>女性</value>
+  </data>
+  <data name="SEX_MALE.Text" xml:space="preserve">
+    <value>男性</value>
+  </data>
+  <data name="Sign.Text" xml:space="preserve">
+    <value>印</value>
+  </data>
+  <data name="StaffCodeEmpty.Text" xml:space="preserve">
+    <value>担当者コードは必須項目です</value>
+  </data>
+  <data name="StaffNameIsRequired.Text" xml:space="preserve">
+    <value>担当者名は必須項目です</value>
+  </data>
+  <data name="StockAmount.Text" xml:space="preserve">
+    <value>在庫があるため削除できません。</value>
+  </data>
+  <data name="Success.Text" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Sum.Text" xml:space="preserve">
+    <value>金額</value>
+  </data>
+  <data name="Tax.Text" xml:space="preserve">
+    <value>消費税</value>
+  </data>
+  <data name="TechnicalPrice.Text" xml:space="preserve">
+    <value>技工</value>
+  </data>
+  <data name="TechPrice.Text" xml:space="preserve">
+    <value>技工費</value>
+  </data>
+  <data name="Title_InventoryRegister.Text" xml:space="preserve">
+    <value>入出庫登録</value>
+  </data>
+  <data name="TitleBillCd.Text" xml:space="preserve">
+    <value>請求先</value>
+  </data>
+  <data name="TitleBillIssueDate.Text" xml:space="preserve">
+    <value>発行日</value>
+  </data>
+  <data name="TitleBillStataMentNo.Text" xml:space="preserve">
+    <value>請求書番号</value>
+  </data>
+  <data name="TitleCurrentBillSumPrice.Text" xml:space="preserve">
+    <value>請求額</value>
+  </data>
+  <data name="TitleCurrentPaidMoney.Text" xml:space="preserve">
+    <value>入金済額</value>
+  </data>
+  <data name="TitleCurrentPayDate.Text" xml:space="preserve">
+    <value>今回入金日</value>
+  </data>
+  <data name="TitleCurrentPrice.Text" xml:space="preserve">
+    <value>現行価格</value>
+  </data>
+  <data name="TitleCurrentSumPrice.Text" xml:space="preserve">
+    <value>請求額</value>
+  </data>
+  <data name="TitleDentalOfficeCd.Text" xml:space="preserve">
+    <value>請求先</value>
+  </data>
+  <data name="TitleDentalOfficeNm.Text" xml:space="preserve">
+    <value>請求先名</value>
+  </data>
+  <data name="TitlePayAmount.Text" xml:space="preserve">
+    <value>入金金額</value>
+  </data>
+  <data name="TitlePayDate.Text" xml:space="preserve">
+    <value>前回入金日</value>
+  </data>
+  <data name="TitlePreviousPaidMoney.Text" xml:space="preserve">
+    <value>入金済額</value>
+  </data>
+  <data name="TitlePreviousSumPrice.Text" xml:space="preserve">
+    <value>前回合計価格</value>
+  </data>
+  <data name="TitleResults.Text" xml:space="preserve">
+    <value>検索結果: </value>
+  </data>
+  <data name="TitleSubtractFee.Text" xml:space="preserve">
+    <value>差引手数料</value>
+  </data>
+  <data name="TitleSumPayAmount.Text" xml:space="preserve">
+    <value>合計入金額</value>
+  </data>
+  <data name="TITLE_CONFIRM.Text" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="Title_Error.Text" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="TITLE_INFO.Text" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="Title_Input_Name.Text" xml:space="preserve">
+    <value>名前を入力してください</value>
+  </data>
+  <data name="Title_Input_Name_Or_Date.Text" xml:space="preserve">
+    <value>名前もしくは日付を入力してください</value>
+  </data>
+  <data name="Title_MasterItem.Text" xml:space="preserve">
+    <value>マスターアイテム</value>
+  </data>
+  <data name="Title_MaterialPrice.Text" xml:space="preserve">
+    <value>材料価格</value>
+  </data>
+  <data name="Title_OutsourceLab.Text" xml:space="preserve">
+    <value>外注先</value>
+  </data>
+  <data name="Title_PayMentAmount_Less_Than_Billing_Amount.Text" xml:space="preserve">
+    <value>入金金額が未払い額よりも少なくなっています</value>
+  </data>
+  <data name="Title_Same_Key_BankCode.Text" xml:space="preserve">
+    <value>銀行コードが重複しています。別のコードを入力してください</value>
+  </data>
+  <data name="Title_Same_Key_BillCode.Text" xml:space="preserve">
+    <value>請求先コードが重複しています。別のコードを入力してください</value>
+  </data>
+  <data name="Title_Same_Key_ProthesisCode.Text" xml:space="preserve">
+    <value>コードが重複しています。別のコードを入力してください</value>
+  </data>
+  <data name="Title_StockList.Text" xml:space="preserve">
+    <value>在庫一覧</value>
+  </data>
+  <data name="TittleSelcetCheck.Text" xml:space="preserve">
+    <value>選択してください</value>
+  </data>
+  <data name="Trial.Text" xml:space="preserve">
+    <value>試適</value>
+  </data>
+  <data name="True.Text" xml:space="preserve">
+    <value>保</value>
+  </data>
+  <data name="txtApplyDate.Text" xml:space="preserve">
+    <value>適用日</value>
+  </data>
+  <data name="txtTerminateDate.Text" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="TypeofStatement.Text" xml:space="preserve">
+    <value>担当者</value>
+  </data>
+  <data name="UnInsured.Text" xml:space="preserve">
+    <value>自費</value>
+  </data>
+  <data name="valDisplayOrder.Text" xml:space="preserve">
+    <value>表示順は必須項目です</value>
+  </data>
+  <data name="valNumbersOnly.ErrorMessage" xml:space="preserve">
+    <value>数値を入力してください</value>
+  </data>
+  <data name="valNumbersOnly_SupplierCd.ErrorMessage" xml:space="preserve">
+    <value>数字のみを入力してください</value>
+  </data>
+  <data name="valRequiredDentalOffice.Text" xml:space="preserve">
+    <value>歯科医院を選択してください</value>
+  </data>
+  <data name="valRequired_BillCd.Text" xml:space="preserve">
+    <value>請求先は必須項目です</value>
+  </data>
+  <data name="valRequired_DentalOfficeCd_DentalOffice.Text" xml:space="preserve">
+    <value>数字のみを入力してください</value>
+  </data>
+  <data name="valRequired_DentalOfficeCd_DentalOfficeCd.Text" xml:space="preserve">
+    <value>事業所コードは数字のみを入力してください</value>
+  </data>
+  <data name="valRequired_DentalOfficeNm.Text" xml:space="preserve">
+    <value>歯科医院名は必須項目です</value>
+  </data>
+  <data name="valRequired_IssueDate.ErrorMessage" xml:space="preserve">
+    <value>入力してください</value>
+  </data>
+  <data name="valRequired_LentPrice.ErrorMessage" xml:space="preserve">
+    <value>預け単価を入力してください</value>
+  </data>
+  <data name="valRequired_MaterialCADNm.ErrorMessage" xml:space="preserve">
+    <value>製品名を入力してください</value>
+  </data>
+  <data name="valRequired_MaterialCd.ErrorMessage" xml:space="preserve">
+    <value>材料コードを入力してください</value>
+  </data>
+  <data name="valRequired_MinimumProcess.Text" xml:space="preserve">
+    <value>最低製作日数は必須項目です！</value>
+  </data>
+  <data name="valRequired_Parameter.ErrorMessage" xml:space="preserve">
+    <value>パラメータを入力してください</value>
+  </data>
+  <data name="valRequired_ProcessCd.Text" xml:space="preserve">
+    <value>数値のみをを入力してください！</value>
+  </data>
+  <data name="valRequired_ProcessCd.Text1" xml:space="preserve">
+    <value>工程コードは必須項目です</value>
+  </data>
+  <data name="valRequired_ProcessNm.ErrorMessage" xml:space="preserve">
+    <value>工程名は必須項目です</value>
+  </data>
+  <data name="valRequired_ProsthesisAbbNm.Text" xml:space="preserve">
+    <value>補綴物略称は必須項目です！</value>
+  </data>
+  <data name="valRequired_ProsthesisNm.ErrorMessage" xml:space="preserve">
+    <value>補綴名は必須項目です</value>
+  </data>
+  <data name="valRequired_ProsthesisType.Text" xml:space="preserve">
+    <value>補綴タイプは必須項目です</value>
+  </data>
+  <data name="valRequired_StartDate.Text" xml:space="preserve">
+    <value>開始日のみのDateTime型である</value>
+  </data>
+  <data name="valRequired_SupplierAbbNm.ErrorMessage" xml:space="preserve">
+    <value>仕入・預り先略称は必須項目です</value>
+  </data>
+  <data name="valRequired_SupplierCd.ErrorMessage" xml:space="preserve">
+    <value>仕入・預り先コードは必須項目です</value>
+  </data>
+  <data name="valRequired_TechCd.Text" xml:space="preserve">
+    <value>テックコードのみ番号入力です</value>
+  </data>
+  <data name="valRequired_TechGroup.Text" xml:space="preserve">
+    <value>テックグループは、NULLまたは数値データです</value>
+  </data>
+  <data name="valRequired_TechNm.Text" xml:space="preserve">
+    <value>テック名前の入力を要求される</value>
+  </data>
+  <data name="valRequired_TechPrice.Text" xml:space="preserve">
+    <value>テック価格NULLまたは数値データであり、</value>
+  </data>
+  <data name="valRequired_TranferDays.Text" xml:space="preserve">
+    <value>輸送日数は数字のみを入力してください</value>
+  </data>
+  <data name="valRequired_Value.ErrorMessage" xml:space="preserve">
+    <value>値を入力してください</value>
+  </data>
+  <data name="Val_RegMaxlength.Text" xml:space="preserve">
+    <value>100以上のコメントレター</value>
+  </data>
+  <data name="Val_ReqDateTime.Text" xml:space="preserve">
+    <value>入力日付をお願いします</value>
+  </data>
+  <data name="WrongUser.Text" xml:space="preserve">
+    <value>ユーザ名が存在しません</value>
+  </data>
+  <data name="lbChkAvailable.Text" xml:space="preserve">
+    <value>終了した税を表示</value>
+  </data>
+  <data name="lbDentalEndDate.Text" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="lbDentalRoundFraction.Text" xml:space="preserve">
+    <value>ラウンド分数</value>
+  </data>
+  <data name="lbDentalStartDate.Text" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="lbDentalTaxCd.Text" xml:space="preserve">
+    <value>税コード</value>
+  </data>
+  <data name="lbDentalTaxRate.Text" xml:space="preserve">
+    <value>税率</value>
+  </data>
+  <data name="lblModuleTitle.Text" xml:space="preserve">
+    <value>税</value>
+  </data>
+  <data name="MSG_NONE_SELECTED_ITEM.Text" xml:space="preserve">
+    <value>項目が選択されていません</value>
+  </data>
+  <data name="StartDateEmpty.Text" xml:space="preserve">
+    <value>開始日を入力してください</value>
+  </data>
+  <data name="TaxCodeEmpty.Text" xml:space="preserve">
+    <value>税コードを入力してください</value>
+  </data>
+  <data name="TaxRateDoubleOnly.Text" xml:space="preserve">
+    <value>数字のみを入力してください</value>
+  </data>
+  <data name="TaxRateEmpty.Text" xml:space="preserve">
+    <value>税率を入力してください</value>
+  </data>
+  <data name="TitleConclusion.Text" xml:space="preserve">
+    <value>切り上げ</value>
+  </data>
+  <data name="TitleRounded.Text" xml:space="preserve">
+    <value>四捨五入</value>
+  </data>
+  <data name="TitleTruncation.Text" xml:space="preserve">
+    <value>切り捨て</value>
+  </data>
+  <data name="Title_Error_Date.Text" xml:space="preserve">
+    <value>開始日は無効です</value>
+  </data>
+  <data name="Title_Error_Start_Date.Text" xml:space="preserve">
+    <value>開始日を入力してください</value>
+  </data>
+  <data name="Title_Same_Key.Text" xml:space="preserve">
+    <value>銀行コードが重複しています</value>
+  </data>
+  <data name="ReqStandardTechPrice.Text" xml:space="preserve">
+    <value>入力の標準技術の価格をお願いします</value>
+  </data>
+  <data name="DifferentToothNumber1_2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DifferentToothNumber3_4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownNotSquential.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="GapFlgDown.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="GapFlgUp.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Left1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UPNotSquential.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DentalFont.Text" xml:space="preserve">
+    <value>歯科フォントのダウンロード</value>
+  </data>
+  <data name="PriceUsing.Text" xml:space="preserve">
+    <value>You can't delete because material master price using</value>
+  </data>
+  <data name="UnitUsing.Text" xml:space="preserve">
+    <value>You can't delete because master unit using </value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="cbRememberMe.Text" xml:space="preserve">
+    <value>ログインを記憶</value>
+  </data>
+  <data name="lblPopUpPassWord.Text" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="lblPopUpUserName.Text" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="lblTiltePopUpLogin.Text" xml:space="preserve">
+    <value>ユーザログイン</value>
+  </data>
+  <data name="lBtnLogout.Text" xml:space="preserve">
+    <value>ログアウト</value>
+  </data>
+  <data name="LoginFail.Text" xml:space="preserve">
+    <value>ログインに失敗しました。パスワードは大文字と小文字が区別されていることを忘れないでください</value>
+  </data>
+  <data name="Menu_Accounting.Text" xml:space="preserve">
+    <value>会計</value>
+  </data>
+  <data name="Menu_Banks.Text" xml:space="preserve">
+    <value>銀行</value>
+  </data>
+  <data name="Menu_BillingRecipients.Text" xml:space="preserve">
+    <value>請求先</value>
+  </data>
+  <data name="Menu_DeliveryStatements.Text" xml:space="preserve">
+    <value>納品書発行</value>
+  </data>
+  <data name="Menu_DentalClinics.Text" xml:space="preserve">
+    <value>歯科医院</value>
+  </data>
+  <data name="Menu_Deposits.Text" xml:space="preserve">
+    <value>入金登録</value>
+  </data>
+  <data name="Menu_Invoices.Text" xml:space="preserve">
+    <value>請求書発行</value>
+  </data>
+  <data name="Menu_Items.Text" xml:space="preserve">
+    <value>項目</value>
+  </data>
+  <data name="Menu_ManageStock.Text" xml:space="preserve">
+    <value>在庫管理</value>
+  </data>
+  <data name="Menu_ManageUsers.Text" xml:space="preserve">
+    <value>ユーザ管理</value>
+  </data>
+  <data name="Menu_Master.Text" xml:space="preserve">
+    <value>マスタ</value>
+  </data>
+  <data name="Menu_Materials.Text" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="Menu_Offices.Text" xml:space="preserve">
+    <value>事業所</value>
+  </data>
+  <data name="Menu_OrderRegistration.Text" xml:space="preserve">
+    <value>受注登録</value>
+  </data>
+  <data name="Menu_Orders.Text" xml:space="preserve">
+    <value>受注管理</value>
+  </data>
+  <data name="Menu_Outsources.Text" xml:space="preserve">
+    <value>外注先</value>
+  </data>
+  <data name="Menu_Payments.Text" xml:space="preserve">
+    <value>支払登録</value>
+  </data>
+  <data name="Menu_Processes.Text" xml:space="preserve">
+    <value>工程</value>
+  </data>
+  <data name="Menu_Prosthetics.Text" xml:space="preserve">
+    <value>補綴物</value>
+  </data>
+  <data name="Menu_RegisterUsers.Text" xml:space="preserve">
+    <value>ユーザ登録</value>
+  </data>
+  <data name="Menu_Sale.Text" xml:space="preserve">
+    <value>販売</value>
+  </data>
+  <data name="Menu_Staffs.Text" xml:space="preserve">
+    <value>担当者</value>
+  </data>
+  <data name="Menu_Stock.Text" xml:space="preserve">
+    <value>在庫管理</value>
+  </data>
+  <data name="Menu_Suppliers.Text" xml:space="preserve">
+    <value>仕入先</value>
+  </data>
+  <data name="Menu_System.Text" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="Menu_Tax.Text" xml:space="preserve">
+    <value>税率</value>
+  </data>
+  <data name="Menu_TechPrice.Text" xml:space="preserve">
+    <value>技工料</value>
+  </data>
+  <data name="Menu_User.Text" xml:space="preserve">
+    <value>ユーザ管理</value>
+  </data>
+  <data name="cbIsDeleted_items.Text" xml:space="preserve">
+    <value>削除された項目を表示</value>
+  </data>
+  <data name="valRequired_ProcessNm.Text" xml:space="preserve">
+    <value>プロセス名は必須フィールドです。</value>
+  </data>
+  <data name="lblComments.Text" xml:space="preserve">
+    <value>備考</value>
+  </data>
+  <data name="Approve.Text" xml:space="preserve">
+    <value>承認する</value>
+  </data>
+  <data name="Aprroved.Text" xml:space="preserve">
+    <value>承認された</value>
+  </data>
+  <data name="cbxOnlineUser.Text" xml:space="preserve">
+    <value>オンラインユーザー</value>
+  </data>
+  <data name="Disapprove.Text" xml:space="preserve">
+    <value>不可とする</value>
+  </data>
+  <data name="Email.Text" xml:space="preserve">
+    <value>電子メールアドレス</value>
+  </data>
+  <data name="CompValidatorPassWord.Text" xml:space="preserve">
+    <value>パスワードが一致しません。</value>
+  </data>
+  <data name="lblConfirmPassWord.Text" xml:space="preserve">
+    <value>確認用パスワード</value>
+  </data>
+  <data name="RegisterUserFail.Text" xml:space="preserve">
+    <value>重複したユーザー！</value>
+  </data>
+  <data name="RegisterUserSuccess.Text" xml:space="preserve">
+    <value>登録ユーザーに成功！</value>
+  </data>
+  <data name="RegValidatorEmail.Text" xml:space="preserve">
+    <value>有効なEメールアドレスを入力してください</value>
+  </data>
+  <data name="RegValidatorPassWordLenght.Text" xml:space="preserve">
+    <value>パスワードは、長さが少なくとも7文字でなければなりません</value>
+  </data>
+  <data name="RegValidatorUserLenght.Text" xml:space="preserve">
+    <value>ユーザー名は20文字より長くすることはできません</value>
+  </data>
+  <data name="ReqValidatorEmail.Text" xml:space="preserve">
+    <value>Eメールアドレスは必須項目です</value>
+  </data>
+  <data name="ReqValidatorPassWord.Text" xml:space="preserve">
+    <value>パスワードを設定してください</value>
+  </data>
+  <data name="ReqValidatorPassWordConfirm.Text" xml:space="preserve">
+    <value>確認用パスワードを設定してください</value>
+  </data>
+  <data name="ReqValidatorUserName.Text" xml:space="preserve">
+    <value>ユーザ名は必須項目です</value>
+  </data>
+  <data name="ChangePassSuccess.Text" xml:space="preserve">
+    <value>ユーザーパスワード変更の成功</value>
+  </data>
+  <data name="lblNewPassWord.Text" xml:space="preserve">
+    <value>新しいパスワード</value>
+  </data>
+  <data name="lblOldPassWord.Text" xml:space="preserve">
+    <value>現在のパスワード</value>
+  </data>
+  <data name="ChangePassFail.Text" xml:space="preserve">
+    <value>ユーザーパスワードの変更に失敗</value>
+  </data>
+  <data name="ChangePassWord.Text" xml:space="preserve">
+    <value>ユーザーパスワードの変更</value>
+  </data>
+  <data name="lbMember.Text" xml:space="preserve">
+    <value>Member jp</value>
+  </data>
+  <data name="lbOfficeChief.Text" xml:space="preserve">
+    <value>OfficeChief jp</value>
+  </data>
+  <data name="valRequired_SupplierNm.ErrorMessage" xml:space="preserve">
+    <value>仕入・は必須項目です</value>
+  </data>
+  <data name="msDisapproveAccount.Text" xml:space="preserve">
+    <value>あなたは、アカウント {1} の {0} しますか</value>
+  </data>
+  <data name="msResetPassword.Text" xml:space="preserve">
+    <value>そのアカウントのパスワードをリセットしますか{0}</value>
+  </data>
+  <data name="msResetPasswordDetail.Text" xml:space="preserve">
+    <value>アカウントの新しいパスワード{0}: {1}</value>
+  </data>
+  <data name="msResetPasswordFail.Text" xml:space="preserve">
+    <value>パスワードは失敗リセット！</value>
+  </data>
+  <data name="msResetPasswordSuccess.Text" xml:space="preserve">
+    <value>リセットパスワードに成功！</value>
+  </data>
+  <data name="ResetPassword.Text" xml:space="preserve">
+    <value>リセットパスワード</value>
+  </data>
+</root>

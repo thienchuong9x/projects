@@ -1,0 +1,216 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.Security;
+using Dental.Utilities;
+using System.IO;
+using Dental.Domain; 
+
+public partial class Site : System.Web.UI.MasterPage
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+        HttpCookie cookie = Request.Cookies["CurrentLanguage"];
+        if (!IsPostBack && cookie != null && cookie.Value != null)
+        {
+            if (cookie.Value.IndexOf("en-") >= 0)
+            {
+                ibtUS.Enabled = false;
+                ibtJanpan.Enabled = true;
+            }
+            else
+            {
+                ibtUS.Enabled = true;
+                ibtJanpan.Enabled = false;
+            }
+            
+           
+        }
+    
+        HttpCookie cookie1 = Request.Cookies["CurrentLanguage"];
+        if (cookie1 != null && cookie1.Value != null)
+        {
+            Page.UICulture = cookie1.Value;
+        }
+  
+        Initialize();
+        InitializeMenu();
+        InitializeLinkTitle();
+        //check login
+        if (HttpContext.Current.User.Identity.IsAuthenticated)
+        {
+            lblUserName.Visible = true;
+            lblUserName.Text = HttpContext.Current.User.Identity.Name;
+            lBtnLogout.Visible = true;
+            lBtnLogin.Visible = false;
+
+            panelMenuSale.Visible = true;
+            panelMenuAccounting.Visible = true;
+            panelMenuStock.Visible = true;
+            panelMenuMaster.Visible = true;
+            panelMenuUsers.Visible = true;
+        }
+        else
+        {
+            lblUserName.Visible = false;
+            lblUserName.Text = string.Empty;
+            lBtnLogout.Visible = false;
+            lBtnLogin.Visible = true;
+
+            panelMenuSale.Visible = false;
+            panelMenuAccounting.Visible = false;
+            panelMenuStock.Visible = false;
+            panelMenuMaster.Visible = false;
+            panelMenuUsers.Visible = false;
+        }
+        //set Header image
+        ImageHeader.ImageUrl = "~/Styles/Flexiweb-DarkBlue/images/top-logo.png";
+
+    }
+
+    private void InitializeLinkTitle()
+    {
+        string title = Path.GetFileNameWithoutExtension(Request.Path);
+        if (title == "OrderList") hplLinkTitle.Text = lblMenuOrders.Text;
+        if (title == "OrderInput") hplLinkTitle.Text = lblMenuOrderRegistration.Text;
+        if (title == "DeliverStatement") hplLinkTitle.Text = lblMenuDeliveryStatements.Text;
+        if (title == "BillStatement") hplLinkTitle.Text = lblMenuInvoices.Text;
+        if (title == "Deposits") hplLinkTitle.Text = lblMenuDeposits.Text;
+        if (title == "Payments") hplLinkTitle.Text = lblMenuPayments.Text;
+        if (title == "ManageStock") hplLinkTitle.Text = lblMenuManageStock.Text;
+        if (title == "MstDentalOffice") hplLinkTitle.Text = lblMenuDentalClinics.Text;
+        if (title == "MstProsthesis") hplLinkTitle.Text = lblMenuProsthetics.Text;
+        if (title == "MstMaterial") hplLinkTitle.Text = lblMenuMaterials.Text;
+        if (title == "MstSupplier") hplLinkTitle.Text = lblMenuSuppliers.Text;
+        if (title == "MstProcess") hplLinkTitle.Text = lblMenuProcesses.Text;
+        if (title == "MstBill") hplLinkTitle.Text = lblMenuBillingRecipients.Text;
+        if (title == "MstBank") hplLinkTitle.Text = lblMenuBanks.Text;
+        if (title == "MstOutSourceLab") hplLinkTitle.Text = lblMenuOutsources.Text;
+        if (title == "MstTech") hplLinkTitle.Text = lblMenuTechPrice.Text;
+        if (title == "MstOffice") hplLinkTitle.Text = lblMenuOffices.Text;
+        if (title == "MstSystem") hplLinkTitle.Text = lblMenuSystem.Text;
+        if (title == "MstItem") hplLinkTitle.Text = lblMenuItems.Text;
+        if (title == "MstTax") hplLinkTitle.Text = lblMenuTax.Text;
+        if (title == "Register") hplLinkTitle.Text = lblMenuRegisterUsers.Text;
+        if (title == "Staffs") hplLinkTitle.Text = lblMenuStaffs.Text;
+
+        hplLinkTitle.NavigateUrl = Request.Url.AbsoluteUri;
+       
+    }
+
+    private void InitializeMenu()
+    {
+        #region MenuSale
+        lblMenuSale.Text = Common.GetResourceString("Menu_Sale.Text");
+        lblMenuOrders.Text = Common.GetResourceString("Menu_Orders.Text");
+        lblMenuOrderRegistration.Text = Common.GetResourceString("Menu_OrderRegistration.Text");
+        lblMenuDeliveryStatements.Text = Common.GetResourceString("Menu_DeliveryStatements.Text");
+        #endregion
+
+        #region MenuAccounting
+        lblMenuAccounting.Text = Common.GetResourceString("Menu_Accounting.Text");
+        lblMenuInvoices.Text = Common.GetResourceString("Menu_Invoices.Text");
+        lblMenuDeposits.Text = Common.GetResourceString("Menu_Deposits.Text");
+        lblMenuPayments.Text = Common.GetResourceString("Menu_Payments.Text");
+        #endregion
+
+        #region MemuStock
+        lblMenuStock.Text = Common.GetResourceString("Menu_Stock.Text");
+        lblMenuManageStock.Text = Common.GetResourceString("Menu_ManageStock.Text");
+        #endregion
+
+        #region MenuMaster
+        lblMenuMaster.Text = Common.GetResourceString("Menu_Master.Text");
+        lblMenuDentalClinics.Text = Common.GetResourceString("Menu_DentalClinics.Text");
+        lblMenuProsthetics.Text = Common.GetResourceString("Menu_Prosthetics.Text");
+        lblMenuMaterials.Text = Common.GetResourceString("Menu_Materials.Text");
+        lblMenuSuppliers.Text = Common.GetResourceString("Menu_Suppliers.Text");
+        lblMenuProcesses.Text = Common.GetResourceString("Menu_Processes.Text");
+        lblMenuBillingRecipients.Text = Common.GetResourceString("Menu_BillingRecipients.Text");
+        lblMenuBanks.Text = Common.GetResourceString("Menu_Banks.Text");
+        lblMenuOutsources.Text = Common.GetResourceString("Menu_Outsources.Text");
+        lblMenuTechPrice.Text = Common.GetResourceString("Menu_TechPrice.Text");
+        lblMenuOffices.Text = Common.GetResourceString("Menu_Offices.Text");
+        lblMenuSystem.Text = Common.GetResourceString("Menu_System.Text");
+        lblMenuItems.Text = Common.GetResourceString("Menu_Items.Text");
+        lblMenuTax.Text = Common.GetResourceString("Menu_Tax.Text");
+        #endregion
+
+        #region MenuUser
+        lblMenuUser.Text = Common.GetResourceString("Menu_User.Text");
+        lblMenuManageUsers.Text = Common.GetResourceString("Menu_ManageUsers.Text");
+        lblMenuRegisterUsers.Text = Common.GetResourceString("Menu_RegisterUsers.Text");
+        lblMenuStaffs.Text = Common.GetResourceString("Menu_Staffs.Text");
+        #endregion
+    }
+
+    private void Initialize()
+    {
+        lblTiltePopUpLogin.Text = Common.GetResourceString("lblTiltePopUpLogin.Text");
+        lblPopUpUserName.Text = Common.GetResourceString("lblPopUpUserName.Text");
+        lblPopUpPassWord.Text = Common.GetResourceString("lblPopUpPassWord.Text");
+        cbRememberMe.Text = Common.GetResourceString("cbRememberMe.Text");
+        btnPopUpLogin.Text = Common.GetResourceString("btnLogin.Text");
+        lBtnLogin.Text = btnPopUpLogin.Text;
+        lBtnLogout.Text = Common.GetResourceString("lBtnLogout.Text");
+    }
+
+    protected void ibtUS_Click(object sender, ImageClickEventArgs e)
+    {
+        HttpCookie cookie = new HttpCookie("CurrentLanguage");
+        cookie.Value = "en-US";
+        Calendar.flag = "en";
+        Response.SetCookie(cookie);
+        Response.Redirect(Request.RawUrl);
+    }
+    protected void ibtJanpan_Click(object sender, ImageClickEventArgs e)
+    {
+        HttpCookie cookie = new HttpCookie("CurrentLanguage");
+        cookie.Value = "ja-JP";
+        Calendar.flag = "ja";
+        Response.SetCookie(cookie);
+        Response.Redirect(Request.RawUrl);
+    }
+    protected void btnLogin_Click(object sender, EventArgs e)
+    {
+        if (Membership.ValidateUser(txtPopUpUserName.Text, txtPopUpPassWord.Text))
+        {
+            FormsAuthentication.RedirectFromLoginPage(txtPopUpUserName.Text,cbRememberMe.Checked?true:false);
+        }
+        else
+        {
+            ScriptManager.RegisterStartupScript(Page, Page.GetType(), "", "alert(\""+Common.GetResourceString("LoginFail.Text")+"\");", true);
+        }
+    }
+    protected void lBtnLogout_Click(object sender, EventArgs e)
+    {
+        FormsAuthentication.SignOut();
+        Response.Redirect("~/Default.aspx");
+    }
+
+
+    protected void Page_Init(object sender, EventArgs e)
+    {
+        if(!IsPostBack) 
+           FillDropDownOffice();
+    }
+    private void FillDropDownOffice()
+    {
+        cboOfficeName.Items.Clear();
+
+        var list = MasterOffice.GetAll().Where(p=>p.IsDeleted == null || p.IsDeleted.Value == false); //Only Get by Login user
+
+        foreach (MasterOffice i in list)
+        {
+            cboOfficeName.Items.Add(new ListItem(i.OfficeNm, i.OfficeCd.ToString()));
+        }
+    }
+    protected void cboOfficeName_SelectedIndexChanged(object sender, EventArgs e)
+    {
+       
+    }
+}

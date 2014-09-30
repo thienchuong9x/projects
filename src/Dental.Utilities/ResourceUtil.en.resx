@@ -1,0 +1,2991 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountOwnerEmpty.Text" xml:space="preserve">
+    <value>Account Owner is a required field.</value>
+  </data>
+  <data name="Action.Text" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ActionCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ActionEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ActionUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Add Content</value>
+  </data>
+  <data name="Amount_Amount.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Amount_Amt.Text" xml:space="preserve">
+    <value>Amt</value>
+  </data>
+  <data name="Area.Text" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Balance.Text" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="BankAccountEmpty.Text" xml:space="preserve">
+    <value>Bank Account is a required field.</value>
+  </data>
+  <data name="BankCodeEmpty.Text" xml:space="preserve">
+    <value>Bank Code is a required field.</value>
+  </data>
+  <data name="BillClosingDate.Text" xml:space="preserve">
+    <value>Please enter a number ranges from 0 to 31!</value>
+  </data>
+  <data name="BillClosingDayEmpty.Text" xml:space="preserve">
+    <value>Closing day is a required field!</value>
+  </data>
+  <data name="BillCodeEmpty.Text" xml:space="preserve">
+    <value>Code is a required field!</value>
+  </data>
+  <data name="BillNameEmpty.Text" xml:space="preserve">
+    <value>Name is a required field!</value>
+  </data>
+  <data name="BillStatement.Text" xml:space="preserve">
+    <value>Bill Statement</value>
+  </data>
+  <data name="btBack.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btHideSearch.Text" xml:space="preserve">
+    <value>Hide Search Area</value>
+  </data>
+  <data name="btlCad.Text" xml:space="preserve">
+    <value>CAD Order files</value>
+  </data>
+  <data name="btMaterial.Text" xml:space="preserve">
+    <value>Tech Price</value>
+  </data>
+  <data name="btnAddNoTooth.Text" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="btnBack.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btnBrowse.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnDel.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnDetailCancel.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnDetailSave.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="btnDown.Text" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btNewOrder.Text" xml:space="preserve">
+    <value>New Order</value>
+  </data>
+  <data name="btnGoOrder.Text" xml:space="preserve">
+    <value>To Order</value>
+  </data>
+  <data name="btnGoProcess.Text" xml:space="preserve">
+    <value>To Process</value>
+  </data>
+  <data name="btnGoTechPrice.Text" xml:space="preserve">
+    <value>To Tech Price</value>
+  </data>
+  <data name="btnPrint.Text" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="btnReg.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="btnRegister.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnUp.Text" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="btnViewTechPice.Text" xml:space="preserve">
+    <value>View TechPrice</value>
+  </data>
+  <data name="btOk.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btPrint.Text" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="btProcess.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="btRegister.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="btResetUser.Text" xml:space="preserve">
+    <value>Reset User</value>
+  </data>
+  <data name="btSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btShowSearch.Text" xml:space="preserve">
+    <value>Show Search Area</value>
+  </data>
+  <data name="buttonAddRow.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ButtonDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="buttonDeleteRow.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="buttonDownRow.Text" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="ButtonSaveBridge.Text" xml:space="preserve">
+    <value>Create/Delete Bridge</value>
+  </data>
+  <data name="buttonUpRow.Text" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="cb.Text" xml:space="preserve">
+    <value>Show terminated materials</value>
+  </data>
+  <data name="cbAvailableTech.Text" xml:space="preserve">
+    <value>Show terminated tech</value>
+  </data>
+  <data name="cbIncludeIsDeleted.Text" xml:space="preserve">
+    <value>Include Deleted</value>
+  </data>
+  <data name="cbInsured.Text" xml:space="preserve">
+    <value>Insured</value>
+  </data>
+  <data name="cbIsDeleted_items.Text" xml:space="preserve">
+    <value>Show deleted items</value>
+  </data>
+  <data name="cbIsDeleted_processes.Text" xml:space="preserve">
+    <value>Show deleted processes</value>
+  </data>
+  <data name="cbLogin.Text" xml:space="preserve">
+    <value>Allow Login</value>
+  </data>
+  <data name="cbSearch.Text" xml:space="preserve">
+    <value>Search Conditons</value>
+  </data>
+  <data name="cbShowAllUnit.Text" xml:space="preserve">
+    <value>Show terminated units</value>
+  </data>
+  <data name="cbUnInsured.Text" xml:space="preserve">
+    <value>Uninsured</value>
+  </data>
+  <data name="cbxCompletedBill.Text" xml:space="preserve">
+    <value>Include Closed Accounts</value>
+  </data>
+  <data name="cbxCompletedDelivery.Text" xml:space="preserve">
+    <value>Include Delivered</value>
+  </data>
+  <data name="cbxOnlyRemanufacture.Text" xml:space="preserve">
+    <value>Rework Only</value>
+  </data>
+  <data name="cbxOnlyTrialOrder.Text" xml:space="preserve">
+    <value>Trial Orders Only</value>
+  </data>
+  <data name="CheckBorrowerSearch.Text" xml:space="preserve">
+    <value>Exclude</value>
+  </data>
+  <data name="checkBorrower_Lender_Search.Text" xml:space="preserve">
+    <value>Exclude</value>
+  </data>
+  <data name="checkCAD.Text" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="checkChildTooth.Text" xml:space="preserve">
+    <value>Child Tooth</value>
+  </data>
+  <data name="CheckDateFormat.Text" xml:space="preserve">
+    <value>Please use date format only.</value>
+  </data>
+  <data name="checkDateInput.Text" xml:space="preserve">
+    <value>Please enter date.</value>
+  </data>
+  <data name="checkDenture.Text" xml:space="preserve">
+    <value>Denture</value>
+  </data>
+  <data name="CHECKED_STRING.Text" xml:space="preserve">
+    <value>✔</value>
+  </data>
+  <data name="checkGap.Text" xml:space="preserve">
+    <value>Gap</value>
+  </data>
+  <data name="CheckOwnStock_Another_Code.Text" xml:space="preserve">
+    <value>Please select another code.</value>
+  </data>
+  <data name="CheckOwnStock_Own_Stock.Text" xml:space="preserve">
+    <value>Own stock</value>
+  </data>
+  <data name="checkPriorityUnit.Text" xml:space="preserve">
+    <value>This Material dose not have priority unit.</value>
+  </data>
+  <data name="CheckProcesstemplete.Text" xml:space="preserve">
+    <value>This process template already exists.</value>
+  </data>
+  <data name="CheckSupplierSearch.Text" xml:space="preserve">
+    <value>Exclude</value>
+  </data>
+  <data name="CheckTechPricetemplete.Text" xml:space="preserve">
+    <value>This Tech Price template already exists.</value>
+  </data>
+  <data name="checkTrialOrder.Text" xml:space="preserve">
+    <value>Trial</value>
+  </data>
+  <data name="checkUnit.Text" xml:space="preserve">
+    <value>This Material does not have units.</value>
+  </data>
+  <data name="CheckUnitAvailable.Text" xml:space="preserve">
+    <value>This Unit is not available</value>
+  </data>
+  <data name="check_borrower_available.Text" xml:space="preserve">
+    <value>This Borrower has not borrowed material</value>
+  </data>
+  <data name="Check_Date_Tech.Text" xml:space="preserve">
+    <value>End date is before start date.</value>
+  </data>
+  <data name="check_delete_material.Text" xml:space="preserve">
+    <value>Please return material before deleting.</value>
+  </data>
+  <data name="check_delete_material_stock.Text" xml:space="preserve">
+    <value>There is material stock on lend.</value>
+  </data>
+  <data name="check_Duplicate_key_Code.Text" xml:space="preserve">
+    <value>Code already exists.</value>
+  </data>
+  <data name="check_Duplicate_key_item.Text" xml:space="preserve">
+    <value>item Category and  item No already exists!</value>
+  </data>
+  <data name="check_Duplicate_key_Material_Price .Text" xml:space="preserve">
+    <value>This Material Price already exists.</value>
+  </data>
+  <data name="check_Input_Number.Text" xml:space="preserve">
+    <value>Code must be a number.</value>
+  </data>
+  <data name="Check_Insert_Tech.Text" xml:space="preserve">
+    <value>This tech already exists.</value>
+  </data>
+  <data name="check_ItemCd.Text" xml:space="preserve">
+    <value>Please enter Item Cathegory!</value>
+  </data>
+  <data name="check_ItemNo.Text" xml:space="preserve">
+    <value>Please enter Item No!</value>
+  </data>
+  <data name="check_ItemNo_input.Text" xml:space="preserve">
+    <value>Item No must be a number</value>
+  </data>
+  <data name="check_ItemViewOrder.Text" xml:space="preserve">
+    <value>Item View order must be a number</value>
+  </data>
+  <data name="check_lender_available.Text" xml:space="preserve">
+    <value>This Lender has not lended material</value>
+  </data>
+  <data name="check_MaCd.Text" xml:space="preserve">
+    <value>Please enter only numeric characters for Material Code.</value>
+  </data>
+  <data name="check_OSCd.Text" xml:space="preserve">
+    <value>Please enter only numeric characters for Outsource Code.</value>
+  </data>
+  <data name="check_OsNm.Text" xml:space="preserve">
+    <value>Please enter an outsource name.</value>
+  </data>
+  <data name="check_PriceCd.Text" xml:space="preserve">
+    <value>Please enter only numeric characters.</value>
+  </data>
+  <data name="check_StartDate.Text" xml:space="preserve">
+    <value>Please use date format only.</value>
+  </data>
+  <data name="check_Startdate_EndDate.Text" xml:space="preserve">
+    <value>End date is before start date.</value>
+  </data>
+  <data name="check_stock_available.Text" xml:space="preserve">
+    <value>There is no material in stock</value>
+  </data>
+  <data name="check_SupCd.Text" xml:space="preserve">
+    <value>Please enter only numeric characters for Supplier Code.</value>
+  </data>
+  <data name="chkAvailableTechPrice.Text" xml:space="preserve">
+    <value>Show terminated tech prices</value>
+  </data>
+  <data name="chkCompleted.Text" xml:space="preserve">
+    <value>Completed Payment</value>
+  </data>
+  <data name="ClosingDay20th.Text" xml:space="preserve">
+    <value>20th</value>
+  </data>
+  <data name="ClosingDay25th.Text" xml:space="preserve">
+    <value>25th</value>
+  </data>
+  <data name="ClosingDayLastDay.Text" xml:space="preserve">
+    <value>Last Day</value>
+  </data>
+  <data name="CodeEmpty.Text" xml:space="preserve">
+    <value>Prosthesis Code is a required field.</value>
+  </data>
+  <data name="colBorrowedQty.Text" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="colBorrower.Text" xml:space="preserve">
+    <value>Lend to</value>
+  </data>
+  <data name="colDeleted.Text" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="colEditable.Text" xml:space="preserve">
+    <value>Editable</value>
+  </data>
+  <data name="colEndDate.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="colLender.Text" xml:space="preserve">
+    <value>Borrow from</value>
+  </data>
+  <data name="colLentQty.Text" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="colMaker.Text" xml:space="preserve">
+    <value>Product Maker</value>
+  </data>
+  <data name="colMaterialCd.Text" xml:space="preserve">
+    <value>Material Code</value>
+  </data>
+  <data name="colMateriaNml.Text" xml:space="preserve">
+    <value>Material Name</value>
+  </data>
+  <data name="colQty.Text" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="colStandardTechPrice.Text" xml:space="preserve">
+    <value>Standard Tech Price</value>
+  </data>
+  <data name="colStartDate.Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="colTechCd.Text" xml:space="preserve">
+    <value>Tech Code</value>
+  </data>
+  <data name="colTechGroup.Text" xml:space="preserve">
+    <value>Tech Group</value>
+  </data>
+  <data name="colTechNm.Text" xml:space="preserve">
+    <value>Tech Name</value>
+  </data>
+  <data name="colUnit.Text" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="CompareIssueDate.Text" xml:space="preserve">
+    <value>IssueDate have to be same or later date to previous IssueDate.</value>
+  </data>
+  <data name="compDate.Text" xml:space="preserve">
+    <value>Invalid date format.</value>
+  </data>
+  <data name="CreditLimit.Text" xml:space="preserve">
+    <value>Please enter a numbers double only in text box!</value>
+  </data>
+  <data name="CurrentPaymentAmount.Text" xml:space="preserve">
+    <value>Current Payment Amount</value>
+  </data>
+  <data name="CurrentPaymentDate.Text" xml:space="preserve">
+    <value>Current Payment Date</value>
+  </data>
+  <data name="currentstock.Text" xml:space="preserve">
+    <value>Current stock</value>
+  </data>
+  <data name="Current_amount_and_Balance.Text" xml:space="preserve">
+    <value>Please input Current payment amount less than Balance!</value>
+  </data>
+  <data name="Date.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DateEmpty.Text" xml:space="preserve">
+    <value>Date is a required field.</value>
+  </data>
+  <data name="DateOnly.Text" xml:space="preserve">
+    <value>Please use date format only.</value>
+  </data>
+  <data name="DefaultContent.Text" xml:space="preserve">
+    <value>Here is some sample content</value>
+  </data>
+  <data name="DeliveryDate.Text" xml:space="preserve">
+    <value>Delivery Date</value>
+  </data>
+  <data name="DeliveryStatement.Text" xml:space="preserve">
+    <value>Delivery Statement</value>
+  </data>
+  <data name="DeliveryStatementCopy.Text" xml:space="preserve">
+    <value>Delivery Statement (Copy)</value>
+  </data>
+  <data name="DeliveryStatementNo.Text" xml:space="preserve">
+    <value>Delivery Statement No.</value>
+  </data>
+  <data name="DentalOfficeCdEmpty.Text" xml:space="preserve">
+    <value>Dental Office Code is a required field.</value>
+  </data>
+  <data name="DentalOfficeName.Text" xml:space="preserve">
+    <value>Dental Office Name</value>
+  </data>
+  <data name="DifferentToothNumber1_2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DifferentToothNumber3_4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DoubleOnly.Text" xml:space="preserve">
+    <value>Please enter only numeric characters.</value>
+  </data>
+  <data name="Down1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Down8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownNotSquential.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DownStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="EmptyUser.Text" xml:space="preserve">
+    <value>When UserName is empty, you can not select any authorities.</value>
+  </data>
+  <data name="ErrorMessage.Text" xml:space="preserve">
+    <value>Value not found.</value>
+  </data>
+  <data name="False.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Finish.Text" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="FlgSeparate.Text" xml:space="preserve">
+    <value>Separate</value>
+  </data>
+  <data name="FlgTogether.Text" xml:space="preserve">
+    <value>Together</value>
+  </data>
+  <data name="GapFlgDown.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="GapFlgUp.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="HEADER_BridgeID.Text" xml:space="preserve">
+    <value>Bridge ID</value>
+  </data>
+  <data name="HEADER_CHILD.Text" xml:space="preserve">
+    <value>Child</value>
+  </data>
+  <data name="HEADER_DentalOffice_CODE_DentalOfficeCd.Text" xml:space="preserve">
+    <value>Dental Office Code</value>
+  </data>
+  <data name="HEADER_DentalOffice_CODE_DentalOffice.Text" xml:space="preserve">
+    <value>Dental Office</value>
+  </data>
+  <data name="HEADER_DentalOffice_Nm_DantalOfficeNm.Text" xml:space="preserve">
+    <value>Dental Office Name</value>
+  </data>
+  <data name="HEADER_DentalOffice_Nm_DenatlOffice.Text" xml:space="preserve">
+    <value>Dental Office</value>
+  </data>
+  <data name="HEADER_DETAIL_MaterialName_Material.Text" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="HEADER_DETAIL_MaterialName_Name.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="HEADER_DETAIL_NAME.Text" xml:space="preserve">
+    <value>Detail Name</value>
+  </data>
+  <data name="HEADER_DETAIL_ProstheticName.Text" xml:space="preserve">
+    <value>Prosthetic</value>
+  </data>
+  <data name="HEADER_DETAIL_Shade.Text" xml:space="preserve">
+    <value>Shade</value>
+  </data>
+  <data name="HEADER_DETAIL_Shape.Text" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="HEADER_DETAIL_TOOTH.Text" xml:space="preserve">
+    <value>Tooth No.</value>
+  </data>
+  <data name="HEADER_EDITTABLE.Text" xml:space="preserve">
+    <value>Editable</value>
+  </data>
+  <data name="HEADER_GAP.Text" xml:space="preserve">
+    <value>Gap</value>
+  </data>
+  <data name="HEADER_Insured.Text" xml:space="preserve">
+    <value>Insured</value>
+  </data>
+  <data name="HEADER_MaterialPrice.Text" xml:space="preserve">
+    <value>Material Price</value>
+  </data>
+  <data name="HEADER_OFFICE_Bill_Name.Text" xml:space="preserve">
+    <value>Bill Name</value>
+  </data>
+  <data name="HEADER_OFFICE_Bill_Recipient.Text" xml:space="preserve">
+    <value>Bill Recipient</value>
+  </data>
+  <data name="HEADER_OFFICE_CreateAccount.Text" xml:space="preserve">
+    <value>Creator Account</value>
+  </data>
+  <data name="HEADER_OFFICE_CreateDate.Text" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeAbbNm.Text" xml:space="preserve">
+    <value>Abbr. Name</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeAddress1.Text" xml:space="preserve">
+    <value>Address 1</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeAddress2.Text" xml:space="preserve">
+    <value>Address 2</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeCd.Text" xml:space="preserve">
+    <value>Office Code</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeFAX.Text" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeNm.Text" xml:space="preserve">
+    <value>Office Name</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficePostalCd.Text" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeStaff.Text" xml:space="preserve">
+    <value>Staff Name</value>
+  </data>
+  <data name="HEADER_OFFICE_DentalOfficeTEL.Text" xml:space="preserve">
+    <value>TEL</value>
+  </data>
+  <data name="HEADER_OFFICE_ModifiedAccount.Text" xml:space="preserve">
+    <value>Modifier Account</value>
+  </data>
+  <data name="HEADER_OFFICE_ModifiedDate.Text" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="HEADER_OFFICE_TransferDays.Text" xml:space="preserve">
+    <value>Transfer Day</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_BridgeID.Text" xml:space="preserve">
+    <value>Bridge ID</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_CompletionDate.Text" xml:space="preserve">
+    <value>Completion Date</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_DeliveryStateNo.Text" xml:space="preserve">
+    <value>Delivery No.</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_DetailNm.Text" xml:space="preserve">
+    <value>Detail Name</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_EstimatedCompletionDate.Text" xml:space="preserve">
+    <value>Estimated Completion Date</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_MaterialName.Text" xml:space="preserve">
+    <value>Material Name</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_MaterialPrice.Text" xml:space="preserve">
+    <value>Material Price</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_MaterialQuantity.Text" xml:space="preserve">
+    <value>Material Amount</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_MaterialUnit.Text" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_ProcessPrice.Text" xml:space="preserve">
+    <value>Process Price</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_ProstheticName.Text" xml:space="preserve">
+    <value>Prosthetic Name</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_ProstheticQuantity.Text" xml:space="preserve">
+    <value>Prosthetic Qty</value>
+  </data>
+  <data name="HEADER_ORDER_DETAIL_Tooth.Text" xml:space="preserve">
+    <value>Tooth</value>
+  </data>
+  <data name="HEADER_PROCESS_CODE.Text" xml:space="preserve">
+    <value>Process Code</value>
+  </data>
+  <data name="HEADER_PROCESS_DISPLAYORDER.Text" xml:space="preserve">
+    <value>Display order</value>
+  </data>
+  <data name="HEADER_PROCESS_IS_DELETE.Text" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="HEADER_PROCESS_NAME.Text" xml:space="preserve">
+    <value>Process Name</value>
+  </data>
+  <data name="HEADER_PROCESS_ProcessNm.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="HEADER_PROCESS_SalesMan.Text" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="HEADER_PROCESS_WorkTime.Text" xml:space="preserve">
+    <value>Work Time</value>
+  </data>
+  <data name="HEADER_TechPrice_TechCd.Text" xml:space="preserve">
+    <value>Fabrication code</value>
+  </data>
+  <data name="HEADER_TechPrice_TechNm.Text" xml:space="preserve">
+    <value>Fabrication Name</value>
+  </data>
+  <data name="HEADER_TechPrice_TechPrice.Text" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="HEADER_TECH_CODE.Text" xml:space="preserve">
+    <value>Tech Code</value>
+  </data>
+  <data name="HEADER_TECH_END_DATE.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="HEADER_TECH_GROUP.Text" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="HEADER_TECH_NAME.Text" xml:space="preserve">
+    <value>Tech Name</value>
+  </data>
+  <data name="HEADER_TECH_PRICE_StandardTechPrice.Text" xml:space="preserve">
+    <value>Standard Tech Price</value>
+  </data>
+  <data name="HEADER_TECH_PRICE_TechPrice.Text" xml:space="preserve">
+    <value>Tech Price</value>
+  </data>
+  <data name="HEADER_TECH_START_DATE.Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="hiddenCadCamPopupTitle.Value" xml:space="preserve">
+    <value>Show all files to download</value>
+  </data>
+  <data name="Index.Text" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Insurance.Text" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="LabelAnatomyKit.Text" xml:space="preserve">
+    <value>Anatomy Kit</value>
+  </data>
+  <data name="LabelBorrowPart.Text" xml:space="preserve">
+    <value>Borrow Parts</value>
+  </data>
+  <data name="LabelCAD.Text" xml:space="preserve">
+    <value>CAD Output</value>
+  </data>
+  <data name="LabelCastManager.Text" xml:space="preserve">
+    <value>Casting Manager</value>
+  </data>
+  <data name="LabelComments.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="LabelDeadLine.Text" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="LabelDentist.Text" xml:space="preserve">
+    <value>Dentist</value>
+  </data>
+  <data name="LabelDetailNm.Text" xml:space="preserve">
+    <value>Detail Name</value>
+  </data>
+  <data name="LabelDueDate.Text" xml:space="preserve">
+    <value>Due Date</value>
+  </data>
+  <data name="LabelEndDate.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="LabelEstimateDate.Text" xml:space="preserve">
+    <value>Estimated Date</value>
+  </data>
+  <data name="LabelInspection.Text" xml:space="preserve">
+    <value>Inspection</value>
+  </data>
+  <data name="LabelInsurance.Text" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="LabelMaterial.Text" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="LabelModelManager.Text" xml:space="preserve">
+    <value>Modeling Manager</value>
+  </data>
+  <data name="LabelOfficeCd.Text" xml:space="preserve">
+    <value>Clinic</value>
+  </data>
+  <data name="LabelOrderDate.Text" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="LabelOrderInputTitle.Text" xml:space="preserve">
+    <value>Order Input Form</value>
+  </data>
+  <data name="LabelOrderNo.Text" xml:space="preserve">
+    <value>Order No.</value>
+  </data>
+  <data name="LabelPatient.Text" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="LabelPolishManager.Text" xml:space="preserve">
+    <value>Polishing Manager</value>
+  </data>
+  <data name="LabelProcess.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="LabelProsthesis.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="LabelRefOrderNo.Text" xml:space="preserve">
+    <value>Ref. Order No.</value>
+  </data>
+  <data name="LabelRemanufacture.Text" xml:space="preserve">
+    <value>Rework</value>
+  </data>
+  <data name="LabelSalesman.Text" xml:space="preserve">
+    <value>Salesman</value>
+  </data>
+  <data name="LabelSetDate.Text" xml:space="preserve">
+    <value>Set Date</value>
+  </data>
+  <data name="LabelSexAge.Text" xml:space="preserve">
+    <value>Sex/Age</value>
+  </data>
+  <data name="LabelShade.Text" xml:space="preserve">
+    <value>Shade</value>
+  </data>
+  <data name="LabelShape.Text" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="LabelStaff.Text" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="LabelTabProcess.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="LabelTabProsthetic.Text" xml:space="preserve">
+    <value>Prosthetic</value>
+  </data>
+  <data name="LabelTechCd.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="LabelTechName.Text" xml:space="preserve">
+    <value>Tech Name</value>
+  </data>
+  <data name="LabelTechPrice.Text" xml:space="preserve">
+    <value>Tech Price</value>
+  </data>
+  <data name="LabelToothType.Text" xml:space="preserve">
+    <value>Tooth Type</value>
+  </data>
+  <data name="LabelTrialOrder.Text" xml:space="preserve">
+    <value>Trial Order</value>
+  </data>
+  <data name="LabelWaxManager.Text" xml:space="preserve">
+    <value>Waxing Manager</value>
+  </data>
+  <data name="LabelWorkTime.Text" xml:space="preserve">
+    <value>Work time</value>
+  </data>
+  <data name="LabelYear.Text" xml:space="preserve">
+    <value>years</value>
+  </data>
+  <data name="lbAdjustedFee.Text" xml:space="preserve">
+    <value>Adjusted Fee</value>
+  </data>
+  <data name="lbAmount_Amount.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lbAmount_Qty.Text" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="lbAuthority.Text" xml:space="preserve">
+    <value>Authority</value>
+  </data>
+  <data name="lbBalance.Text" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="lbBankDetails.Text" xml:space="preserve">
+    <value>Bank Details</value>
+  </data>
+  <data name="lbBillClosingDay.Text" xml:space="preserve">
+    <value>Bill Closing Day</value>
+  </data>
+  <data name="lbBillContactPerson.Text" xml:space="preserve">
+    <value>Bill Contact Person</value>
+  </data>
+  <data name="lbBillingAmount.Text" xml:space="preserve">
+    <value>Billing Amount</value>
+  </data>
+  <data name="lbBuyDate.Text" xml:space="preserve">
+    <value>Buy Date</value>
+  </data>
+  <data name="lbChief.Text" xml:space="preserve">
+    <value>Office Chief</value>
+  </data>
+  <data name="lbChkCompleted.Text" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="lbClinicName.Text" xml:space="preserve">
+    <value>Clinic Name</value>
+  </data>
+  <data name="lbComment.Text" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="lbContractor.Text" xml:space="preserve">
+    <value>Contractor</value>
+  </data>
+  <data name="lbDate.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lbDeliveredDate.Text" xml:space="preserve">
+    <value>Delivered Date</value>
+  </data>
+  <data name="lbDeliveryDate_deliveredDate.Text" xml:space="preserve">
+    <value>Delivered Date</value>
+  </data>
+  <data name="lbDeliveryDate_deliveryDate.Text" xml:space="preserve">
+    <value>Delivery Date</value>
+  </data>
+  <data name="lbDeliveryType_DeliveryTypr.Text" xml:space="preserve">
+    <value>Delivery Type</value>
+  </data>
+  <data name="lbDeliveryType_Insurance.Text" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="lbDentalAccountOwner.Text" xml:space="preserve">
+    <value>Account Owner</value>
+  </data>
+  <data name="lbDentalBankAccount.Text" xml:space="preserve">
+    <value>Bank Account</value>
+  </data>
+  <data name="lbDentalBankCd.Text" xml:space="preserve">
+    <value>Bank Code</value>
+  </data>
+  <data name="lbDentalBillAddress1.Text" xml:space="preserve">
+    <value>Bill Address1</value>
+  </data>
+  <data name="lbDentalBillAddress2.Text" xml:space="preserve">
+    <value>Bill Address2</value>
+  </data>
+  <data name="lbDentalBillCd.Text" xml:space="preserve">
+    <value>Bill Code</value>
+  </data>
+  <data name="lbDentalBillFax.Text" xml:space="preserve">
+    <value>Bill Fax</value>
+  </data>
+  <data name="lbDentalBillFlg.Text" xml:space="preserve">
+    <value>Insurance/Private</value>
+  </data>
+  <data name="lbDentalBillNm.Text" xml:space="preserve">
+    <value>Bill Name</value>
+  </data>
+  <data name="lbDentalBillPostalCd.Text" xml:space="preserve">
+    <value>Bill Postal Code</value>
+  </data>
+  <data name="lbDentalBillStatementNm.Text" xml:space="preserve">
+    <value>Bill Statement Name</value>
+  </data>
+  <data name="lbDentalBillTel.Text" xml:space="preserve">
+    <value>Bill Phone</value>
+  </data>
+  <data name="lbDentalCreditLimit.Text" xml:space="preserve">
+    <value>Credit Limit</value>
+  </data>
+  <data name="lbDentalForpayFlg.Text" xml:space="preserve">
+    <value>For payment</value>
+  </data>
+  <data name="lbDentalForReceiveFlg.Text" xml:space="preserve">
+    <value>For receipt</value>
+  </data>
+  <data name="lbDentistNm.Text" xml:space="preserve">
+    <value>Dentist Name</value>
+  </data>
+  <data name="lbDepositAccount.Text" xml:space="preserve">
+    <value>Deposit Account</value>
+  </data>
+  <data name="lbDetailNm.Text" xml:space="preserve">
+    <value>Detail Name</value>
+  </data>
+  <data name="lbDivision.Text" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="lbDueDate.Text" xml:space="preserve">
+    <value>Due Date</value>
+  </data>
+  <data name="lbFemale.Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="lbInsurance.Text" xml:space="preserve">
+    <value>Ins</value>
+  </data>
+  <data name="lbInvoiceIssueDate.Text" xml:space="preserve">
+    <value>Invoice Issue Date</value>
+  </data>
+  <data name="lbInvoiceNo.Text" xml:space="preserve">
+    <value>Invoice No.</value>
+  </data>
+  <data name="lbInvoiceNumber.Text" xml:space="preserve">
+    <value>Invoice Number</value>
+  </data>
+  <data name="lbInvoiceRecipient.Text" xml:space="preserve">
+    <value>Invoice Recipient</value>
+  </data>
+  <data name="lbIsDeleted.Text" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="lbIssueDate.Text" xml:space="preserve">
+    <value>Issue Date</value>
+  </data>
+  <data name="lblAction.Text" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="lblAmount.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lblAmountByMinimumUnit.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lblApplyDate.Text" xml:space="preserve">
+    <value>Apply Date</value>
+  </data>
+  <data name="lblBorrower.Text" xml:space="preserve">
+    <value>Borrower</value>
+  </data>
+  <data name="lblBorrowPart.Text" xml:space="preserve">
+    <value>Outsource Stock</value>
+  </data>
+  <data name="lblClinicName.Text" xml:space="preserve">
+    <value>Clinic Name</value>
+  </data>
+  <data name="lblCode_Code.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblCode_ItemNo.Text" xml:space="preserve">
+    <value>ItemNo</value>
+  </data>
+  <data name="lblComment.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lblComments.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lblCompleteDate.Text" xml:space="preserve">
+    <value>Completion Date</value>
+  </data>
+  <data name="lblContractor.Text" xml:space="preserve">
+    <value>Outsourcer</value>
+  </data>
+  <data name="lblCurrentStock.Text" xml:space="preserve">
+    <value>Current stock</value>
+  </data>
+  <data name="lblDelivery.Text" xml:space="preserve">
+    <value>Prosthetic Delivery Form</value>
+  </data>
+  <data name="lblDentalOfficeNm.Text" xml:space="preserve">
+    <value>Dental Clinic</value>
+  </data>
+  <data name="lblDentalOffice_DentalOffice.Text" xml:space="preserve">
+    <value>Dental Office</value>
+  </data>
+  <data name="lblDentalOffice_Office.Text" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="lblDueDate.Text" xml:space="preserve">
+    <value>Due Date</value>
+  </data>
+  <data name="lblEndDate.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="lblFee.Text" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="lblFullCost.Text" xml:space="preserve">
+    <value>Total cost, all teeth</value>
+  </data>
+  <data name="lblFullWorkTime.Text" xml:space="preserve">
+    <value>Total work time, all teeth</value>
+  </data>
+  <data name="lblGridProcess.Text" xml:space="preserve">
+    <value>Process List</value>
+  </data>
+  <data name="lblGridViewTechPrice.Text" xml:space="preserve">
+    <value>Tech Price List</value>
+  </data>
+  <data name="lblGroupDental.Text" xml:space="preserve">
+    <value>Group Identical Dental Clinics</value>
+  </data>
+  <data name="lblIn.Text" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="lblIncludeCompleteOrder.Text" xml:space="preserve">
+    <value>Include Issued Orders</value>
+  </data>
+  <data name="lblInspectionStaff.Text" xml:space="preserve">
+    <value>Inspection Staff</value>
+  </data>
+  <data name="lblInsured.Text" xml:space="preserve">
+    <value>Insured</value>
+  </data>
+  <data name="lblItemCa.Text" xml:space="preserve">
+    <value>Item Cathegory</value>
+  </data>
+  <data name="lblItemNm.Text" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="lblItemNo.Text" xml:space="preserve">
+    <value>Item No</value>
+  </data>
+  <data name="lblItemVa.Text" xml:space="preserve">
+    <value>Item Value</value>
+  </data>
+  <data name="lblLender.Text" xml:space="preserve">
+    <value>Lender</value>
+  </data>
+  <data name="lblLentPrice.Text" xml:space="preserve">
+    <value>Lending Price</value>
+  </data>
+  <data name="lblMaNm.Text" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="lblManufactureStaff.Text" xml:space="preserve">
+    <value>Manufacture Staff</value>
+  </data>
+  <data name="lblMasterSystem.Text" xml:space="preserve">
+    <value>System Master</value>
+  </data>
+  <data name="lblMaterial.Text" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="lblMaterialCADNm.Text" xml:space="preserve">
+    <value>Material CAD Name</value>
+  </data>
+  <data name="lblMaterialCd.Text" xml:space="preserve">
+    <value>Material Code</value>
+  </data>
+  <data name="lblMaterialNm.Text" xml:space="preserve">
+    <value>Material Name</value>
+  </data>
+  <data name="lblMaterialPrice.Text" xml:space="preserve">
+    <value>Material Price</value>
+  </data>
+  <data name="lblMaterialType.Text" xml:space="preserve">
+    <value>Material type</value>
+  </data>
+  <data name="lblMinimumProcess.Text" xml:space="preserve">
+    <value>Minimum Process</value>
+  </data>
+  <data name="lblMinimumUnit.Text" xml:space="preserve">
+    <value>Minimum Unit</value>
+  </data>
+  <data name="lblModuleTitle_Bank.Text" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="lblModuleTitle_Bill.Text" xml:space="preserve">
+    <value>Bill</value>
+  </data>
+  <data name="lblModuleTitle_MoneyReceipt.Text" xml:space="preserve">
+    <value>Money Receipt</value>
+  </data>
+  <data name="lblModuleTitle_Payment.Text" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="lblModuleTitle_Process.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="lblModuleTitle_TechPrice.Text" xml:space="preserve">
+    <value>Tech Price</value>
+  </data>
+  <data name="lblName_ItemName.Text" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="lblName_Name.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblNoRecord.Text" xml:space="preserve">
+    <value>No record found.</value>
+  </data>
+  <data name="lbLogin.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lblOrderDate.Text" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="lblOrderNo.Text" xml:space="preserve">
+    <value>Order No</value>
+  </data>
+  <data name="lblOsAddress1.Text" xml:space="preserve">
+    <value>Address 1</value>
+  </data>
+  <data name="lblOsAddress2.Text" xml:space="preserve">
+    <value>Address 2</value>
+  </data>
+  <data name="lblOsCd.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblOsContactPerson.Text" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="lblOsFAX.Text" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="lblOsNm.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblOsPostalCd.Text" xml:space="preserve">
+    <value>Postal Cd</value>
+  </data>
+  <data name="lblOsTEL.Text" xml:space="preserve">
+    <value>TEL</value>
+  </data>
+  <data name="lblOtherUnit.Text" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="lblOut.Text" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="lblOutsourceDate.Text" xml:space="preserve">
+    <value>Outsource Date</value>
+  </data>
+  <data name="lblOutsourceLab.Text" xml:space="preserve">
+    <value>Outsourcer</value>
+  </data>
+  <data name="lblOutSourceMaterialPrice.Text" xml:space="preserve">
+    <value>Material Price</value>
+  </data>
+  <data name="lblParameter.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="lblPatient.Text" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="lblPrice.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="lblPriceCd.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblPriceNm.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblPriority.Text" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="lblProductCd.Text" xml:space="preserve">
+    <value>Model Code</value>
+  </data>
+  <data name="lblProductMaker.Text" xml:space="preserve">
+    <value>Material Maker</value>
+  </data>
+  <data name="lblProductNm.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="lblProsthesis.Text" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="lblProsthesisAbbNm.Text" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="lblProsthesisCd.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblProsthesisNm.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblProsthesisReg.Text" xml:space="preserve">
+    <value>Prosthesis Registration</value>
+  </data>
+  <data name="lblProsthesisType.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lblQty.Text" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="lblReceiveDate.Text" xml:space="preserve">
+    <value>Receive Date</value>
+  </data>
+  <data name="lblReceiveEstimateDate.Text" xml:space="preserve">
+    <value>Est. Receive Date</value>
+  </data>
+  <data name="lblRegDate.Text" xml:space="preserve">
+    <value>Register Date</value>
+  </data>
+  <data name="lblRowsPage.Text" xml:space="preserve">
+    <value>Rows/Page</value>
+  </data>
+  <data name="lblShadeFlg.Text" xml:space="preserve">
+    <value>Shade</value>
+  </data>
+  <data name="lblStaff.Text" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="lblStartDate.Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="lblStock.Text" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="lblStump.Text" xml:space="preserve">
+    <value>Stump</value>
+  </data>
+  <data name="lblSupCd.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblSupNm.Text" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="lblSupplier.Text" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="lblSupplierAbbNm.Text" xml:space="preserve">
+    <value>Abbr. Name</value>
+  </data>
+  <data name="lblSupplierAddress1.Text" xml:space="preserve">
+    <value>Supplier Address 1</value>
+  </data>
+  <data name="lblSupplierAddress2.Text" xml:space="preserve">
+    <value>Supplier Address 2</value>
+  </data>
+  <data name="lblSupplierCd.Text" xml:space="preserve">
+    <value>Supplier Code</value>
+  </data>
+  <data name="lblSupplierFAX.Text" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="lblSupplierNm.Text" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="lblSupplierPostalCd.Text" xml:space="preserve">
+    <value>Supplier Postal Code</value>
+  </data>
+  <data name="lblSupplierStaff.Text" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="lblSupplierTEL.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="lblTaxKbn.Text" xml:space="preserve">
+    <value>Tax Class</value>
+  </data>
+  <data name="lblTechCd.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblTechPriceCd.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblTechPriceTitle.Text" xml:space="preserve">
+    <value>Tech Price Maintenance</value>
+  </data>
+  <data name="lblTechPrice_TechPrice.Text" xml:space="preserve">
+    <value>Tech Price</value>
+  </data>
+  <data name="lblTechPrice_TechTemplate.Text" xml:space="preserve">
+    <value>Tech Template</value>
+  </data>
+  <data name="lblTechTitle.Text" xml:space="preserve">
+    <value>Tech Maintenance</value>
+  </data>
+  <data name="lblTerminateDate.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="lblTotalCost.Text" xml:space="preserve">
+    <value>Total Cost</value>
+  </data>
+  <data name="lblTotalStock.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="lblTotalWorkTime.Text" xml:space="preserve">
+    <value>Total WorkTime</value>
+  </data>
+  <data name="lblUnInsured.Text" xml:space="preserve">
+    <value>Uninsured</value>
+  </data>
+  <data name="lblUnit.Text" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="lblUnitCd.Text" xml:space="preserve">
+    <value>Unit Code</value>
+  </data>
+  <data name="lblUnitNm.Text" xml:space="preserve">
+    <value>Unit Name</value>
+  </data>
+  <data name="lblUnitNote.Text" xml:space="preserve">
+    <value>Unit Note</value>
+  </data>
+  <data name="lblUnitPrice.Text" xml:space="preserve">
+    <value>Yen</value>
+  </data>
+  <data name="lblValue.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="lblVo.Text" xml:space="preserve">
+    <value>View Order</value>
+  </data>
+  <data name="lbMale.Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="lbMaterial.Text" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="lbMaterialNm.Text" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="lbNote.Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="lbOfficeCd.Text" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="lbOrderDate.Text" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="lbOrderNo.Text" xml:space="preserve">
+    <value>Order No</value>
+  </data>
+  <data name="lbOrderSeq.Text" xml:space="preserve">
+    <value>Order Seq</value>
+  </data>
+  <data name="lbOutsourceCd.Text" xml:space="preserve">
+    <value>Outsource Code</value>
+  </data>
+  <data name="lbOutsourceLab.Text" xml:space="preserve">
+    <value>OutsourceLab</value>
+  </data>
+  <data name="lbOutsourceNm.Text" xml:space="preserve">
+    <value>Outsource Name</value>
+  </data>
+  <data name="lbPatient.Text" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="lbPatientAge.Text" xml:space="preserve">
+    <value>Patient Age</value>
+  </data>
+  <data name="lbPatientFirstNm.Text" xml:space="preserve">
+    <value>Patient First Name</value>
+  </data>
+  <data name="lbPatientLastNm.Text" xml:space="preserve">
+    <value>Patient Last Name</value>
+  </data>
+  <data name="lbPatientNm.Text" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="lbPatientSex.Text" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="lbPayerCd.Text" xml:space="preserve">
+    <value>Bill Code</value>
+  </data>
+  <data name="lbPaymentAmount.Text" xml:space="preserve">
+    <value>Total Payment Amount</value>
+  </data>
+  <data name="lbPayMentDate.Text" xml:space="preserve">
+    <value>Payment Date</value>
+  </data>
+  <data name="lbPrice.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="lbPrintPerOrder.Text" xml:space="preserve">
+    <value>Print Per Order</value>
+  </data>
+  <data name="lbProcess.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="lbProsthesisNm.Text" xml:space="preserve">
+    <value>Prothesis Name</value>
+  </data>
+  <data name="lbProstheticType.Text" xml:space="preserve">
+    <value>Prosthetic Type</value>
+  </data>
+  <data name="lbResult.Text" xml:space="preserve">
+    <value>result:</value>
+  </data>
+  <data name="lbRowPerPage.Text" xml:space="preserve">
+    <value>rows/page</value>
+  </data>
+  <data name="lbRowsPage.Text" xml:space="preserve">
+    <value>Rows/Page</value>
+  </data>
+  <data name="lbSalesman.Text" xml:space="preserve">
+    <value>Salesman</value>
+  </data>
+  <data name="lbSectionCd.Text" xml:space="preserve">
+    <value>Section Code</value>
+  </data>
+  <data name="lbSeller.Text" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="lbSellerCd.Text" xml:space="preserve">
+    <value>Supplier Code</value>
+  </data>
+  <data name="lbServiceCharge.Text" xml:space="preserve">
+    <value>Total Service Charge</value>
+  </data>
+  <data name="lbSetDate.Text" xml:space="preserve">
+    <value>Completion Date</value>
+  </data>
+  <data name="lbShowTerminate.Text" xml:space="preserve">
+    <value>Show Terminated Materials</value>
+  </data>
+  <data name="lbStaffCd.Text" xml:space="preserve">
+    <value>Staff Code</value>
+  </data>
+  <data name="lbStaffNm.Text" xml:space="preserve">
+    <value>Staff Name</value>
+  </data>
+  <data name="lbStaffNmKana.Text" xml:space="preserve">
+    <value>Staff Name (kana)</value>
+  </data>
+  <data name="lbSum.Text" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="lbSupplierNm.Text" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="lbTechnician.Text" xml:space="preserve">
+    <value>Technician</value>
+  </data>
+  <data name="lbToothNumber.Text" xml:space="preserve">
+    <value>ToothNo</value>
+  </data>
+  <data name="lbTotal.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="lbTotalAmount.Text" xml:space="preserve">
+    <value>Total  Amount</value>
+  </data>
+  <data name="lbTotalPayment.Text" xml:space="preserve">
+    <value>Total Payment</value>
+  </data>
+  <data name="lbType.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lbUnknow.Text" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="lbUserId.Text" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="lbYearMonth.Text" xml:space="preserve">
+    <value>Year Month</value>
+  </data>
+  <data name="Left1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDown8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftDownStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUp8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LeftUpStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MaterialIsExisted.Text" xml:space="preserve">
+    <value>Material already exists.</value>
+  </data>
+  <data name="MaterialPrice.Text" xml:space="preserve">
+    <value>Material Price</value>
+  </data>
+  <data name="mesBorrower.Text" xml:space="preserve">
+    <value>Please select a borrower.</value>
+  </data>
+  <data name="mesBorrowreturn.Text" xml:space="preserve">
+    <value>This Lender has not lent material.</value>
+  </data>
+  <data name="mesCheckBorrowreturn.Text" xml:space="preserve">
+    <value>Borrowed qty less than stock to pay.</value>
+  </data>
+  <data name="mesCheckLeave.Text" xml:space="preserve">
+    <value>Insufficient stock to use.</value>
+  </data>
+  <data name="mesCheckLend.Text" xml:space="preserve">
+    <value>Insufficient stock to lend.</value>
+  </data>
+  <data name="mesCheckLendreturn.Text" xml:space="preserve">
+    <value>Borrower has insufficient stock to return.</value>
+  </data>
+  <data name="mesLeave.Text" xml:space="preserve">
+    <value>No stock to use.</value>
+  </data>
+  <data name="mesLend.Text" xml:space="preserve">
+    <value>No stock to lend.</value>
+  </data>
+  <data name="mesLender.Text" xml:space="preserve">
+    <value>Please select a lender.</value>
+  </data>
+  <data name="mesLendreturn.Text" xml:space="preserve">
+    <value>This Borrower has not borrowed material.</value>
+  </data>
+  <data name="mesNoRecord.Text" xml:space="preserve">
+    <value>No records found.</value>
+  </data>
+  <data name="mesPrice.Text" xml:space="preserve">
+    <value>Please input a price.</value>
+  </data>
+  <data name="mesSuccess.Text" xml:space="preserve">
+    <value>Registration successful!</value>
+  </data>
+  <data name="mesSupplier.Text" xml:space="preserve">
+    <value>Please select a supplier.</value>
+  </data>
+  <data name="ModuleHelp_Banks.Text" xml:space="preserve">
+    <value>Banks</value>
+  </data>
+  <data name="ModuleHelp_Bill.Text" xml:space="preserve">
+    <value>&lt;P&gt;A Bill module</value>
+  </data>
+  <data name="ModuleHelp_BillingStatement.Text" xml:space="preserve">
+    <value>Billing Statement</value>
+  </data>
+  <data name="ModuleHelp_DeliveryStatement.Text" xml:space="preserve">
+    <value>Delivery Statement</value>
+  </data>
+  <data name="ModuleHelp_MaterialPrice.Text" xml:space="preserve">
+    <value>Material Price</value>
+  </data>
+  <data name="ModuleHelp_MoneyReceive.Text" xml:space="preserve">
+    <value>Money Receive</value>
+  </data>
+  <data name="ModuleHelp_OrderInput.Text" xml:space="preserve">
+    <value>Order Input</value>
+  </data>
+  <data name="ModuleHelp_OrderList.Text" xml:space="preserve">
+    <value>Order List</value>
+  </data>
+  <data name="ModuleHelp_OutSourceLab.Text" xml:space="preserve">
+    <value>Outsource Lab</value>
+  </data>
+  <data name="ModuleHelp_Payment.Text" xml:space="preserve">
+    <value>&lt;P&gt;A PayMent module</value>
+  </data>
+  <data name="ModuleHelp_Staff.Text" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="ModuleHelp_StockList.Text" xml:space="preserve">
+    <value>Stock List</value>
+  </data>
+  <data name="ModuleHelp_TechMaster.Text" xml:space="preserve">
+    <value>Tech Master</value>
+  </data>
+  <data name="msDelete.Text" xml:space="preserve">
+    <value>Do you wish to delete?</value>
+  </data>
+  <data name="MSG_AMOUNT_AND_PRIORITY_TRUE.Text" xml:space="preserve">
+    <value>Amount have to be  1 when Priority is selected.</value>
+  </data>
+  <data name="MSG_BRIDGE_TEETH_NOT_SAME_MATERIAL.Text" xml:space="preserve">
+    <value>BridgeID {0} contains differing prosthetic type, material, shape, shade, or anatomy kit.</value>
+  </data>
+  <data name="MSG_CANNOT_DELETE_ONE_ITEM.Text" xml:space="preserve">
+    <value>Cannot delete one item from a group.</value>
+  </data>
+  <data name="MSG_CANNOT_DELETE_STILL_ONE_ITEM.Text" xml:space="preserve">
+    <value>Cannot delete one item from a group.</value>
+  </data>
+  <data name="MSG_CANNOT_FIND_DETAIL.Text" xml:space="preserve">
+    <value>No items for report; cannot find data in database.</value>
+  </data>
+  <data name="MSG_CANNOT_FIND_PROSTHESIS_ABBNM.Text" xml:space="preserve">
+    <value>Can not find prosthesis for abbreviated name '{0}' !</value>
+  </data>
+  <data name="MSG_CANNOT_REMOVE_TOOTH_IN_BRIDGED.Text" xml:space="preserve">
+    <value>Cannot remove/delete a tooth that is a member of a group.</value>
+  </data>
+  <data name="MSG_CANT_DELETE_BILLSTATEMENT.Text" xml:space="preserve">
+    <value>this BillStatement has paid already. please try again after refund</value>
+  </data>
+  <data name="MSG_CAN_NOT_FIND_DATA_FROM_BILL_STATEMENT.Text" xml:space="preserve">
+    <value>Can not locate data from Bill Statement No. '{0}'.</value>
+  </data>
+  <data name="MSG_CAN_NOT_FOUND_MST_BILL.Text" xml:space="preserve">
+    <value>Cannot found BillCd ='{0}' in MstBill data</value>
+  </data>
+  <data name="MSG_CHECK_AT_LEAST_ONE_ITEM.Text" xml:space="preserve">
+    <value>Please select at least one item.</value>
+  </data>
+  <data name="MSG_CHECK_NODE_IN_SAME_GROUP.Text" xml:space="preserve">
+    <value>Make sure the selected nodes are in the same group.</value>
+  </data>
+  <data name="MSG_CHILD_TOOTH_NOT_HAPPEN.Text" xml:space="preserve">
+    <value>Tooth 16, 17, 18, 26, 27, 28, 36, 37, 38, 46, 47, or 48 cannot be child teeth.</value>
+  </data>
+  <data name="MSG_CHOOSE_ROW_IN_GRIDVIEW.Text" xml:space="preserve">
+    <value>Please choose a row.</value>
+  </data>
+  <data name="MSG_CONFIRM_DELETE.Text" xml:space="preserve">
+    <value>Do you wish to delete?</value>
+  </data>
+  <data name="MSG_CONFIRM_GO_ORDER.Text" xml:space="preserve">
+    <value>Have you registered before proceeding to Order Input?</value>
+  </data>
+  <data name="MSG_CONFIRM_GO_PROCESS.Text" xml:space="preserve">
+    <value>Have you registered before proceeding to Process?</value>
+  </data>
+  <data name="MSG_CONFIRM_GO_TECH_PRICE.Text" xml:space="preserve">
+    <value>Have you registered before proceeding to Tech Price?</value>
+  </data>
+  <data name="MSG_CONFIRM_ISSUE.Text" xml:space="preserve">
+    <value>Result contains multiple recipients. Do you wish to print?</value>
+  </data>
+  <data name="MSG_DELETED_ITEM.Text" xml:space="preserve">
+    <value>You have material stock borrowed from this supplier.</value>
+  </data>
+  <data name="MSG_ENDDATE_AND_PRIORITY_TRUE.Text" xml:space="preserve">
+    <value>Before set EndDate to this unit, please leave all stock of this material from MaterialStock</value>
+  </data>
+  <data name="MSG_ERROR_END_DATE_LESS_THAN_START_DATE.Text" xml:space="preserve">
+    <value>End date is before start date.</value>
+  </data>
+  <data name="MSG_ERROR_INPUT_FORMAT_TechPrice.Text" xml:space="preserve">
+    <value>Tech Price is not in the correct format.</value>
+  </data>
+  <data name="MSG_ERROR_INPUT_TECH_CD.Text" xml:space="preserve">
+    <value>Cannot find code in tech price master.</value>
+  </data>
+  <data name="MSG_EXIST_DENTAL_OFFICE_CD.Text" xml:space="preserve">
+    <value>This key exists in the database. Please check the database.</value>
+  </data>
+  <data name="MSG_EXIST_ORDER_NO.Text" xml:space="preserve">
+    <value>This order number already exists. Please choose another.</value>
+  </data>
+  <data name="MSG_EXIST_PROCESS_CD.Text" xml:space="preserve">
+    <value>This key exists in the database. Please check the database.</value>
+  </data>
+  <data name="MSG_EXIST_TECH_CD_AND_START_DATE.Text" xml:space="preserve">
+    <value>This key exists in the database. Please check the database.</value>
+  </data>
+  <data name="MSG_ILLEGAL_CHARS.Text" xml:space="preserve">
+    <value>Contains illegal chars: | , \\ , / , : , * , ? , " , &lt; , &gt;</value>
+  </data>
+  <data name="MSG_INPUT_PROCESS_CODE_NOT_VALID.Text" xml:space="preserve">
+    <value>Invalid process code.</value>
+  </data>
+  <data name="MSG_INPUT_PROCESS_REQUIRED.Text" xml:space="preserve">
+    <value>Please input a process.</value>
+  </data>
+  <data name="MSG_ITEM_NO_GROUP.Text" xml:space="preserve">
+    <value>This item is not in a group.</value>
+  </data>
+  <data name="MSG_MORE_ONE_SELECTED_ITEM.Text" xml:space="preserve">
+    <value>Too many items selected.</value>
+  </data>
+  <data name="MSG_NONE_SELECTED_ITEM_NoItem.Text" xml:space="preserve">
+    <value>No items selected.</value>
+  </data>
+  <data name="MSG_NONE_SELECTED_ITEM_Report.Text" xml:space="preserve">
+    <value>No items for report; can not find data in database.</value>
+  </data>
+  <data name="MSG_NONE_SELECTED_TREE_VIEW_NODE.Text" xml:space="preserve">
+    <value>No selected node to delete.</value>
+  </data>
+  <data name="MSG_NOT_CASE_DELETE.Text" xml:space="preserve">
+    <value>This cannot be deleted.</value>
+  </data>
+  <data name="MSG_NOT_CHOOSE_BRIDGE_GROUP.Text" xml:space="preserve">
+    <value>Cannot save process; please choose bridge group.</value>
+  </data>
+  <data name="MSG_NOT_ENOUGH_STOCK.Text" xml:space="preserve">
+    <value>Insufficient stock.</value>
+  </data>
+  <data name="MSG_NO_STOCK_TO_USE.Text" xml:space="preserve">
+    <value>No stock.</value>
+  </data>
+  <data name="MSG_ONLYONE_PRIORITY_TRUE.Text" xml:space="preserve">
+    <value>Only 1 Unit can be Priority= true in each Material.</value>
+  </data>
+  <data name="MSG_PROCESS_CD_EMPTY.Text" xml:space="preserve">
+    <value>Process Code is a required field.</value>
+  </data>
+  <data name="MSG_REQUIRED_INPUT_DATE_FIELD.Text" xml:space="preserve">
+    <value>{0} must have DateTime Format.</value>
+  </data>
+  <data name="MSG_REQUIRED_INPUT_FIELD.Text" xml:space="preserve">
+    <value>{0} is a required field.</value>
+  </data>
+  <data name="MSG_REQUIRED_INPUT_NUMBER_FIELD.Text" xml:space="preserve">
+    <value>{0} must have Number Format.</value>
+  </data>
+  <data name="MSG_REQUIRED_INPUT_PROSTHESIS.Text" xml:space="preserve">
+    <value>Please input a prosthesis type for tooth {0}</value>
+  </data>
+  <data name="MSG_STAFFCDEXIST.Text" xml:space="preserve">
+    <value>StaffCd is existed !</value>
+  </data>
+  <data name="MSG_UPDATE_SUCESS_Full.Text" xml:space="preserve">
+    <value>Update Sucessful</value>
+  </data>
+  <data name="MSG_UPDATE_SUCESS_Registration.Text" xml:space="preserve">
+    <value>Registration successful!</value>
+  </data>
+  <data name="MSG_WARNING_INPUT.Text" xml:space="preserve">
+    <value>A dentist name or patient name is required for auto linking. Do you wish to continue?</value>
+  </data>
+  <data name="MSG_WARN_CHOOSE_MATERIAL.Text" xml:space="preserve">
+    <value>Please choose another material for Tooth Detail Name '{0}' because the materal no longer exists after changing the order date.</value>
+  </data>
+  <data name="MSG_WARN_MULTI_BILL_CD.Text" xml:space="preserve">
+    <value>Result contains multiple recipients.</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NODE_TOOTH_GROUP.Text" xml:space="preserve">
+    <value>Node Teeth Group </value>
+  </data>
+  <data name="NODE_TOOTH_NUMBER.Text" xml:space="preserve">
+    <value>Node Tooth Number {0}</value>
+  </data>
+  <data name="NoRecordFound.Text" xml:space="preserve">
+    <value>No records found.</value>
+  </data>
+  <data name="NotData.Text" xml:space="preserve">
+    <value>Invalid data.</value>
+  </data>
+  <data name="Note.Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="NoteRe.Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="NumberOnly.Text" xml:space="preserve">
+    <value>Please enter only numeric characters.</value>
+  </data>
+  <data name="optInternal.Text" xml:space="preserve">
+    <value>Internal</value>
+  </data>
+  <data name="optOutsource.Text" xml:space="preserve">
+    <value>Outsource</value>
+  </data>
+  <data name="OrderList.String" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="Parts.Text" xml:space="preserve">
+    <value>Parts</value>
+  </data>
+  <data name="Patient.Text" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="PostalCd.Text" xml:space="preserve">
+    <value>Please enter Postalcode format is "nnn-nnnn" in Japan</value>
+  </data>
+  <data name="PreviousPaymentDate.Text" xml:space="preserve">
+    <value>Previous Payment Date</value>
+  </data>
+  <data name="Price.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Process.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="ProcessforProsthesis.Text" xml:space="preserve">
+    <value>Process Template</value>
+  </data>
+  <data name="ProcessPrice.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="Prosthesis.Text" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="Prosthesis_Material.Text" xml:space="preserve">
+    <value>Prosthesis/Material</value>
+  </data>
+  <data name="PurchaseItem.Text" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="radioInsuranceFalse.Text" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="radioInsuranceTrue.Text" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="rbDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="rbNewIssue.Text" xml:space="preserve">
+    <value>New Issue</value>
+  </data>
+  <data name="rbReissue.Text" xml:space="preserve">
+    <value>Re-issue</value>
+  </data>
+  <data name="rbReissueDelete.Text" xml:space="preserve">
+    <value>Re-issue/Delete</value>
+  </data>
+  <data name="rbtnBorrow.Text" xml:space="preserve">
+    <value>Borrow</value>
+  </data>
+  <data name="rbtnBorrowReturn.Text" xml:space="preserve">
+    <value>Borrow return</value>
+  </data>
+  <data name="rbtnBuy.Text" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="rbtnLeave.Text" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="rbtnLend.Text" xml:space="preserve">
+    <value>Lend</value>
+  </data>
+  <data name="rbtnLendReturn.Text" xml:space="preserve">
+    <value>Lend return</value>
+  </data>
+  <data name="RegValidationCommnet.Text" xml:space="preserve">
+    <value>hahahahaha</value>
+  </data>
+  <data name="regValidationMaCd.Text" xml:space="preserve">
+    <value>Please enter only numeric characters for Material Code.</value>
+  </data>
+  <data name="regVaPrice.Text" xml:space="preserve">
+    <value>Please enter only numeric characters.</value>
+  </data>
+  <data name="Remake.Text" xml:space="preserve">
+    <value>Rework</value>
+  </data>
+  <data name="REPORT_AccountStatementTitle.Text" xml:space="preserve">
+    <value>Billing Statement</value>
+  </data>
+  <data name="REPORT_AccountStatementTitleCopy.Text" xml:space="preserve">
+    <value>Billing Statement (Copy)</value>
+  </data>
+  <data name="REPORT_AdditionReceiveMaterial.Text" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="REPORT_BankInfomation.Text" xml:space="preserve">
+    <value>Please remit to the following account:</value>
+  </data>
+  <data name="REPORT_BillPage.Text" xml:space="preserve">
+    <value>Bill Page</value>
+  </data>
+  <data name="REPORT_CarryOver.Text" xml:space="preserve">
+    <value>Carryover</value>
+  </data>
+  <data name="REPORT_CarryOverMaterial.Text" xml:space="preserve">
+    <value>Carryover</value>
+  </data>
+  <data name="REPORT_Discount.Text" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="REPORT_LastMonth.Text" xml:space="preserve">
+    <value>Prev. Month</value>
+  </data>
+  <data name="REPORT_Material.Text" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="REPORT_MaterialPrice.Text" xml:space="preserve">
+    <value>Material Price</value>
+  </data>
+  <data name="REPORT_NmDelete.Text" xml:space="preserve">
+    <value>-delete</value>
+  </data>
+  <data name="REPORT_NmReissue.Text" xml:space="preserve">
+    <value>-reissue</value>
+  </data>
+  <data name="REPORT_Purchase.Text" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="REPORT_RestOfReceivedMaterial.Text" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="REPORT_StatusTitle_DELETE.Text" xml:space="preserve">
+    <value>[DELETE]</value>
+  </data>
+  <data name="REPORT_StatusTitle_REISSUE.Text" xml:space="preserve">
+    <value>[RE-ISSUE]</value>
+  </data>
+  <data name="REPORT_SumPurchase.Text" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="REPORT_Tax.Text" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="REPORT_TechPrice.Text" xml:space="preserve">
+    <value>Tech Price</value>
+  </data>
+  <data name="Report_True.Text" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="REPORT_UserAccount.Text" xml:space="preserve">
+    <value>Used</value>
+  </data>
+  <data name="reqStartDate.Text" xml:space="preserve">
+    <value>Please select a start date.</value>
+  </data>
+  <data name="reqTechCd.Text" xml:space="preserve">
+    <value>Please input a tech code.</value>
+  </data>
+  <data name="reqTechNm.Text" xml:space="preserve">
+    <value>Please input a tech name.</value>
+  </data>
+  <data name="require.Text" xml:space="preserve">
+    <value>Please enter a value.</value>
+  </data>
+  <data name="requireField.ErrorMessage" xml:space="preserve">
+    <value>Please enter a value.</value>
+  </data>
+  <data name="requireField.ErrorMessage1" xml:space="preserve">
+    <value>UserName is a required field.</value>
+  </data>
+  <data name="req_UnitName.ErrorMessage" xml:space="preserve">
+    <value>Unit Name is a required field.</value>
+  </data>
+  <data name="reVaMaterialCd.Text" xml:space="preserve">
+    <value>Please select a material.</value>
+  </data>
+  <data name="reVaQty.Text" xml:space="preserve">
+    <value>Please enter only numeric characters for Quantity.</value>
+  </data>
+  <data name="RightDown1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDown8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightDownStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUp8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RightUpStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="rqPrice.ErrorMessage" xml:space="preserve">
+    <value>Price is a required field.</value>
+  </data>
+  <data name="rqPriority.ErrorMessage" xml:space="preserve">
+    <value>Priority is a required field.</value>
+  </data>
+  <data name="SellerNm.Text" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="ServiceCharge.Text" xml:space="preserve">
+    <value>Service Charge</value>
+  </data>
+  <data name="SEX_FEMALE.Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="SEX_MALE.Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Sign.Text" xml:space="preserve">
+    <value>Ins</value>
+  </data>
+  <data name="StaffCodeEmpty.Text" xml:space="preserve">
+    <value>Staff Code is a required field.</value>
+  </data>
+  <data name="StaffNameIsRequired.Text" xml:space="preserve">
+    <value>Staff Name is a required field.</value>
+  </data>
+  <data name="StockAmount.Text" xml:space="preserve">
+    <value>Stock exists for this material.</value>
+  </data>
+  <data name="success.Text" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Sum.Text" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="SumRe.Text" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="Tax.Text" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="TechnicalPrice.Text" xml:space="preserve">
+    <value>Technical Price</value>
+  </data>
+  <data name="TechPrice.Text" xml:space="preserve">
+    <value>Tech Price</value>
+  </data>
+  <data name="TitleBillCd.Text" xml:space="preserve">
+    <value>Bill Code</value>
+  </data>
+  <data name="TitleBillIssueDate.Text" xml:space="preserve">
+    <value>Issue Date</value>
+  </data>
+  <data name="TitleBillStataMentNo.Text" xml:space="preserve">
+    <value>Bill Statament No</value>
+  </data>
+  <data name="TitleCurrentBillSumPrice.Text" xml:space="preserve">
+    <value>Current Sum Price</value>
+  </data>
+  <data name="TitleCurrentPaidMoney.Text" xml:space="preserve">
+    <value>Current Paid Money</value>
+  </data>
+  <data name="TitleCurrentPayDate.Text" xml:space="preserve">
+    <value>Current Pay Date</value>
+  </data>
+  <data name="TitleCurrentPrice.Text" xml:space="preserve">
+    <value>Current Price</value>
+  </data>
+  <data name="TitleCurrentSumPrice.Text" xml:space="preserve">
+    <value>Current Sum Price</value>
+  </data>
+  <data name="TitleDentalOfficeCd.Text" xml:space="preserve">
+    <value>Payer Code</value>
+  </data>
+  <data name="TitleDentalOfficeNm.Text" xml:space="preserve">
+    <value>Billing Recipients</value>
+  </data>
+  <data name="TitlePayAmount.Text" xml:space="preserve">
+    <value>Payment Amount</value>
+  </data>
+  <data name="TitlePayDate.Text" xml:space="preserve">
+    <value>Last Pay Date</value>
+  </data>
+  <data name="TitlePreviousPaidMoney.Text" xml:space="preserve">
+    <value>Previously Paid Amt</value>
+  </data>
+  <data name="TitlePreviousSumPrice.Text" xml:space="preserve">
+    <value>Previous Sum Price</value>
+  </data>
+  <data name="TitleResults.Text" xml:space="preserve">
+    <value>result: </value>
+  </data>
+  <data name="TitleSubtractFee.Text" xml:space="preserve">
+    <value>Service Charge</value>
+  </data>
+  <data name="TitleSumPayAmount.Text" xml:space="preserve">
+    <value>Total Payment</value>
+  </data>
+  <data name="TITLE_CONFIRM.Text" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Title_Error.Text" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="TITLE_INFO.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Title_Input_Name.Text" xml:space="preserve">
+    <value>Please input a name.</value>
+  </data>
+  <data name="Title_Input_Name_Or_Date.Text" xml:space="preserve">
+    <value>Please input a name or date.</value>
+  </data>
+  <data name="Title_InventoryRegister.Text" xml:space="preserve">
+    <value>Inventory register</value>
+  </data>
+  <data name="Title_MasterItem.Text" xml:space="preserve">
+    <value>Master Item</value>
+  </data>
+  <data name="Title_MaterialPrice.Text" xml:space="preserve">
+    <value>Material Price</value>
+  </data>
+  <data name="Title_OutsourceLab.Text" xml:space="preserve">
+    <value>Outsource Lab</value>
+  </data>
+  <data name="Title_PayMentAmount_Less_Than_Billing_Amount.Text" xml:space="preserve">
+    <value>Payment amount exceeds balance.</value>
+  </data>
+  <data name="Title_Same_Key_BankCode.Text" xml:space="preserve">
+    <value>This Bank Code already exists.</value>
+  </data>
+  <data name="Title_Same_Key_BillCode.Text" xml:space="preserve">
+    <value>The duplicate Bill Code value!</value>
+  </data>
+  <data name="Title_Same_Key_ProthesisCode.Text" xml:space="preserve">
+    <value>This prosthesis code already exists.</value>
+  </data>
+  <data name="Title_StockList.Text" xml:space="preserve">
+    <value>Stock list</value>
+  </data>
+  <data name="TittleSelcetCheck.Text" xml:space="preserve">
+    <value>Please select an item.</value>
+  </data>
+  <data name="Trial.Text" xml:space="preserve">
+    <value>Trial</value>
+  </data>
+  <data name="True.Text" xml:space="preserve">
+    <value>✔</value>
+  </data>
+  <data name="txtApplyDate.Text" xml:space="preserve">
+    <value>Apply Date</value>
+  </data>
+  <data name="txtTerminateDate.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="TypeofStatement.Text" xml:space="preserve">
+    <value>Type of Statement</value>
+  </data>
+  <data name="UnInsured.Text" xml:space="preserve">
+    <value>UnInsured</value>
+  </data>
+  <data name="Up1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Up8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpA.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpB.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpC.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpD.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpE.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UPNotSquential.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpStumpFlg8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="valDisplayOrder.Text" xml:space="preserve">
+    <value>Display order type is a required field.</value>
+  </data>
+  <data name="valNumbersOnly.ErrorMessage" xml:space="preserve">
+    <value>Please enter only numeric characters.</value>
+  </data>
+  <data name="valNumbersOnly_SupplierCd.ErrorMessage" xml:space="preserve">
+    <value>Please enter only numeric characters.</value>
+  </data>
+  <data name="valRequiredDentalOffice.Text" xml:space="preserve">
+    <value>Please select a dental office.</value>
+  </data>
+  <data name="valRequired_BillCd.Text" xml:space="preserve">
+    <value>Billing Recipient is required field.</value>
+  </data>
+  <data name="valRequired_DentalOfficeCd_DentalOffice.Text" xml:space="preserve">
+    <value>Please select a dental office.</value>
+  </data>
+  <data name="valRequired_DentalOfficeCd_DentalOfficeCd.Text" xml:space="preserve">
+    <value>Please enter only numeric characters for Dental Office Code.</value>
+  </data>
+  <data name="valRequired_DentalOfficeCd_OfficeCd.Text" xml:space="preserve">
+    <value>Please enter numeric characters only for Office Code.</value>
+  </data>
+  <data name="valRequired_DentalOfficeNm.Text" xml:space="preserve">
+    <value>Dental Office Name is a required field.</value>
+  </data>
+  <data name="valRequired_IssueDate.ErrorMessage" xml:space="preserve">
+    <value>Please enter a value.</value>
+  </data>
+  <data name="valRequired_LentPrice.ErrorMessage" xml:space="preserve">
+    <value>Please enter Lent Price!</value>
+  </data>
+  <data name="valRequired_MaterialCADNm.ErrorMessage" xml:space="preserve">
+    <value>Material CAD Name is a required field.</value>
+  </data>
+  <data name="valRequired_MaterialCd.ErrorMessage" xml:space="preserve">
+    <value>Material Code is a required field.</value>
+  </data>
+  <data name="valRequired_MaterialNm.ErrorMessage" xml:space="preserve">
+    <value>Material Name is a required field.</value>
+  </data>
+  <data name="valRequired_MinimumProcess.Text" xml:space="preserve">
+    <value>Minimum Process is a required field.</value>
+  </data>
+  <data name="valRequired_Parameter.ErrorMessage" xml:space="preserve">
+    <value>Please enter a parameter.</value>
+  </data>
+  <data name="valRequired_ProcessCd.Text" xml:space="preserve">
+    <value>Please enter only numeric characters for Process Code.</value>
+  </data>
+  <data name="valRequired_ProcessNm.Text" xml:space="preserve">
+    <value>Process Name is a required field.</value>
+  </data>
+  <data name="valRequired_ProsthesisAbbNm.Text" xml:space="preserve">
+    <value>Abbreviated name is a required field.</value>
+  </data>
+  <data name="valRequired_ProsthesisNm.ErrorMessage" xml:space="preserve">
+    <value>Prosthesis name is a required field.</value>
+  </data>
+  <data name="valRequired_ProsthesisType.Text" xml:space="preserve">
+    <value>Prosthesis type is a required field.</value>
+  </data>
+  <data name="valRequired_StartDate.Text" xml:space="preserve">
+    <value>Please use date format only.</value>
+  </data>
+  <data name="valRequired_SupplierAbbNm.ErrorMessage" xml:space="preserve">
+    <value>Abbr. Name is a required field.</value>
+  </data>
+  <data name="valRequired_SupplierCd.ErrorMessage" xml:space="preserve">
+    <value>Supplier Code is a required field.</value>
+  </data>
+  <data name="valRequired_TechCd.Text" xml:space="preserve">
+    <value>Please enter only numeric characters for Tech Code.</value>
+  </data>
+  <data name="valRequired_TechGroup.Text" xml:space="preserve">
+    <value>Please enter a number or NULL only for Tech Group.</value>
+  </data>
+  <data name="valRequired_TechNm.Text" xml:space="preserve">
+    <value>Tech Name is a required field.</value>
+  </data>
+  <data name="valRequired_TechPrice.Text" xml:space="preserve">
+    <value>Please enter a tech price.</value>
+  </data>
+  <data name="valRequired_TranferDays.Text" xml:space="preserve">
+    <value>Please enter a number or NULL only for Transfer Day.</value>
+  </data>
+  <data name="valRequired_Value.ErrorMessage" xml:space="preserve">
+    <value>Please enter a value.</value>
+  </data>
+  <data name="Val_RegMaxlength.Text" xml:space="preserve">
+    <value>More than 100 comment characters.</value>
+  </data>
+  <data name="Val_ReqDateTime.Text" xml:space="preserve">
+    <value>Please input date.</value>
+  </data>
+  <data name="WrongUser.Text" xml:space="preserve">
+    <value>Wrong User !</value>
+  </data>
+  <data name="lbChkAvailable.Text" xml:space="preserve">
+    <value>Show terminated tax</value>
+  </data>
+  <data name="lbDentalEndDate.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="lbDentalRoundFraction.Text" xml:space="preserve">
+    <value>Round Fraction</value>
+  </data>
+  <data name="lbDentalStartDate.Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="lbDentalTaxCd.Text" xml:space="preserve">
+    <value>Tax Code</value>
+  </data>
+  <data name="lbDentalTaxRate.Text" xml:space="preserve">
+    <value>Tax Rate</value>
+  </data>
+  <data name="lblModuleTitle.Text" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;P&gt;A Tax module</value>
+  </data>
+  <data name="MSG_NONE_SELECTED_ITEM.Text" xml:space="preserve">
+    <value>NONE SELECTED ITEM</value>
+  </data>
+  <data name="StartDateEmpty.Text" xml:space="preserve">
+    <value>Please enter Start Date!</value>
+  </data>
+  <data name="TaxCodeEmpty.Text" xml:space="preserve">
+    <value>Please enter Tax Code!</value>
+  </data>
+  <data name="TaxRateDoubleOnly.Text" xml:space="preserve">
+    <value>Please enter a numbers double only in text box!</value>
+  </data>
+  <data name="TaxRateEmpty.Text" xml:space="preserve">
+    <value>Please enter Tax Rate!</value>
+  </data>
+  <data name="TitleConclusion.Text" xml:space="preserve">
+    <value>Conclusion</value>
+  </data>
+  <data name="TitleRounded.Text" xml:space="preserve">
+    <value>Rounded</value>
+  </data>
+  <data name="TitleTruncation.Text" xml:space="preserve">
+    <value>Truncation</value>
+  </data>
+  <data name="Title_Error_Date.Text" xml:space="preserve">
+    <value>Start Date must be less than End Date</value>
+  </data>
+  <data name="Title_Error_Start_Date.Text" xml:space="preserve">
+    <value>Please enter Start Date!</value>
+  </data>
+  <data name="Title_Same_Key.Text" xml:space="preserve">
+    <value>The duplicate Tax Code value!</value>
+  </data>
+  <data name="ReqStandardTechPrice.Text" xml:space="preserve">
+    <value>Please input a standard tech price.</value>
+  </data>
+  <data name="DentalFont.Text" xml:space="preserve">
+    <value>Download Dental Font</value>
+  </data>
+  <data name="PriceUsing.Text" xml:space="preserve">
+    <value>You can't delete because material master price using</value>
+  </data>
+  <data name="UnitUsing.Text" xml:space="preserve">
+    <value>You can't delete because master unit using </value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="cbRememberMe.Text" xml:space="preserve">
+    <value>Keep me logged in</value>
+  </data>
+  <data name="lblPopUpPassWord.Text" xml:space="preserve">
+    <value>PassWord</value>
+  </data>
+  <data name="lblPopUpUserName.Text" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="lblTiltePopUpLogin.Text" xml:space="preserve">
+    <value>User Login</value>
+  </data>
+  <data name="lBtnLogout.Text" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="LoginFail.Text" xml:space="preserve">
+    <value>Login Failed. Please remember that passwords are case sensitive</value>
+  </data>
+  <data name="Menu_Accounting.Text" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="Menu_Banks.Text" xml:space="preserve">
+    <value>Banks</value>
+  </data>
+  <data name="Menu_BillingRecipients.Text" xml:space="preserve">
+    <value>Billing Recipients</value>
+  </data>
+  <data name="Menu_DeliveryStatements.Text" xml:space="preserve">
+    <value>Delivery Statements</value>
+  </data>
+  <data name="Menu_DentalClinics.Text" xml:space="preserve">
+    <value>Dental Clinics</value>
+  </data>
+  <data name="Menu_Deposits.Text" xml:space="preserve">
+    <value>Deposits</value>
+  </data>
+  <data name="Menu_Invoices.Text" xml:space="preserve">
+    <value>Invoices</value>
+  </data>
+  <data name="Menu_Items.Text" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="Menu_ManageStock.Text" xml:space="preserve">
+    <value>Manage Stock</value>
+  </data>
+  <data name="Menu_ManageUsers.Text" xml:space="preserve">
+    <value>Manage Users</value>
+  </data>
+  <data name="Menu_Master.Text" xml:space="preserve">
+    <value>Master</value>
+  </data>
+  <data name="Menu_Materials.Text" xml:space="preserve">
+    <value>Materials</value>
+  </data>
+  <data name="Menu_Offices.Text" xml:space="preserve">
+    <value>Offices</value>
+  </data>
+  <data name="Menu_OrderRegistration.Text" xml:space="preserve">
+    <value>Order Registration</value>
+  </data>
+  <data name="Menu_Orders.Text" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="Menu_Outsources.Text" xml:space="preserve">
+    <value>Outsources</value>
+  </data>
+  <data name="Menu_Payments.Text" xml:space="preserve">
+    <value>Payments</value>
+  </data>
+  <data name="Menu_Processes.Text" xml:space="preserve">
+    <value>Processes</value>
+  </data>
+  <data name="Menu_Prosthetics.Text" xml:space="preserve">
+    <value>Prosthetics</value>
+  </data>
+  <data name="Menu_RegisterUsers.Text" xml:space="preserve">
+    <value>Register Users</value>
+  </data>
+  <data name="Menu_Sale.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="Menu_Staffs.Text" xml:space="preserve">
+    <value>Staffs</value>
+  </data>
+  <data name="Menu_Stock.Text" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="Menu_Suppliers.Text" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="Menu_System.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Menu_Tax.Text" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="Menu_TechPrice.Text" xml:space="preserve">
+    <value>Tech Price</value>
+  </data>
+  <data name="Menu_User.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="ButtonSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Approve.Text" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Aprroved.Text" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="cbxOnlineUser.Text" xml:space="preserve">
+    <value>Online users</value>
+  </data>
+  <data name="Disapprove.Text" xml:space="preserve">
+    <value>Disapprove</value>
+  </data>
+  <data name="Email.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="CompValidatorPassWord.Text" xml:space="preserve">
+    <value>The Passwords do not match</value>
+  </data>
+  <data name="lblConfirmPassWord.Text" xml:space="preserve">
+    <value>Confirm PassWord</value>
+  </data>
+  <data name="RegisterUserFail.Text" xml:space="preserve">
+    <value>Duplicate User!</value>
+  </data>
+  <data name="RegisterUserSuccess.Text" xml:space="preserve">
+    <value>Registration User successful!</value>
+  </data>
+  <data name="RegValidatorEmail.Text" xml:space="preserve">
+    <value>You must enter a valid email address</value>
+  </data>
+  <data name="RegValidatorPassWordLenght.Text" xml:space="preserve">
+    <value>Passwords must be at least 7 characters in length</value>
+  </data>
+  <data name="RegValidatorUserLenght.Text" xml:space="preserve">
+    <value>UserName not be longer than 20 characters</value>
+  </data>
+  <data name="ReqValidatorEmail.Text" xml:space="preserve">
+    <value>Email is required</value>
+  </data>
+  <data name="ReqValidatorPassWord.Text" xml:space="preserve">
+    <value>You must provide a password</value>
+  </data>
+  <data name="ReqValidatorPassWordConfirm.Text" xml:space="preserve">
+    <value>You must provide a password confirmation</value>
+  </data>
+  <data name="ReqValidatorUserName.Text" xml:space="preserve">
+    <value>User name is required</value>
+  </data>
+  <data name="ChangePassSuccess.Text" xml:space="preserve">
+    <value>Change User password success</value>
+  </data>
+  <data name="lblNewPassWord.Text" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="lblOldPassWord.Text" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="ChangePassFail.Text" xml:space="preserve">
+    <value>Change User password fail</value>
+  </data>
+  <data name="ChangePassWord.Text" xml:space="preserve">
+    <value>Change User PassWord</value>
+  </data>
+  <data name="lbMember.Text" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="lbOfficeChief.Text" xml:space="preserve">
+    <value>OfficeChief</value>
+  </data>
+  <data name="valRequired_SupplierNm.ErrorMessage" xml:space="preserve">
+    <value>Name is a required field.</value>
+  </data>
+  <data name="msDisapproveAccount.Text" xml:space="preserve">
+    <value>Do you wish to {0} account {1}</value>
+  </data>
+  <data name="msResetPassword.Text" xml:space="preserve">
+    <value>Do you wish to reset password for account {0}</value>
+  </data>
+  <data name="msResetPasswordDetail.Text" xml:space="preserve">
+    <value>New password for account {0}: {1}</value>
+  </data>
+  <data name="msResetPasswordFail.Text" xml:space="preserve">
+    <value>Reset password fail!</value>
+  </data>
+  <data name="msResetPasswordSuccess.Text" xml:space="preserve">
+    <value>Reset password successful!</value>
+  </data>
+  <data name="ResetPassword.Text" xml:space="preserve">
+    <value>Reset password</value>
+  </data>
+</root>

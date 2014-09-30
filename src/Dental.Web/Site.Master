@@ -1,0 +1,236 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+<%@ Register src="~/UCLogin.ascx" tagname="Login" tagprefix="uc1" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+
+    <link href="Styles/Flexiweb-DarkBlue/skin.css" type="text/css" rel="Stylesheet" />
+    <link rel="stylesheet" type="text/css" href="Styles/menu/css/menu.css" />
+    <link rel="stylesheet" href="Styles/grid.css" />
+    <link rel="stylesheet" href="Styles/form.css" />
+    <link rel="Stylesheet" href="Styles/Paging/simplePagination.css"/>
+    <script type="text/javascript" src="Scripts/PopupCalendar.js"> </script>
+    <script type="text/javascript" src="Scripts/jquery-1.4.1.js" ></script>
+
+    
+    <link href="Styles/PopupLogin/style/style.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="Styles/PopupLogin/js/script.js"></script> 
+    <script type="text/javascript" src="Scripts/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.easyui.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#toPopup').draggable();
+          
+        });
+		</script>
+
+</head>
+<body style="background-color:#E8E8E8">
+    <form id="form1" runat="server" style="height: auto; min-height: 100% ;background-color:white" class="fix_width">
+        <div class="fix_width" id="Wallpaper">
+         <%--<div id="skin_header" class="clearafter">
+                <div class="logo_style">
+                    <a id="dnn_dnnLOGO_hypLogo" title="Dental Support Portal" href="Default.aspx">
+                        <img id="dnn_dnnLOGO_imgLogo"
+                            src="Styles/Flexiweb-DarkBlue/images/h1-philosophy1.gif"
+                            alt="Dental Support Portal"
+                            style="border-width: 0px; height: 87px; width: 953px;" /></a>
+                </div>
+                <div class="headerp_style">
+                    <div id="dnn_HeaderPane" class="headerpane DNNEmptyPane"></div>
+                </div>
+            </div>--%>
+            <asp:Image ID="ImageHeader" runat="server" />
+            <!-------------main menu-------------->
+            <div class="menu_top"></div>
+            <div id="skin_menu" class="clearafter">
+                <div class="menu_style">
+                    <!-- DDRmenu v02.00.01 - StandardMenu-DarkBlue template -->
+
+                    <div class="container">
+
+                        <ul id="nav">
+
+                            <asp:Panel ID="panelMenuSale" runat="server" Visible="true">
+                                <li><a class="hsubs" href="#"><asp:Label ID="lblMenuSale" runat="server" Text="Sale"></asp:Label></a>
+                                    <ul class="subs">
+                                        <asp:Panel runat="server" ID="panelMenuOrders" Visible="true"><li><a href="OrderList.aspx"><asp:Label ID="lblMenuOrders" runat=server Text="Orders"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuOrderRegistration" Visible="true"><li><a href="OrderInput.aspx"><asp:Label ID="lblMenuOrderRegistration" runat=server Text="Order Registration"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuDeliveryStatements" Visible="true"><li><a href="DeliverStatement.aspx"><asp:Label ID="lblMenuDeliveryStatements" runat=server Text="Delivery Statements"></asp:Label></a></li></asp:Panel>
+                                        
+                                    </ul>
+                                </li>
+                            </asp:Panel>
+
+                            <asp:Panel ID="panelMenuAccounting" runat="server" Visible="true">
+                                <li>
+                                    <a href='#' class="hsubs"><asp:Label runat="server" ID="lblMenuAccounting" Text="Accounting"></asp:Label></a>
+                                     <ul class="subs">
+                                        <asp:Panel runat="server" ID="panelMenuInvoices" Visible="true"><li><a href="BillStatement.aspx"><asp:Label runat="server" ID="lblMenuInvoices" Text="Invoices"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuDeposits" Visible="true"><li><a href="Deposits.aspx"><asp:Label runat="server" ID="lblMenuDeposits" Text="Deposits"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuPayments" Visible="true"><li><a href="Payments.aspx"><asp:Label runat="server" ID="lblMenuPayments" Text="Payments"></asp:Label></a></li></asp:Panel>
+                                     </ul>
+                                </li>                                                 
+                            </asp:Panel>
+
+
+                            <asp:Panel runat="server" ID="panelMenuStock" Visible="true">
+                                <li>
+                                    <a href='#' class="hsubs"><asp:Label runat="server" ID="lblMenuStock" Text="Stock"></asp:Label></a>
+                                     <ul class="subs">
+                                        <asp:Panel runat="server" ID="panelMenuManageStock" Visible="true"><li><a href="ManageStock.aspx"><asp:Label runat="server" ID="lblMenuManageStock" Text="Manage Stock"></asp:Label></a></li></asp:Panel>
+                                     </ul>
+                                </li>
+                            </asp:Panel>
+
+
+                            <asp:Panel runat="server" ID="panelMenuMaster" Visible="true">
+                                <li>
+                                    <a class="hsubs" href='#'><asp:Label runat="server" ID="lblMenuMaster" Text="Master"></asp:Label></a>
+                                    <ul class="subs">
+
+                                        <asp:Panel runat="server" ID="panelMenuDentalClinics" Visible="true"><li><a href="MstDentalOffice.aspx"><asp:Label runat="server" ID="lblMenuDentalClinics" Text="Dental Clinics"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuProsthetics" Visible="true"><li><a href="MstProsthesis.aspx"><asp:Label runat="server" ID="lblMenuProsthetics" Text="Prosthetics"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuMaterials" Visible="true"><li><a href="MstMaterial.aspx"><asp:Label runat="server" ID="lblMenuMaterials" Text="Materials"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuSuppliers" Visible="true"><li><a href="MstSupplier.aspx"><asp:Label runat="server" ID="lblMenuSuppliers" Text="Suppliers"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuProcesses" Visible="true"><li><a href="MstProcess.aspx"><asp:Label runat="server" ID="lblMenuProcesses" Text="Processes"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuBillingRecipients" Visible="true"><li><a href="MstBill.aspx"><asp:Label runat="server" ID="lblMenuBillingRecipients" Text="Billing Recipients"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuBanks" Visible="true"><li><a href="MstBank.aspx"><asp:Label runat="server" ID="lblMenuBanks" Text="Banks"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuOutsources" Visible="true"><li><a href="MstOutSourceLab.aspx"><asp:Label runat="server" ID="lblMenuOutsources" Text="Outsources"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuTechPrice" Visible="true"><li><a href="MstTech.aspx"><asp:Label runat="server" ID="lblMenuTechPrice" Text="Tech Price"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuOffices" Visible="true"><li><a href="MstOffice.aspx"><asp:Label runat="server" ID="lblMenuOffices" Text="Offices"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuSystem" Visible="true"><li><a href="MstSystem.aspx"><asp:Label runat="server" ID="lblMenuSystem" Text="System"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuItems" Visible="true"><li><a href="MstItem.aspx"><asp:Label runat="server" ID="lblMenuItems" Text="Items"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuTax" Visible="true"><li><a href="MstTax.aspx"><asp:Label runat="server" ID="lblMenuTax" Text="Tax"></asp:Label></a></li></asp:Panel>
+                                       
+                                    </ul>
+                                </li>
+                            </asp:Panel>
+
+                            <asp:Panel runat="server" ID="panelMenuUsers" Visible="true">
+                                <li>
+                                    <a href='#'><asp:Label runat="server" ID="lblMenuUser" Text="Users"></asp:Label></a>
+                                    <ul class="subs">
+                                        <asp:Panel runat="server" ID="panelMenuManageUsers" Visible="true"><li><a href="ManageUser.aspx"><asp:Label runat="server" ID="lblMenuManageUsers" Text="Manage Users"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuRegisterUsers" Visible="true"><li><a href="Register.aspx"><asp:Label runat="server" ID="lblMenuRegisterUsers" Text="Register Users"></asp:Label></a></li></asp:Panel>
+                                        <asp:Panel runat="server" ID="panelMenuStaffs" Visible="true"><li><a href="Staffs.aspx"><asp:Label runat="server" ID="lblMenuStaffs" Text="Staffs"></asp:Label></a></li></asp:Panel>
+                                     </ul>
+                                </li>
+                            </asp:Panel>
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+                <!---------------------login------------------>
+                <div class="user_style" >
+
+                    <!--close registerGroup-->
+                    <asp:HyperLink ID="lblUserName" runat="server" Text="Label" Visible=False 
+                        style="font-size:12px" NavigateUrl="~/ChangePassword.aspx"></asp:HyperLink>&nbsp;&nbsp;|&nbsp;&nbsp;<asp:LinkButton ID="lBtnLogout" runat="server" Text="Logout" style="font-size:12px"
+                        onclick="lBtnLogout_Click"></asp:LinkButton> <asp:LinkButton ID="lBtnLogin" 
+                        runat="server" Text="Login" style="font-size:12px" 
+                        onclick="lBtnLogin_Click" ></asp:LinkButton>
+                    
+                <!------------close loginGroup-->
+
+                </div>
+                <div class="menu_right">
+                    <div class="search_left">
+                        <div class="search_style">
+                            <div class="search_bg">
+                                <asp:DropDownList ID="cboOfficeName" runat="server" Height="23px" Width="160px" 
+                                    onselectedindexchanged="cboOfficeName_SelectedIndexChanged" AutoPostBack = "true" >
+                                </asp:DropDownList>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------end mainmenu------------->
+
+            <!---------under menu----------------->
+            <div id="under_menu" class="clearafter">
+                <div class="breadcrumb_style" style="position:absolute; padding-left:10px">
+                    <span id="dnn_dnnBREADCRUMB_lblBreadCrumb"><a href="Default.aspx" class="Breadcrumb">
+                    <asp:HyperLink ID="hplLinkTitle" runat = "server" Font-Size="Small" 
+                        ForeColor="Black"></asp:HyperLink></a></span>
+
+                </div>
+                <div class="language_style">
+                    <div class="language-object">
+
+                        <asp:ImageButton ID="ibtUS" runat="server"
+                            ImageUrl="~/Styles/images/Flags/en-US.gif" onclick="ibtUS_Click" />
+
+                        <asp:ImageButton ID="ibtJanpan" runat="server"
+                            ImageUrl="~/Styles/images/Flags/ja-JP.gif" onclick="ibtJanpan_Click" 
+                            style="height: 18px; width: 27px" />
+
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+            <!-------------end undermenu------------>
+
+            <!-------------main content------------->
+
+            <div id="mainContent" class="skin_content">
+                <asp:ScriptManager ID="ScriptManager1" runat="server">
+                </asp:ScriptManager>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            
+        </div>
+        <!----------------end main content--------->
+
+        <!------------popuplogin------------>
+        <asp:Panel ID="panelPopUp1" runat="server" Visible ="false">
+        
+            <uc1:Login ID="login" runat="server"/>
+     
+        </asp:Panel>
+
+    <div class="loader"></div>
+   	<div id="backgroundPopup"></div>
+    <!----------------end popupmenu------------------>
+    </form>
+    <!--------------------footer------------------------>
+    <footer>
+        <div class="footer_hidden"></div>
+
+        <div id="skin_footer">
+            <div class="skin_footer_height">
+                <div class="fix_width">
+                    <div id="skin_bottom_links" class="clearafter">
+                        <div class="skin_bottom_left">
+                            <div class="terms_right">
+                                <div class="terms_style">
+                                    <a id="dnn_dnnPRIVACY_hypPrivacy" class="Footer" rel="nofollow" href="#"></a>&nbsp;&nbsp;<span class="separator_color"></span>&nbsp;&nbsp;<a id="dnn_dnnTERMS_hypTerms" class="Footer" rel="nofollow" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skin_bottom_right">
+                            <div class="bottomlinks_style">
+                                <span id="dnn_dnnLINKS_lblLinks"><a class="Bottom_links" href="#"></a><span class="Bottom_links"></span></span>
+                            </div>
+                            <div class="copyright_style">
+                                <span id="dnn_dnnCOPYRIGHT_lblCopyright" class="Footer"></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-------------------------end footer--------------------------->
+</body>
+</html>

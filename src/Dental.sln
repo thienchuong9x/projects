@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Dental.Web", "Dental.Web\", "{1C413B2E-B4A2-4735-9EDC-C9BC9A2EDD35}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{BC5CE994-592C-433E-B671-197C5A65C28C}|Dental.Domain.dll;{A8CFBC38-FEDC-4B7A-B419-8816CC497D99}|Dental.Utilities.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Dental"
+		Debug.AspNetCompiler.PhysicalPath = "Dental.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Dental\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Dental"
+		Release.AspNetCompiler.PhysicalPath = "Dental.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Dental\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54527"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dental.Domain", "Dental.Domain\Dental.Domain.csproj", "{BC5CE994-592C-433E-B671-197C5A65C28C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dental.Utilities", "Dental.Utilities\Dental.Utilities.csproj", "{A8CFBC38-FEDC-4B7A-B419-8816CC497D99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C413B2E-B4A2-4735-9EDC-C9BC9A2EDD35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C413B2E-B4A2-4735-9EDC-C9BC9A2EDD35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C413B2E-B4A2-4735-9EDC-C9BC9A2EDD35}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C413B2E-B4A2-4735-9EDC-C9BC9A2EDD35}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BC5CE994-592C-433E-B671-197C5A65C28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5CE994-592C-433E-B671-197C5A65C28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5CE994-592C-433E-B671-197C5A65C28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5CE994-592C-433E-B671-197C5A65C28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8CFBC38-FEDC-4B7A-B419-8816CC497D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CFBC38-FEDC-4B7A-B419-8816CC497D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CFBC38-FEDC-4B7A-B419-8816CC497D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CFBC38-FEDC-4B7A-B419-8816CC497D99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

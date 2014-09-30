@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC5CE994-592C-433E-B671-197C5A65C28C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dental.Domain</RootNamespace>
+    <AssemblyName>Dental.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Dental.Domain.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseColumn.cs" />
+    <Compile Include="BaseDomain.cs" />
+    <Compile Include="CustomizeDomain\BillStatementInfo.cs" />
+    <Compile Include="CustomizeDomain\DeliveryStatementInfo.cs" />
+    <Compile Include="CustomizeDomain\MoneyReceiveSearchInfo.cs" />
+    <Compile Include="CustomizeDomain\OperationProcessInfo.cs" />
+    <Compile Include="CustomizeDomain\OperationTechPriceInfo.cs" />
+    <Compile Include="CustomizeDomain\PaymentsInfo.cs" />
+    <Compile Include="CustomizeDomain\ProsthesisSearchInfo.cs" />
+    <Compile Include="CustomizeDomain\TechPriceBasedOnTech.cs" />
+    <Compile Include="DentalPermission.cs" />
+    <Compile Include="Masterbank.cs" />
+    <Compile Include="MasterBill.cs" />
+    <Compile Include="MasterBillStatementNo.cs" />
+    <Compile Include="MasterDeliveryStatementNo.cs" />
+    <Compile Include="MasterInventory.cs" />
+    <Compile Include="MasterItem.cs" />
+    <Compile Include="MasterMaterial.cs" />
+    <Compile Include="MasterMaterialPrice.cs" />
+    <Compile Include="MasterOffice.cs" />
+    <Compile Include="MasterOutsourceLab.cs" />
+    <Compile Include="MasterProcess.cs" />
+    <Compile Include="MasterProcessTemplate.cs" />
+    <Compile Include="MasterProsthesis.cs" />
+    <Compile Include="MasterRoles.cs" />
+    <Compile Include="MasterStock.cs" />
+    <Compile Include="MasterSupplier.cs" />
+    <Compile Include="MasterSystem.cs" />
+    <Compile Include="MasterTax.cs" />
+    <Compile Include="MasterTech.cs" />
+    <Compile Include="MasterTechPrice.cs" />
+    <Compile Include="MasterTechPriceTemplate.cs" />
+    <Compile Include="MasterUnit.cs" />
+    <Compile Include="CustomizeDomain\StockListInfo.cs" />
+    <Compile Include="MasterUserRoles.cs" />
+    <Compile Include="MasterUsers.cs" />
+    <Compile Include="TrnBillHeader.cs" />
+    <Compile Include="TrnBillMaterial.cs" />
+    <Compile Include="TrnBillMoney.cs" />
+    <Compile Include="TrnlBill.cs" />
+    <Compile Include="TrnOutsource.cs" />
+    <Compile Include="TrnPurchase.cs" />
+    <Compile Include="TrnStockInOut.cs" />
+    <Compile Include="CustomizeDomain\OrderSearchInfo.cs" />
+    <Compile Include="CustomizeDomain\CodeName.cs" />
+    <Compile Include="DBContext.cs" />
+    <Compile Include="MasterDentalOffice.cs" />
+    <Compile Include="TrnOrderDetail.cs" />
+    <Compile Include="TrnOrderHeader.cs" />
+    <Compile Include="TrnProcess.cs" />
+    <Compile Include="GenericUtil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MasterStaff.cs" />
+    <Compile Include="TrnMoneyReceive.cs" />
+    <Compile Include="TrnMoneyReceiveHistory.cs" />
+    <Compile Include="TrnPay.cs" />
+    <Compile Include="TrnPayHistory.cs" />
+    <Compile Include="TrnTechPrice.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dental.Domain.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dental.Utilities\Dental.Utilities.csproj">
+      <Project>{A8CFBC38-FEDC-4B7A-B419-8816CC497D99}</Project>
+      <Name>Dental.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

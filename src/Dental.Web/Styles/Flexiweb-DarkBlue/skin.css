@@ -1,0 +1,152 @@
+/* CSS Document */
+#Body{ background:#E8E8E8; color:#333333; }
+html,body{ margin:0px; height: 100%; padding:0px; font:normal 12px/1.5 Tahoma, Arial, Verdana, Helvetica, sans-serif; color:#333333; }
+form#Form{ height:100%; }
+TH,TD,DIV{ font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    text-align: left;
+}
+p{ margin:0px 0px 8px 0px; }
+a{outline:0;border:0;}
+#standardMenu ul{margin:0; padding:0;}
+.img{border:0px;}
+.ModuleTitle_SubMenu{ z-index:9999!important; }	
+
+A:link { color :#094EB5; text-decoration : none; }
+A:active { color :#094EB5; text-decoration : underline; }
+A:hover { color :#990000; text-decoration : underline; }
+A:visited { color :#666666; text-decoration : none; }
+
+h1{ font:bold 18px/20px Tahoma, Arial, Verdana, Helvetica, sans-serif; color:#000000; }
+h2{ font:bold 14px/16px Tahoma, Arial, Verdana, Helvetica, sans-serif; color:#000000; }
+h3{ font:bold 12px/16px Tahoma, Arial, Verdana, Helvetica, sans-serif; color:#000000; }
+h4{ font:bold 12px/16px Tahoma, Arial, Verdana, Helvetica, sans-serif; color:#000000; }
+
+.Head, .SubHead, .SubSubHead, .Normal, .NormalDisabled, .NormalDisabled, .NormalBold, .NormalRed, .NormalTextBox {font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif; }
+.Head{color:#000000;font-weight:bold; font-size:13px; }
+.SubHead {color:#000000; font-weight:bold;  font-size:13px; }
+.SubSubHead{color:#000000; font-size:13px; }
+.Normal { font-size:12px; line-height:1.5; }
+
+.clearafter:after{ clear:both; content:"."; height:0px; font-size:0px; visibility:hidden; display:block; }
+.clearafter{ display:inline-block; }
+.clearafter{ display:block; }
+.clear{ clear:both; }
+
+/* ControlPanel style */
+.controlpanel_bg { width: 100%; background:#FFFFFF; }
+.controlpanel_style {width:900px; margin:0 auto}
+.controlpanel_style table {width:100%}
+
+.CommandButton { font-size: 11px; font-weight : normal; color: #0033CC; text-decoration: none; }
+A.CommandButton:link, A.CommandButton:visited, A.CommandButton:active { font-size : 11px; font-weight : normal; color : #0033CC; text-decoration : underline; }
+A.CommandButton:hover { font-size: 11px; font-weight : normal; color : #0033CC; text-decoration : none; }
+
+.FileManager A, .FileManager A:link, .FileManager A:visited, .FileManager A:active{ color:#000000; text-decoration: underline; }
+.FileManager A:hover{ color:#000000; text-decoration:none; }
+
+div.language-object span.Language img {width: 23px; }
+
+/*-------- design style --------*/
+.fix_width { width:960px; margin:0 auto; }
+.full_width { width:100%; margin:0 auto; }
+
+#skin_wrapper{ min-height:100%; position:relative; background:#ffffff; padding:0px; margin:0 auto;
+    top: 0px;
+    left: 0px;
+    height: 488px;
+}
+* html #skin_wrapper{ height:100%; }
+
+#skin_header { position:relative; min-height:70px; }
+.logo_style { float:left; padding:0px; }
+.headerp_style { float:right; padding:0px; }
+
+.menu_top { background:url(images/DarkBlue_r1_c2.jpg) repeat-x top; height:8px; overflow:hidden; }
+#skin_menu {     background:url('images/DarkBlue_r2_c5.jpg') repeat-x 50% top; 
+height:64px;
+position:relative; *z-index:904;
+    top: 0px;
+    left: 2px;
+    height: 60px;
+    width: 958px;   }
+
+
+
+
+.menu_style
+{
+    float: left;
+    background: url(images/DarkBlue_r2_c1.jpg) no-repeat left top;
+    height: 71px;
+    padding-left: 10px;
+    width: 678px;
+}
+.user_style { position:absolute; top:0px; right:12px;  }
+/*.menu_right { float:right; background:url(images/DarkBlue_r2_c15.jpg) repeat-x top; height:53px; width:260px; }*/
+.menu_right { float:right; background:url(images/DarkBlue_r2_c15.jpg) repeat-x top; height:53px; width:260px; }
+.search_left { background:url(images/DarkBlue_r2_c13.jpg) no-repeat left; height:53px; }
+.search_style { padding-top:25px; padding-left:50px; padding-right:8px; }
+
+#under_menu { height:30px; }
+.breadcrumb_style { float:left; padding-left:15px; line-height:25px;}
+.language_style { float:right; padding-right:13px; padding-top:6px; }
+.skin_content { padding:6px;  }
+.pane-box { width:89%; }
+.footer_hidden { height:64px; }
+
+#skin_footer { position:relative;  width:100%; }
+.skin_footer_height { position:absolute; bottom:0px; height:64px; width:100%;
+    left: 0px;
+}
+#skin_bottom_links { background:url(images/DarkBlue_r6_c11.jpg) repeat-x; height:64px; }
+.skin_bottom_left { float:left; background:url(images/DarkBlue_r6_c5.jpg) repeat-x; }
+.terms_right { background:url(images/DarkBlue_r6_c9.jpg) no-repeat right; }
+.terms_style { padding-left:13px; padding-right:58px; line-height:63px; }
+.skin_bottom_right { float:right; padding-right:30px; }
+.separator_color { color:#FFFFFF; }
+.bottomlinks_style { line-height:43px; text-align:right; }
+.copyright_style { line-height:18px; text-align:right;
+    height: 14px;
+}
+
+/*--------- pane style ----------*/
+.headerpane { padding:0px; }
+.headerpane p{ margin:0; }
+.toppane { padding:3px 6px 3px 6px; }
+.leftpane { padding:3px 6px 3px 6px; }
+.contentpane { padding:3px 6px 3px 6px; }
+.rightpane { padding:3px 6px 3px 6px; }
+.bottompane { padding:3px 6px 3px 6px; }
+.innerleftpane { padding:3px 6px 3px 6px; }
+.centerpane { padding:3px 6px 3px 6px; }
+.innerrightpane { padding:3px 6px 3px 6px; }
+.footerpane { padding:3px 6px 3px 6px; }
+
+/*--------- Search style ----------*/
+.search_bg{ float:right; width:188px; height:23px; background:url(images/DarkBlue_r3_c16.jpg) no-repeat; z-index:2; position:relative; }
+.search, a.search:link, a.search:active, a.search:visited{ color:#ffffff;text-decoration:none; font-weight:normal; font-size:12px; display:block; width:26px; height:23px;  position:absolute; right:2px; top:1px; text-indent:-99999px; overflow:hidden;}
+a.search:hover{ color:#000000; text-decoration:none; font-weight:normal; font-size:12px; }
+#dnn_dnnSEARCH_txtSearch{ width:148px; font-size: 12px; color:#000000; text-align: left; height:15px; padding:1px 3px 1px 3px; background:none; border:none; display:block; position:absolute; left:3px; top:3px;}
+
+/*--------- User style ----------*/
+.User, A.User:link, A.User:visited, A.User:active{ font-size:12px; color:#333333; font-weight: normal; text-decoration:none; }
+A.User:hover { font-size:12px; color: #46539F; text-decoration:none; }
+
+/*--------- Breadcrumb style ----------*/
+.Breadcrumb, A.Breadcrumb:link, A.Breadcrumb:visited, A.Breadcrumb:active { color:#333333; font-size:12px; text-decoration:none; }
+A.Breadcrumb:hover  { color:#46539F; text-decoration:none; }
+
+/*--------- BottomLinks style ----------*/
+.Bottom_links, A.Bottom_links:link, A.Bottom_links:visited, A.Bottom_links:active { font-size:12px; font-weight:normal; color:#333333; text-decoration:none; }
+A.Bottom_links:hover { color :#46539F; text-decoration : none;}
+
+/*--------- Footer style ----------*/
+.Footer, A.Footer:link, A.Footer:visited, A.Footer:active { font-size:12px; font-weight:normal; color:#FFFFFF; text-decoration:none; }
+A.Footer:hover { color:#CCCCCC; text-decoration : none;}
+
+/*--------- Module Action Menus ----------*/
+.ModuleTitle_SubMenu { border:1px solid #C0D6E5; }
+.ModuleTitle_SubMenu td{ background-color:#F8FAFF; white-space: nowrap; padding: 2px; } 
+.ModuleTitle_MenuIcon { background-color:#F8FAFF; border:none; padding: 2px; }
+.ModuleTitle_MenuItemSel td, .ModuleTitle_MenuItemSel .ModuleTitle_MenuIcon{ background: #3D93BC; color: #fff; }
+.ModuleTitle_MenuBreak td, .ModuleTitle_MenuBreak .ModuleTitle_MenuIcon { height: 2px; background-color: #D5E0FF; }

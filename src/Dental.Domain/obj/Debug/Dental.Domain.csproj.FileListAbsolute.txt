@@ -1,0 +1,9 @@
+D:\Project\Dental_2014\src\Dental.Domain\bin\Debug\Dental.Domain.dll
+D:\Project\Dental_2014\src\Dental.Domain\bin\Debug\Dental.Domain.pdb
+D:\Project\Dental_2014\src\Dental.Domain\bin\Debug\Dental.Utilities.dll
+D:\Project\Dental_2014\src\Dental.Domain\bin\Debug\log4net.dll
+D:\Project\Dental_2014\src\Dental.Domain\bin\Debug\Dental.Utilities.pdb
+D:\Project\Dental_2014\src\Dental.Domain\bin\Debug\en\Dental.Utilities.resources.dll
+D:\Project\Dental_2014\src\Dental.Domain\obj\Debug\Dental.Domain.csprojResolveAssemblyReference.cache
+D:\Project\Dental_2014\src\Dental.Domain\obj\Debug\Dental.Domain.dll
+D:\Project\Dental_2014\src\Dental.Domain\obj\Debug\Dental.Domain.pdb
